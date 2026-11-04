@@ -1,0 +1,169 @@
+/*
+  Handover design tokens. Every value is documented, with its source, in design/brand.md.
+  Light theme on :root; dark theme under prefers-color-scheme: dark.
+*/
+:root {
+  color-scheme: light;
+
+  /* Brand (primary from the Nous job board theme colour; tints derived) */
+  --brand: #473bce;
+  --brand-hover: #3a2fb0;
+  --brand-text: #473bce;
+  --brand-tint: #f1f0fc;
+  --brand-tint-strong: #e3e1f9;
+  --on-brand: #ffffff;
+  --focus-ring: #473bce;
+
+  /* Surfaces and text */
+  --bg: #ffffff;
+  --bg-subtle: #f6f6f9;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --text: #16152b;
+  --text-muted: #5e5d72;
+  --border: #e4e4eb;
+  --border-strong: #cfcfd9;
+  --row-hover: #f6f6f9;
+  --row-selected: #f1f0fc;
+
+  /* Decision colours: fixed semantic set, independent of the brand */
+  --d-cancel-fg: #b42318;
+  --d-cancel-bg: #fef3f2;
+  --d-cancel-border: #fecdca;
+  --d-flag-fg: #93370d;
+  --d-flag-bg: #fffaeb;
+  --d-flag-border: #fedf89;
+  --d-ask-fg: #175cd3;
+  --d-ask-bg: #eff8ff;
+  --d-ask-border: #b2ddff;
+  --d-human-fg: #364152;
+  --d-human-bg: #eef2f6;
+  --d-human-border: #cdd5df;
+  --d-leave-fg: #5d6679;
+  --d-leave-bg: #f5f5f6;
+  --d-leave-border: #dcdfe4;
+  --d-pending-fg: #5e5d72;
+  --d-pending-bg: #ffffff;
+  --d-pending-border: #cfcfd9;
+
+  /* Gate status (eval headline) */
+  --ok-fg: #067647;
+  --ok-bg: #ecfdf3;
+  --bad-fg: #b42318;
+  --bad-bg: #fef3f2;
+
+  /* Evidence highlight when hovering a fired rule */
+  --highlight-bg: #fff4c2;
+  --highlight-ring: #c49a00;
+
+  /* WhatsApp pane */
+  --wa-chat-bg: #efeae2;
+  --wa-pattern: rgba(17, 27, 33, 0.045);
+  --wa-header-bg: #f0f2f5;
+  --wa-header-text: #111b21;
+  --wa-in: #ffffff;
+  --wa-out: #d9fdd3;
+  --wa-text: #111b21;
+  --wa-meta-in: #667781;
+  --wa-meta-out: #56656e;
+  --wa-tick: #53bdeb;
+  --wa-button-bg: #ffffff;
+  --wa-button-text: #0270a1;
+  --wa-system-bg: #ffffff;
+  --wa-system-text: #54656f;
+  --wa-avatar-bg: #473bce;
+  --wa-avatar-text: #ffffff;
+
+  /* Type */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+  --font-wa: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --text-xs: 11px;
+  --text-sm: 12px;
+  --text-base: 13px;
+  --text-md: 14px;
+  --text-lg: 16px;
+  --text-xl: 20px;
+
+  /* Shape and density */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-pill: 999px;
+  --row-h: 30px;
+  --border-w: 1px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --brand: #5f54db;
+    --brand-hover: #6f65e3;
+    --brand-text: #a49df5;
+    --brand-tint: #221f3d;
+    --brand-tint-strong: #2d2950;
+    --on-brand: #ffffff;
+    --focus-ring: #a49df5;
+
+    --bg: #121118;
+    --bg-subtle: #17161e;
+    --surface: #1b1a23;
+    --surface-raised: #22212b;
+    --text: #ececf3;
+    --text-muted: #a3a2b5;
+    --border: #2e2d3a;
+    --border-strong: #43425a;
+    --row-hover: #22212b;
+    --row-selected: #221f3d;
+
+    --d-cancel-fg: #fda29b;
+    --d-cancel-bg: #3a1512;
+    --d-cancel-border: #7a271a;
+    --d-flag-fg: #fec84b;
+    --d-flag-bg: #33230b;
+    --d-flag-border: #7a4b0c;
+    --d-ask-fg: #84caff;
+    --d-ask-bg: #0f2742;
+    --d-ask-border: #1849a9;
+    --d-human-fg: #cdd5df;
+    --d-human-bg: #28303c;
+    --d-human-border: #4b5565;
+    --d-leave-fg: #b3b8c2;
+    --d-leave-bg: #24252a;
+    --d-leave-border: #3d3f46;
+    --d-pending-fg: #a3a2b5;
+    --d-pending-bg: #1b1a23;
+    --d-pending-border: #43425a;
+
+    --ok-fg: #75e0a7;
+    --ok-bg: #0b2e1e;
+    --bad-fg: #fda29b;
+    --bad-bg: #3a1512;
+
+    --highlight-bg: #3d3310;
+    --highlight-ring: #e5b919;
+
+    --wa-chat-bg: #0b141a;
+    --wa-pattern: rgba(233, 237, 239, 0.035);
+    --wa-header-bg: #202c33;
+    --wa-header-text: #e9edef;
+    --wa-in: #202c33;
+    --wa-out: #005c4b;
+    --wa-text: #e9edef;
+    --wa-meta-in: #8696a0;
+    --wa-meta-out: #c2d6d1;
+    --wa-tick: #53bdeb;
+    --wa-button-bg: #202c33;
+    --wa-button-text: #53bdeb;
+    --wa-system-bg: #182229;
+    --wa-system-text: #8696a0;
+    --wa-avatar-bg: #5f54db;
+    --wa-avatar-text: #ffffff;
+  }
+}

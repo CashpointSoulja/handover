@@ -15,5 +15,5 @@
     "allowImportingTsExtensions": true,
     "types": ["vite/client", "node"]
   },
-  "include": ["engine", "src", "evals", "scripts", "vite.config.ts", "vitest.config.ts"]
+  "include": ["design", "engine", "src", "evals", "scripts", "vite.config.ts", "vitest.config.ts"]
 }
