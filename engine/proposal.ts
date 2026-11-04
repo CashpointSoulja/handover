@@ -32,7 +32,7 @@ export interface ProposalInput {
     trial: { started_on: string; converts_on: string; trial_price: number; full_price: number } | null;
     cancelled_on: string | null;
   };
-  chat: { at: string; from: string; text: string }[];
+  chat: { at: string; from: string; about: string[]; text: string }[];
 }
 
 /** The exact input the classifier sees. Mode, rules and refund policies are left out on purpose: those are the ruleset's job. */
@@ -60,7 +60,7 @@ export function proposalInput(data: HouseholdData, payment: RecurringPayment, ch
         : null,
       cancelled_on: cancel?.cancelledOn ?? null,
     },
-    chat: chat.map((m) => ({ at: m.at, from: m.from === 'member' ? 'member' : 'Nous', text: m.text })),
+    chat: chat.map((m) => ({ at: m.at, from: m.from === 'member' ? 'member' : 'Nous', about: m.about ?? [], text: m.text })),
   };
 }
 
@@ -88,7 +88,7 @@ export function hashInput(input: ProposalInput): string {
 }
 
 export function userPrompt(input: ProposalInput): string {
-  return `Classify this recurring payment.\n\n${JSON.stringify(input, null, 2)}`;
+  return `Classify this recurring payment.\n${JSON.stringify(input)}`;
 }
 
 const ACTIONS: Decision[] = ['CANCEL', 'FLAG', 'ASK', 'HUMAN', 'LEAVE'];

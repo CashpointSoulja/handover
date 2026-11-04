@@ -36,6 +36,7 @@ export function replyMessages(data: HouseholdData, replies: Reply[]): ChatMessag
     from: 'member',
     author: data.household.member,
     text: r.label,
+    about: [r.payment],
     signals: r.signal ? [{ payment: r.payment, ...r.signal }] : [],
   }));
 }

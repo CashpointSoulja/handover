@@ -62,11 +62,22 @@ describe('recurrence detection', () => {
       expect(keys.some((k) => ['groceries', 'fuel', 'amazon_orders', 'takeaway', 'salary'].includes(k))).toBe(false);
     }
   });
-  it('every chat signal points at a detected payment', () => {
+  it('every chat signal and "about" points at a detected payment', () => {
     for (const h of households) {
       const ids = new Set(runHousehold(h, config, new Map()).map((r) => r.payment.id));
-      for (const m of h.chat) for (const s of m.signals ?? []) expect(ids.has(s.payment), `${h.household.id} ${s.payment}`).toBe(true);
+      for (const m of h.chat) {
+        for (const s of m.signals ?? []) expect(ids.has(s.payment), `${h.household.id} ${s.payment}`).toBe(true);
+        for (const a of m.about ?? []) expect(ids.has(a), `${h.household.id} ${m.id} about ${a}`).toBe(true);
+      }
     }
+  });
+  it('H1 chat keeps the £2.99 iCloud exchange resolved and the £9.99 charge open', () => {
+    const rs = runHousehold(hh('H1'), config, new Map());
+    expect(rs.find((r) => r.payment.id === 'apple_bill_299')!.payment.identifiedAs).toBe('icloud_plus');
+    const open = rs.find((r) => r.payment.id === 'apple_bill_999')!;
+    expect(open.payment.identifiedAs).toBeNull();
+    expect(open.fired.map((f) => f.id)).toContain('R05');
+    expect(hh('H1').chat.filter((m) => m.about?.includes('apple_bill_999')).length).toBeGreaterThanOrEqual(2);
   });
 });
 

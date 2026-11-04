@@ -1,7 +1,8 @@
 import { Fragment, useEffect, useMemo, useRef } from 'react';
-import { runPayment, type Reply } from '../../engine/index';
+import { money, runPayment, type Reply } from '../../engine/index';
 import type { ChatMessage, Config, DecisionResult, Evidence, HouseholdData, MemberMessage } from '../../engine/types';
 import { proposals } from '../data';
+import { label } from './Queue';
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const longDate = (iso: string) => `${+iso.slice(8, 10)} ${MONTHS[+iso.slice(5, 7) - 1]} ${iso.slice(0, 4)}`;
@@ -12,6 +13,7 @@ interface Item {
   at: string;
   out: boolean; // sent by the member
   text: string;
+  about: string[];
   sourceId?: string;
   buttons?: MemberMessage['buttons'];
   active?: boolean;
@@ -29,6 +31,7 @@ function Ticks() {
 export function Chat({
   data,
   result,
+  payments,
   config,
   replies,
   highlight,
@@ -37,6 +40,7 @@ export function Chat({
 }: {
   data: HouseholdData;
   result: DecisionResult;
+  payments: DecisionResult[];
   config: Config;
   replies: Reply[];
   highlight: Evidence | null;
@@ -48,17 +52,17 @@ export function Chat({
   const mine = replies.filter((r) => r.payment === pid);
 
   const items = useMemo(() => {
-    const out: Item[] = data.chat.map((m: ChatMessage) => ({ key: m.id, sourceId: m.id, at: m.at, out: m.from === 'member', text: m.text, buttons: undefined }));
+    const out: Item[] = data.chat.map((m: ChatMessage) => ({ key: m.id, sourceId: m.id, at: m.at, out: m.from === 'member', text: m.text, about: m.about ?? [] }));
     const asOf = data.household.asOf;
     for (let i = 0; i <= mine.length; i++) {
       if (i > 0) {
-        out.push({ key: `reply-${i}`, at: `${asOf}T12:${String(i * 2).padStart(2, '0')}:00`, out: true, text: mine[i - 1].label });
+        out.push({ key: `reply-${i}`, at: `${asOf}T12:${String(i * 2).padStart(2, '0')}:00`, out: true, text: mine[i - 1].label, about: [pid] });
         if (!mine[i - 1].signal) break; // a reply that only records an answer; nothing to re-run
       }
       const step = runPayment(data, config, proposals, pid, { replies: [...others, ...mine.slice(0, i)] })!;
       const at = i === 0 ? `${asOf}T09:00:00` : `${asOf}T12:${String(i * 2 + 1).padStart(2, '0')}:00`;
-      if (step.message) out.push({ key: `decision-${i}`, at, out: false, text: step.message.text, buttons: step.message.buttons, active: i === mine.length });
-      else out.push({ key: `decision-${i}`, at, out: false, text: '', system: step.decision === 'LEAVE' ? 'No message: LEAVE sends nothing' : 'No message yet: waiting on a recorded proposal' });
+      if (step.message) out.push({ key: `decision-${i}`, at, out: false, text: step.message.text, about: [pid], buttons: step.message.buttons, active: i === mine.length });
+      else out.push({ key: `decision-${i}`, at, out: false, text: '', about: [pid], system: step.decision === 'LEAVE' ? 'No message: LEAVE sends nothing' : 'No message yet: waiting on a recorded proposal' });
     }
     return out;
   }, [data, config, pid, JSON.stringify(replies)]);
@@ -69,6 +73,11 @@ export function Chat({
   }, [items]);
 
   const lit = new Set(highlight?.messages ?? []);
+  const PER = { weekly: '/wk', monthly: '/mo', annual: '/yr' } as const;
+  const aboutLabel = (id: string) => {
+    const r = payments.find((x) => x.payment.id === id);
+    return r ? `${label(r)} ${money(r.payment.amount)}${PER[r.payment.cadence]}` : id;
+  };
   let lastDay = '';
   let lastSide: boolean | null = null;
 
@@ -104,7 +113,7 @@ export function Chat({
           return (
             <Fragment key={it.key}>
               {showDay && <div className="wa-day">{longDate(day)}</div>}
-              <div className={`wa-row ${it.out ? 'out' : 'in'}`}>
+              <div className={`wa-row ${it.out ? 'out' : 'in'} ${it.about.length && !it.about.includes(pid) ? 'other' : ''}`}>
                 <div className={`wa-msg ${tail ? 'tail' : ''}`}>
                   <div className={`wa-bubble ${it.sourceId && lit.has(it.sourceId) ? 'lit' : ''}`}>
                     <span className="wa-text">{it.text}</span>
@@ -113,6 +122,11 @@ export function Chat({
                       {it.out && <Ticks />}
                     </span>
                   </div>
+                  {it.about.length > 0 && (
+                    <div className={`wa-about ${it.about.includes(pid) ? 'this' : ''}`}>
+                      About {it.about.map(aboutLabel).join(' and ')}
+                    </div>
+                  )}
                   {it.buttons && it.buttons.length > 0 && (
                     <div className="wa-buttons">
                       {it.buttons.map((b) => (

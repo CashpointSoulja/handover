@@ -71,6 +71,7 @@ export interface ChatMessage {
   from: 'member' | 'nous';
   author?: string;
   text: string;
+  about?: string[]; // recurring payment ids the message is about
   signals?: Signal[];
   buttons?: string[];
 }
@@ -202,6 +203,8 @@ export interface RecordedProposal {
     household: string;
     payment: string;
     branch: string | null;
+    /** How the proposal was produced: a live API run (eval:live) or a chat run imported with eval:import. */
+    source?: 'live-api' | 'chat-recorded';
   };
   proposal: Proposal;
 }

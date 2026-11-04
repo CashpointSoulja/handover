@@ -3,6 +3,9 @@
     "id": "m1",
     "at": "2026-07-23T09:14:00",
     "from": "member",
+    "about": [
+      "paramount_plus"
+    ],
     "author": "Tunde",
     "text": "paramount charged me again after i cancelled??"
   },
@@ -10,18 +13,27 @@
     "id": "m2",
     "at": "2026-07-23T09:40:00",
     "from": "nous",
+    "about": [
+      "paramount_plus"
+    ],
     "text": "Sorry Tunde, that shouldn't happen. We've asked Paramount+ for a refund and we'll let you know."
   },
   {
     "id": "m3",
     "at": "2026-07-29T16:02:00",
     "from": "nous",
+    "about": [
+      "paramount_plus"
+    ],
     "text": "Good news: Paramount+ refunded the £6.99."
   },
   {
     "id": "m4",
     "at": "2026-07-29T16:30:00",
     "from": "member",
+    "about": [
+      "paramount_plus"
+    ],
     "author": "Tunde",
     "text": "cheers 👍"
   },
@@ -29,6 +41,9 @@
     "id": "m5",
     "at": "2026-10-03T18:55:00",
     "from": "member",
+    "about": [
+      "netflix"
+    ],
     "author": "Tunde",
     "text": "the netflix is shared with my sister, she pays me half",
     "signals": [

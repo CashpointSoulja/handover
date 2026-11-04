@@ -16,6 +16,9 @@
     "id": "m3",
     "at": "2026-07-09T12:40:00",
     "from": "member",
+    "about": [
+      "apple_bill_099"
+    ],
     "author": "Priya",
     "text": "the 99p apple one is icloud for my photos",
     "signals": [
@@ -30,6 +33,9 @@
     "id": "m4",
     "at": "2026-08-20T21:15:00",
     "from": "member",
+    "about": [
+      "disney_plus"
+    ],
     "author": "Priya",
     "text": "disney is for the kids, keep it x",
     "signals": [

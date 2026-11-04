@@ -110,11 +110,11 @@ Faithful to WhatsApp, not to Nous. Starting values from the brief; check them ag
 
 Bubbles have tails, 11px timestamps inside the bubble and reply buttons below it. The faint background pattern is drawn in CSS for this project; WhatsApp's asset is not used.
 
-**Contact name.** The chat header shows **Nous**, not Nora, which is described as an internal name. No verified badge and no logo image in the chat.
+**Contact name.** The chat header shows **Nous**. The agent's member-facing name is unconfirmed, so no agent name is used anywhere in the UI. No verified badge and no logo image in the chat.
 
 ## Console
 
-Dense internal ops view: 13px base, 30px rows, tabular numbers, monospace for descriptors, rule ids and case ids, 1px borders rather than shadows. Off-black is used only for primary actions; glow yellow marks selection; neither is ever a decision colour. Console labels may say "Nora", since this is an internal view. The sample-data line appears once, in the console header, in `--text-muted`. The footer line appears once, at the bottom of every screen.
+Dense internal ops view: 13px base, 30px rows, tabular numbers, monospace for descriptors, rule ids and case ids, 1px borders rather than shadows. Off-black is used only for primary actions; glow yellow marks selection; neither is ever a decision colour. The sample-data line appears once, in the console header, in `--text-muted`. The footer line appears once, at the bottom of every screen.
 
 ## Voice
 
@@ -126,6 +126,6 @@ Dense internal ops view: 13px base, 30px rows, tabular numbers, monospace for de
 
 ## Open questions
 
-- **Member-facing name.** Is the assistant shown to members as "Nous" or "Nora"? Unconfirmed; the pane uses "Nous".
+- **Member-facing name.** The agent's member-facing name is unconfirmed; the pane uses "Nous".
 - **WhatsApp values.** Not yet checked against WhatsApp Web in this build.
 - **Dark theme.** nous.co has none; the dark values above are derived and unreviewed.

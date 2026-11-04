@@ -125,7 +125,7 @@ export function Trace({
         </li>
 
         <li className="step">
-          <h2>Nora's proposal (LLM)</h2>
+          <h2>Proposed action (LLM)</h2>
           {r.proposal && r.proposalStatus === 'recorded' ? (
             <div className="proposal">
               <div className="proposal-top">

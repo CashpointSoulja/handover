@@ -10,7 +10,7 @@ Live: https://cashpointsoulja.github.io/handover/
 |---|---|---|
 | ![Decision trace for a charge after cancellation, with the triggering charge highlighted](docs/images/trace.png) | ![The member's WhatsApp chat and the message the decision sends](docs/images/chat.png) | ![Eval headline strip and the case table](docs/images/evals.png) |
 
-Handover is the decision layer between Nora and the cancel button. It reads Open Banking transactions, finds recurring payments, lets an LLM propose what each one is and what to do, then runs 14 deterministic rules that can only make that proposal more cautious. Every decision shows where the LLM handed over to the rules, and why. The headline metric is false cancels = 0.
+Handover is the decision layer between the member-facing agent and the cancel button. It reads Open Banking transactions, finds recurring payments, lets an LLM propose what each one is and what to do, then runs 14 deterministic rules that can only make that proposal more cautious. Every decision shows where the LLM handed over to the rules, and why. The headline metric is false cancels = 0.
 
 ## Run it
 

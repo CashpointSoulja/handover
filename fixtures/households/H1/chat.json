@@ -3,6 +3,9 @@
     "id": "m1",
     "at": "2026-08-03T18:05:00",
     "from": "nous",
+    "about": [
+      "apple_bill_299"
+    ],
     "text": "Hi Ngozi, quick one. There's a £2.99 Apple charge every month. Do you know what it's for?",
     "buttons": [
       "iCloud storage",
@@ -14,6 +17,9 @@
     "at": "2026-08-03T18:31:00",
     "from": "member",
     "author": "Ngozi",
+    "about": [
+      "apple_bill_299"
+    ],
     "text": "its the icloud storage, keep that pls x",
     "signals": [
       {
@@ -29,9 +35,37 @@
   },
   {
     "id": "m3",
+    "at": "2026-09-20T19:10:00",
+    "from": "nous",
+    "about": [
+      "apple_bill_999"
+    ],
+    "text": "Thanks for sorting the iCloud one. There's also a separate £9.99 Apple charge every month. Any idea what that one is?"
+  },
+  {
+    "id": "m4",
+    "at": "2026-09-20T21:42:00",
+    "from": "member",
+    "author": "Ngozi",
+    "about": [
+      "apple_bill_999"
+    ],
+    "text": "no idea tbh. one of the kids maybe? will ask them x",
+    "signals": [
+      {
+        "payment": "apple_bill_999",
+        "kind": "unsure"
+      }
+    ]
+  },
+  {
+    "id": "m5",
     "at": "2026-09-27T21:12:00",
     "from": "member",
     "author": "Ngozi",
+    "about": [
+      "readly"
+    ],
     "text": "we stopped using readly ages ago btw, cant remember the last time i opened it",
     "signals": [
       {
@@ -41,10 +75,14 @@
     ]
   },
   {
-    "id": "m4",
+    "id": "m6",
     "at": "2026-10-12T07:48:00",
     "from": "member",
     "author": "Ngozi",
+    "about": [
+      "sky",
+      "netflix"
+    ],
     "text": "also think we get netflix thru the sky box?? kids watch it on there"
   }
 ]

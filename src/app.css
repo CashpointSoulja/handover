@@ -765,6 +765,29 @@ h3 {
 .ticks {
   color: var(--wa-tick);
 }
+.wa-row.other .wa-bubble,
+.wa-row.other .wa-buttons {
+  opacity: 0.6;
+}
+.wa-about {
+  align-self: flex-start;
+  margin-top: 1px;
+  padding: 1px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  border: var(--border-w) solid var(--border);
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+}
+.out .wa-about {
+  align-self: flex-end;
+}
+.wa-about.this {
+  color: var(--text);
+  border-color: var(--text);
+  font-weight: 600;
+}
 .wa-buttons {
   display: grid;
   gap: 2px;

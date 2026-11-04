@@ -132,7 +132,7 @@ function noise(n: NoiseSpec): Tx[] {
 
 interface Signal {
   payment: string;
-  kind: 'keep' | 'identified' | 'shared' | 'not_shared' | 'unused';
+  kind: 'keep' | 'identified' | 'shared' | 'not_shared' | 'unused' | 'unsure';
   service?: string;
 }
 interface Msg {
@@ -141,6 +141,7 @@ interface Msg {
   from: 'member' | 'nous';
   author?: string;
   text: string;
+  about?: string[]; // recurring payment ids this message is about
   signals?: Signal[];
   buttons?: string[];
 }
@@ -184,12 +185,14 @@ const households: HouseholdSpec[] = [
       { descriptor: ['AMZNPrime*2K4L9X0Q4', 'AMZNPrime*R83KD1MZ0', 'AMZNPrime*7QW2C5HJ1', 'AMZNPrime*M1P6Z0TB8', 'AMZNPrime*HJ2V8N3K5', 'AMZNPrime*Q71HT2LD9'], counterparty: 'Amazon', amount: 8.99, account: 'cur', type: 'card', monthly: { day: 28 } },
     ],
     noise: { seed: 101, account: 'cur', cardPrefix: '', grocer: ['TESCO STORES 2041', 'SAINSBURYS S/MKTS', 'LIDL GB LEWISHAM'], fuel: 'SHELL LEWISHAM', salary: { descriptor: 'BGC HARGREAVE LTD SALARY', amount: 2480, day: 25 }, refund: { date: '2026-07-16', descriptor: 'AMZN Mktp UK refund', amount: 18.49 } },
-    bundles: [{ parent: 'sky', includes: ['netflix'], source: 'm4' }],
+    bundles: [{ parent: 'sky', includes: ['netflix'], source: 'm6' }],
     chat: [
-      { id: 'm1', at: '2026-08-03T18:05:00', from: 'nous', text: "Hi Ngozi, quick one. There's a £2.99 Apple charge every month. Do you know what it's for?", buttons: ['iCloud storage', 'Not sure'] },
-      { id: 'm2', at: '2026-08-03T18:31:00', from: 'member', author: 'Ngozi', text: 'its the icloud storage, keep that pls x', signals: [{ payment: 'apple_bill_299', kind: 'identified', service: 'icloud_plus' }, { payment: 'apple_bill_299', kind: 'keep' }] },
-      { id: 'm3', at: '2026-09-27T21:12:00', from: 'member', author: 'Ngozi', text: 'we stopped using readly ages ago btw, cant remember the last time i opened it', signals: [{ payment: 'readly', kind: 'unused' }] },
-      { id: 'm4', at: '2026-10-12T07:48:00', from: 'member', author: 'Ngozi', text: 'also think we get netflix thru the sky box?? kids watch it on there' },
+      { id: 'm1', at: '2026-08-03T18:05:00', from: 'nous', about: ['apple_bill_299'], text: "Hi Ngozi, quick one. There's a £2.99 Apple charge every month. Do you know what it's for?", buttons: ['iCloud storage', 'Not sure'] },
+      { id: 'm2', at: '2026-08-03T18:31:00', from: 'member', author: 'Ngozi', about: ['apple_bill_299'], text: 'its the icloud storage, keep that pls x', signals: [{ payment: 'apple_bill_299', kind: 'identified', service: 'icloud_plus' }, { payment: 'apple_bill_299', kind: 'keep' }] },
+      { id: 'm3', at: '2026-09-20T19:10:00', from: 'nous', about: ['apple_bill_999'], text: "Thanks for sorting the iCloud one. There's also a separate £9.99 Apple charge every month. Any idea what that one is?" },
+      { id: 'm4', at: '2026-09-20T21:42:00', from: 'member', author: 'Ngozi', about: ['apple_bill_999'], text: 'no idea tbh. one of the kids maybe? will ask them x', signals: [{ payment: 'apple_bill_999', kind: 'unsure' }] },
+      { id: 'm5', at: '2026-09-27T21:12:00', from: 'member', author: 'Ngozi', about: ['readly'], text: 'we stopped using readly ages ago btw, cant remember the last time i opened it', signals: [{ payment: 'readly', kind: 'unused' }] },
+      { id: 'm6', at: '2026-10-12T07:48:00', from: 'member', author: 'Ngozi', about: ['sky', 'netflix'], text: 'also think we get netflix thru the sky box?? kids watch it on there' },
     ],
   },
   {
@@ -219,8 +222,8 @@ const households: HouseholdSpec[] = [
     chat: [
       { id: 'm1', at: '2026-06-14T20:02:00', from: 'member', author: 'Priya', text: 'Hi! Ive put it on manual, I like to see things before anything changes. Thanks' },
       { id: 'm2', at: '2026-06-14T20:03:00', from: 'nous', text: "Of course, Priya. We'll always ask before we change anything." },
-      { id: 'm3', at: '2026-07-09T12:40:00', from: 'member', author: 'Priya', text: 'the 99p apple one is icloud for my photos', signals: [{ payment: 'apple_bill_099', kind: 'identified', service: 'icloud_plus' }] },
-      { id: 'm4', at: '2026-08-20T21:15:00', from: 'member', author: 'Priya', text: 'disney is for the kids, keep it x', signals: [{ payment: 'disney_plus', kind: 'keep' }] },
+      { id: 'm3', at: '2026-07-09T12:40:00', from: 'member', about: ['apple_bill_099'], author: 'Priya', text: 'the 99p apple one is icloud for my photos', signals: [{ payment: 'apple_bill_099', kind: 'identified', service: 'icloud_plus' }] },
+      { id: 'm4', at: '2026-08-20T21:15:00', from: 'member', about: ['disney_plus'], author: 'Priya', text: 'disney is for the kids, keep it x', signals: [{ payment: 'disney_plus', kind: 'keep' }] },
     ],
   },
   {
@@ -249,10 +252,10 @@ const households: HouseholdSpec[] = [
     trials: [{ service: 'duolingo', descriptor: 'CARD PAYMENT TO DUOLINGO', account: 'cur', startedOn: '2026-10-29', convertsOn: '2026-11-12', trialPrice: 0, fullPrice: 7.99, cadence: 'monthly' }],
     bundles: [{ parent: 'virgin_media', includes: ['netflix'], source: null }],
     chat: [
-      { id: 'm1', at: '2026-09-02T19:20:00', from: 'member', author: 'Aoife', text: 'cancelled now tv today, footballs finished lol' },
-      { id: 'm2', at: '2026-09-02T19:21:00', from: 'nous', text: "Thanks Aoife, noted. We'll keep an eye out for any more charges." },
-      { id: 'm3', at: '2026-10-05T08:10:00', from: 'member', author: 'Aoife', text: 'is the gym one locked in? we signed up in january' },
-      { id: 'm4', at: '2026-10-19T22:03:00', from: 'member', author: 'Aoife', text: 'kindle unlimited was from a free trial i forgot about, we dont use it', signals: [{ payment: 'kindle_unlimited', kind: 'unused' }] },
+      { id: 'm1', at: '2026-09-02T19:20:00', from: 'member', about: ['now_tv'], author: 'Aoife', text: 'cancelled now tv today, footballs finished lol' },
+      { id: 'm2', at: '2026-09-02T19:21:00', from: 'nous', about: ['now_tv'], text: "Thanks Aoife, noted. We'll keep an eye out for any more charges." },
+      { id: 'm3', at: '2026-10-05T08:10:00', from: 'member', about: ['david_lloyd'], author: 'Aoife', text: 'is the gym one locked in? we signed up in january' },
+      { id: 'm4', at: '2026-10-19T22:03:00', from: 'member', about: ['kindle_unlimited'], author: 'Aoife', text: 'kindle unlimited was from a free trial i forgot about, we dont use it', signals: [{ payment: 'kindle_unlimited', kind: 'unused' }] },
     ],
   },
   {
@@ -280,10 +283,10 @@ const households: HouseholdSpec[] = [
     noise: { seed: 404, account: 'cur', cardPrefix: '', grocer: ['SAINSBURYS S/MKTS', 'TESCO EXPRESS 1187', 'ALDI 88 CAMDEN'], fuel: 'BP KENTISH TOWN', salary: { descriptor: 'BGC NORTHGATE DENTAL SALARY', amount: 2950, day: 26 }, refund: { date: '2026-09-04', descriptor: 'AMZN Mktp UK refund', amount: 31.5 } },
     trials: [{ service: 'paramount_plus', descriptor: 'PARAMOUNT+', account: 'cc', startedOn: '2026-10-28', convertsOn: '2026-11-04', trialPrice: 0, fullPrice: 6.99, cadence: 'monthly' }],
     chat: [
-      { id: 'm1', at: '2026-09-01T07:15:00', from: 'member', author: 'Layla', text: 'keep the times pls, omar reads it every morning', signals: [{ payment: 'the_times', kind: 'keep' }] },
-      { id: 'm2', at: '2026-09-01T07:16:00', from: 'nous', text: 'Will do, Layla.' },
-      { id: 'm3', at: '2026-10-08T13:30:00', from: 'member', author: 'Layla', text: "what's the microsoft thing? i thought we only had one" },
-      { id: 'm4', at: '2026-10-22T20:44:00', from: 'member', author: 'Layla', text: 'we havent used deliveroo since the summer tbh', signals: [{ payment: 'deliveroo_plus', kind: 'unused' }] },
+      { id: 'm1', at: '2026-09-01T07:15:00', from: 'member', about: ['the_times'], author: 'Layla', text: 'keep the times pls, omar reads it every morning', signals: [{ payment: 'the_times', kind: 'keep' }] },
+      { id: 'm2', at: '2026-09-01T07:16:00', from: 'nous', about: ['the_times'], text: 'Will do, Layla.' },
+      { id: 'm3', at: '2026-10-08T13:30:00', from: 'member', about: ['microsoft_365_cur', 'microsoft_365_cc'], author: 'Layla', text: "what's the microsoft thing? i thought we only had one" },
+      { id: 'm4', at: '2026-10-22T20:44:00', from: 'member', about: ['deliveroo_plus'], author: 'Layla', text: 'we havent used deliveroo since the summer tbh', signals: [{ payment: 'deliveroo_plus', kind: 'unused' }] },
     ],
   },
   {
@@ -316,12 +319,12 @@ const households: HouseholdSpec[] = [
     ],
     trials: [{ service: 'strava', descriptor: 'CARD PAYMENT TO STRAVA', account: 'cur', startedOn: '2026-09-20', convertsOn: '2026-10-20', trialPrice: 0, fullPrice: 6.99, cadence: 'monthly' }],
     chat: [
-      { id: 'm1', at: '2026-09-14T21:00:00', from: 'member', author: 'Claire', text: 'Cancelled disney today, nobody watches it anymore' },
-      { id: 'm2', at: '2026-09-14T21:01:00', from: 'nous', text: "Thanks Claire. We've made a note." },
-      { id: 'm3', at: '2026-10-01T08:22:00', from: 'member', author: 'Claire', text: 'Leave audible pls, I listen on the school run x', signals: [{ payment: 'audible', kind: 'keep' }] },
-      { id: 'm4', at: '2026-10-02T19:47:00', from: 'member', author: 'Claire', text: "cancelled britbox too. they said there's one last bill" },
-      { id: 'm5', at: '2026-10-17T22:30:00', from: 'member', author: 'Claire', text: 'the photo app was for a school project, dont need it now', signals: [{ payment: 'picsart', kind: 'unused' }] },
-      { id: 'm6', at: '2026-10-25T21:05:00', from: 'member', author: 'Claire', text: 'and mubi was for my film course which finished. can go x', signals: [{ payment: 'mubi', kind: 'unused' }] },
+      { id: 'm1', at: '2026-09-14T21:00:00', from: 'member', about: ['disney_plus'], author: 'Claire', text: 'Cancelled disney today, nobody watches it anymore' },
+      { id: 'm2', at: '2026-09-14T21:01:00', from: 'nous', about: ['disney_plus'], text: "Thanks Claire. We've made a note." },
+      { id: 'm3', at: '2026-10-01T08:22:00', from: 'member', about: ['audible'], author: 'Claire', text: 'Leave audible pls, I listen on the school run x', signals: [{ payment: 'audible', kind: 'keep' }] },
+      { id: 'm4', at: '2026-10-02T19:47:00', from: 'member', about: ['britbox'], author: 'Claire', text: "cancelled britbox too. they said there's one last bill" },
+      { id: 'm5', at: '2026-10-17T22:30:00', from: 'member', about: ['picsart'], author: 'Claire', text: 'the photo app was for a school project, dont need it now', signals: [{ payment: 'picsart', kind: 'unused' }] },
+      { id: 'm6', at: '2026-10-25T21:05:00', from: 'member', about: ['mubi'], author: 'Claire', text: 'and mubi was for my film course which finished. can go x', signals: [{ payment: 'mubi', kind: 'unused' }] },
     ],
   },
   {
@@ -353,11 +356,11 @@ const households: HouseholdSpec[] = [
     cancellations: [{ payment: 'paramount_plus', service: 'paramount_plus', cancelledOn: '2026-07-05', source: null }],
     trials: [{ service: 'the_telegraph', descriptor: 'THE TELEGRAPH', account: 'cur', startedOn: '2026-08-02', convertsOn: '2026-11-02', trialPrice: 1, fullPrice: 9.0, cadence: 'monthly' }],
     chat: [
-      { id: 'm1', at: '2026-07-23T09:14:00', from: 'member', author: 'Tunde', text: 'paramount charged me again after i cancelled??' },
-      { id: 'm2', at: '2026-07-23T09:40:00', from: 'nous', text: "Sorry Tunde, that shouldn't happen. We've asked Paramount+ for a refund and we'll let you know." },
-      { id: 'm3', at: '2026-07-29T16:02:00', from: 'nous', text: 'Good news: Paramount+ refunded the £6.99.' },
-      { id: 'm4', at: '2026-07-29T16:30:00', from: 'member', author: 'Tunde', text: 'cheers 👍' },
-      { id: 'm5', at: '2026-10-03T18:55:00', from: 'member', author: 'Tunde', text: 'the netflix is shared with my sister, she pays me half', signals: [{ payment: 'netflix', kind: 'shared' }] },
+      { id: 'm1', at: '2026-07-23T09:14:00', from: 'member', about: ['paramount_plus'], author: 'Tunde', text: 'paramount charged me again after i cancelled??' },
+      { id: 'm2', at: '2026-07-23T09:40:00', from: 'nous', about: ['paramount_plus'], text: "Sorry Tunde, that shouldn't happen. We've asked Paramount+ for a refund and we'll let you know." },
+      { id: 'm3', at: '2026-07-29T16:02:00', from: 'nous', about: ['paramount_plus'], text: 'Good news: Paramount+ refunded the £6.99.' },
+      { id: 'm4', at: '2026-07-29T16:30:00', from: 'member', about: ['paramount_plus'], author: 'Tunde', text: 'cheers 👍' },
+      { id: 'm5', at: '2026-10-03T18:55:00', from: 'member', about: ['netflix'], author: 'Tunde', text: 'the netflix is shared with my sister, she pays me half', signals: [{ payment: 'netflix', kind: 'shared' }] },
     ],
   },
 ];

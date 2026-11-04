@@ -126,7 +126,7 @@ export function App() {
               <Trace data={data} result={current} config={config} hover={hover} onHover={setHover} />
             </section>
             <section className="col col-chat" aria-label="WhatsApp">
-              <Chat data={data} result={current} config={config} replies={(replies[sel.hid] ?? [])} highlight={hover} onReply={reply} onReset={resetReplies} />
+              <Chat data={data} result={current} payments={results[sel.hid]} config={config} replies={(replies[sel.hid] ?? [])} highlight={hover} onReply={reply} onReset={resetReplies} />
             </section>
           </div>
         )}

@@ -3,6 +3,9 @@
     "id": "m1",
     "at": "2026-09-01T07:15:00",
     "from": "member",
+    "about": [
+      "the_times"
+    ],
     "author": "Layla",
     "text": "keep the times pls, omar reads it every morning",
     "signals": [
@@ -16,12 +19,19 @@
     "id": "m2",
     "at": "2026-09-01T07:16:00",
     "from": "nous",
+    "about": [
+      "the_times"
+    ],
     "text": "Will do, Layla."
   },
   {
     "id": "m3",
     "at": "2026-10-08T13:30:00",
     "from": "member",
+    "about": [
+      "microsoft_365_cur",
+      "microsoft_365_cc"
+    ],
     "author": "Layla",
     "text": "what's the microsoft thing? i thought we only had one"
   },
@@ -29,6 +39,9 @@
     "id": "m4",
     "at": "2026-10-22T20:44:00",
     "from": "member",
+    "about": [
+      "deliveroo_plus"
+    ],
     "author": "Layla",
     "text": "we havent used deliveroo since the summer tbh",
     "signals": [
