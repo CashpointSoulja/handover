@@ -1,0 +1,75 @@
+# Member message templates, UK English. Picked by decision and the rule that set it:
+# "FLAG.R12" wins over "FLAG". LEAVE sends nothing.
+# Placeholders in {braces} are filled by engine/message.ts. Reply buttons: max 3, max 20 characters.
+# A button with a signal re-runs the engine with that answer; one without just records the reply.
+
+templates:
+  CANCEL:
+    text: "Hi {first_name}, we've cancelled {service} ({amount} {per}). That's {annual} a year back with you."
+
+  FLAG:
+    text: "Hi {first_name}, {service} costs {amount} {per} ({annual} a year). We think it can go. Shall we cancel it?"
+    buttons:
+      - { label: "Yes, cancel it" }
+      - { label: "Keep it", signal: { kind: keep } }
+  FLAG.R04:
+    text: "Hi {first_name}, {service} costs {amount} {per} ({annual} a year). We think it can go, but you're on Manual, so it's your call. Shall we cancel it?"
+    buttons:
+      - { label: "Yes, cancel it" }
+      - { label: "Keep it", signal: { kind: keep } }
+  FLAG.R09:
+    text: "Hi {first_name}, {service} is on a contract with {notice} notice. To stop it properly we'd give notice, not just stop the direct debit. Shall we start that?"
+    buttons:
+      - { label: "Yes, give notice" }
+      - { label: "Keep it", signal: { kind: keep } }
+  FLAG.R10:
+    text: "Hi {first_name}, {service} costs {annual} a year. It's a big one, so we'd like a yes from you first. Shall we cancel it?"
+    buttons:
+      - { label: "Yes, cancel it" }
+      - { label: "Keep it", signal: { kind: keep } }
+  FLAG.R11:
+    text: "Hi {first_name}, you're paying for {service} twice: on your {account} and your {other_account}. Shall we cancel one?"
+    buttons:
+      - { label: "Cancel one" }
+      - { label: "Keep both", signal: { kind: keep } }
+  FLAG.R12:
+    text: "Hi {first_name}, your {service} trial turns into {amount} {per} on {deadline}. Want us to cancel before then?"
+    buttons:
+      - { label: "Yes, cancel it" }
+      - { label: "Keep it", signal: { kind: keep } }
+  FLAG.R13:
+    text: "Hi {first_name}, {service} renewed on {last_date} for {amount}. You can still get that back until {deadline}. Shall we cancel and ask for a refund?"
+    buttons:
+      - { label: "Yes, get it back" }
+      - { label: "Keep it", signal: { kind: keep } }
+
+  ASK:
+    text: "Hi {first_name}, quick one: do you still use {service} ({amount} {per})?"
+    buttons:
+      - { label: "Yes, keep it", signal: { kind: keep } }
+      - { label: "No, stop it", signal: { kind: unused } }
+  ASK.R05:
+    text: "Hi {first_name}, there's a {amount} {raw} charge {every}. Do you know which app it's for?"
+  ASK.R06:
+    text: "Hi {first_name}, we can't tell what {raw} is ({amount} {per}). Do you recognise it?"
+    buttons:
+      - { label: "Yes, I know it", signal: { kind: identified } }
+      - { label: "Don't recognise it", signal: { kind: unsure } }
+  ASK.R07:
+    text: "Hi {first_name}, who else uses {service}? We don't want to cut anyone off."
+    buttons:
+      - { label: "Just me now", signal: { kind: not_shared } }
+      - { label: "We all use it", signal: { kind: keep } }
+  ASK.R08:
+    text: "Hi {first_name}, your {parent} bill includes {child}, and you also pay for {child} directly. Do you use both?"
+    buttons:
+      - { label: "Keep both", signal: { kind: keep } }
+      - { label: "Not sure", signal: { kind: unsure } }
+
+  HUMAN:
+    text: "Hi {first_name}, we're passing {service} to our team. Someone will message you today."
+  HUMAN.R01:
+    text: "Hi {first_name}, {service} charged you {post_amount} on {post_date}, after you cancelled on {cancelled_on}. We're on it and will ask for a refund. Someone from our team will message you today."
+
+  # Extra lines added when an attach rule fired.
+  line.price_rise: "It went up from {rise_from} to {rise_to} recently."

@@ -34,7 +34,7 @@ merchants:
   - { key: david_lloyd, name: David Lloyd Clubs, category: gym, kind: subscription, patterns: ['DAVID LLOYD'], contract: { minimum_term_months: 12, notice_days: 30 } }
   - { key: puregym, name: PureGym, category: gym, kind: subscription, patterns: ['PUREGYM'] }
 
-  - { key: klarna, name: Klarna, category: instalments, kind: instalment, route: credit, patterns: ['^KLARNA\*'] }
+  - { key: klarna, name: Klarna, category: instalments, kind: instalment, route: credit, id: from_descriptor, patterns: ['^KLARNA\*'] }
   - { key: council_tax, name: Council tax, category: council_tax, kind: essential_bill, route: council_tax, patterns: ['CTAX', 'COUNCIL TAX', 'CITY COUNCIL'] }
   - { key: energy, name: Energy, category: energy, kind: essential_bill, route: energy, patterns: ['OCTOPUS ENERGY', 'EDF ENERGY', 'BRITISH GAS', 'OVO ENERGY'] }
   - { key: water, name: Water, category: water, kind: essential_bill, route: water, patterns: ['SEVERN TRENT', 'THAMES WATER'] }
