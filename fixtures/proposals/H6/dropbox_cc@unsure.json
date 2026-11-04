@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T15:03Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "a20518321eca54d4",
+    "household": "H6",
+    "payment": "dropbox_cc",
+    "branch": "unsure",
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Dropbox",
+    "category": "software",
+    "isSubscription": true,
+    "proposedAction": "FLAG",
+    "confidence": 0.75,
+    "rationale": "The member does not recognise this Dropbox charge, and a separate Dropbox Plus plan is billed to their current account, so it looks like a duplicate, but they should confirm before cancelling in case it holds stored files."
+  }
+}

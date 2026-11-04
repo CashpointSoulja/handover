@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T15:03Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "da12034bfc7058b1",
+    "household": "H2",
+    "payment": "simplycook",
+    "branch": "unsure",
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "SimplyCook",
+    "category": "food",
+    "isSubscription": true,
+    "proposedAction": "FLAG",
+    "confidence": 0.8,
+    "rationale": "The member does not recognise this £1 SimplyCook trial that converts to £12.99 a month on 6 November, and they have asked to approve every change, so we should recommend cancelling and have them confirm."
+  }
+}

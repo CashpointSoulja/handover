@@ -12,6 +12,7 @@ import { parse } from 'yaml';
 import { runHousehold, withRuleToggles } from '../engine/index';
 import { loadConfig, loadHouseholds, loadProposals, ROOT } from '../engine/load-node';
 import { requiredProposals } from './required';
+import { stressSweep } from './stress';
 import { CATEGORY_LABELS, decisionCounts, diffResults, runEval, type CaseResult, type EvalCase } from './score';
 
 const args = process.argv.slice(2);
@@ -53,6 +54,8 @@ const ablation = config.rules
     const m = runEval(cases, households, withRuleToggles(config, { [r.id]: false }), proposals).metrics;
     return { rule: r.id, name: r.name, falseCancels: m.falseCancels, weightedCost: m.weightedCost, scored: m.scored };
   });
+
+const stress = stressSweep(households, config, proposals, cases);
 
 interface UnitSummary {
   total: number;
@@ -103,6 +106,7 @@ const result = {
   decision_counts: counts,
   rule_coverage: coverage,
   ablation,
+  synthetic_stress_test: stress,
   cases: main.results,
   heldout: held ? { metrics: held.metrics, cases: held.results } : null,
   unit_tests: unit,
@@ -180,6 +184,20 @@ The 40 cases re-scored with each toggleable rule switched off (R04 is locked on)
 | Rule off | False cancels | Weighted cost | Scored |
 |---|---|---|---|
 ${ablation.map((a) => `| ${a.rule} ${a.name} | ${a.falseCancels} | ${a.weightedCost} | ${a.scored} |`).join('\n')}
+
+## Synthetic stress test (not model results)
+
+**Nothing in this section comes from a model.** Two synthetic proposers, built in code (\`evals/stress.ts\`) and never written to \`fixtures/proposals\`, replace the recorded proposals so we can see which rules hold the line when the proposal is wrong:
+
+${stress.proposers.map((p) => `- **${p.label}**: ${p.describe}`).join('\n')}
+
+Sample: ${stress.caseCount} eval cases × ${stress.rows.length} rule configurations (every rule on, then each of the ${stress.rows.length - 1} toggleable rules off; R04 is locked on) × ${stress.proposers.length} proposers = ${stress.runs} scored case runs. Cells show false cancels out of ${stress.caseCount} cases; "+" lists the cases that become false cancels only when that rule is off, which is what the rule protects. A rule with no "+" is backed up by another rule on these cases (for example R10 also caps council tax), not idle.
+
+| Configuration | ${stress.proposers.map((p) => p.label).join(' | ')} |
+|---|${stress.proposers.map(() => '---').join('|')}|
+${stress.rows.map((r) => `| ${r.rule === 'all on' ? '**Every rule on**' : `${r.rule} ${r.name} off`} | ${stress.proposers.map((p) => { const x = r.results[p.id]; return r.rule === 'all on' ? `${x.falseCancels}` : `${x.falseCancels}${x.newIds.length ? ` (+ ${x.newIds.join(', ')})` : ''}`; }).join(' | ')} |`).join('\n')}
+
+**The six-case limitation.** With every rule on, the always-CANCEL proposer still produces ${stress.rows[0].results.always_cancel.falseCancels} false cancels (${stress.rows[0].results.always_cancel.ids.join(', ')}). No rule covers these cases; only the proposal stands between the member and a false cancel there.
 
 ## Unit tests
 

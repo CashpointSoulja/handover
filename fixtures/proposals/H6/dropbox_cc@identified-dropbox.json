@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T15:03Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "cf238ccc1f4d8bc6",
+    "household": "H6",
+    "payment": "dropbox_cc",
+    "branch": "identified-dropbox",
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Dropbox",
+    "category": "software",
+    "isSubscription": true,
+    "proposedAction": "LEAVE",
+    "confidence": 0.6,
+    "rationale": "The member recognises this Dropbox charge on the credit card, so it should be kept, though a second Dropbox Plus charge on the current account may be a duplicate."
+  }
+}

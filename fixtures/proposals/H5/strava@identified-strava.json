@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T15:03Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "a34f5b644a0114e6",
+    "household": "H5",
+    "payment": "strava",
+    "branch": "identified-strava",
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Strava",
+    "category": "fitness",
+    "isSubscription": true,
+    "proposedAction": "LEAVE",
+    "confidence": 0.7,
+    "rationale": "The member recognises Strava, which has moved from its free trial to £6.99 a month, so it should be left in place."
+  }
+}

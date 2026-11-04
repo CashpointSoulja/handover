@@ -14,6 +14,10 @@ Every score here is an eval score on this case set, not a member outcome and not
 
 Cancelling something a member wanted costs more trust than missing a saving. So a false cancel weighs ten times an unnecessary ask, and the false-cancel count is a gate, not a term in an average.
 
+## Synthetic stress test
+
+[test-results.md](test-results.md) also sweeps two synthetic proposers (not model output) over the cases with each rule off, to show which rules protect which cases. Those rows are labelled separately and never mixed with the recorded-model scores.
+
 ## Guarding against an engine that never acts
 
 The clean-cancel category (5 cases) expects CANCEL. An engine that never cancels fails all five, so it cannot score perfectly; the unit tests check this.

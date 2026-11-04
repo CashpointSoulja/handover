@@ -35,14 +35,14 @@ Two guarantees sit outside the toggles: R04 (Manual mode) is locked on, and the 
 
 ## Open questions
 
-- **Recorded proposals.** The base proposals (pass 1) are chat-recorded: the classifier prompt was run in a chat and the answers imported unchanged with `eval:import`. They are not live API runs, and every score on them is an eval score on this case set, not production accuracy. Reply-branch proposals (pass 2) are still pending, so the cases that need them show as pending. See [test results](test-results.md).
-- **What the first recorded run showed** (all from [test results](test-results.md)):
-  - No false cancels on the scored cases. The model proposed CANCEL only where the member had said a service was unused.
-  - The model never proposed FLAG; it asked or left things instead, so FLAG does not appear in the household decision counts. The brief's "every decision type at least twice" is not met by this run.
+- **Recorded proposals.** All proposals are chat-recorded: the classifier prompt was run in a chat (base proposals, then reply branches) and the answers imported unchanged with `eval:import`. They are not live API runs, and every score on them is an eval score on this case set, not production accuracy. See [test results](test-results.md).
+- **What the recorded run showed** (all from [test results](test-results.md)):
+  - No false cancels on the 40 cases or the held-out set. The model proposed CANCEL only where the member had said a service was unused.
+  - On the base data the model never proposed FLAG; it asked or left things instead, so FLAG does not appear in the household decision counts. It proposed FLAG only in reply branches where the member does not recognise a charge. The brief's "every decision type at least twice" is not met on the base data.
   - Its confidence clusters below 0.80, so R06 fires in every household and takes attribution from more specific rules (R12, R11, R08).
-  - Because caps lower but never raise, a LEAVE proposal stays LEAVE even where a rule would have asked: shared plans, refund windows and bundles fail on decision, not on safety.
-  - With these proposals, switching off any single rule produces no false cancel (the one-rule-off table). The guarantee that turning off R05 lets a guessing model through is shown in the unit tests with test-only proposals, not on this run.
-- **Six unguarded cases.** With a proposer that always says CANCEL, the rules stop every false cancel except six: an identified Apple charge, an annual plan outside its refund window, a renewal whose policy is treated as verified, a trial 12 days out, a trial that has already converted, and a service already cancelled with a final bill. In those, only the proposal stands between the member and a false cancel. Candidate v2 rules: "already cancelled → LEAVE" and "no member signal of disuse → cap FLAG".
+  - Because caps lower but never raise, a LEAVE proposal stays LEAVE even where a rule would have asked: shared plans, refund windows, bundles and identified aggregator charges fail on decision, not on safety.
+  - With these proposals, switching off any single rule produces no false cancel (the one-rule-off table). Which rule protects what is shown by the synthetic stress test, which is not model output.
+- **Six unguarded cases.** In the synthetic stress test, a proposer that always says CANCEL is stopped everywhere except six cases: an identified Apple charge, an annual plan outside its refund window, a renewal whose policy is treated as verified, a trial 12 days out, a trial that has already converted, and a service already cancelled with a final bill. In those, only the proposal stands between the member and a false cancel; R06 covers them only if the proposal is unsure. Candidate v2 rules: "already cancelled → LEAVE" and "no member signal of disuse → cap FLAG".
 - **Refund policies.** Every entry in `config/policies.yaml` is `assumed`. Nothing can be verified until each has a source URL and a date.
 - **Member-facing name.** The pane shows "Nous". The agent's member-facing name is unconfirmed.
 - **R06 threshold.** 0.80 may be too strict for this model's calibration; changing it is a rules change and needs a new frozen version and a re-run.

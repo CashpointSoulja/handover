@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T15:03Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "1da0503c31a2888e",
+    "household": "H3",
+    "payment": "duolingo",
+    "branch": "unsure",
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Duolingo",
+    "category": "apps",
+    "isSubscription": true,
+    "proposedAction": "FLAG",
+    "confidence": 0.75,
+    "rationale": "The member does not recognise this free Duolingo trial, which converts to £7.99 a month on 12 November, and they have a history of forgotten trials, so we should recommend cancelling but have them confirm in case another household member started it."
+  }
+}

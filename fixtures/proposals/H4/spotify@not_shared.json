@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T15:03Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "69d28078c36a6a72",
+    "household": "H4",
+    "payment": "spotify",
+    "branch": "not_shared",
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Spotify Premium Family",
+    "category": "music",
+    "isSubscription": true,
+    "proposedAction": "ASK",
+    "confidence": 0.6,
+    "rationale": "At £19.99 this looks like a Family plan, and the member says only they use it now, so we should ask whether they want to switch to a cheaper Individual plan rather than cancel."
+  }
+}

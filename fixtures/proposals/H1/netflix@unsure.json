@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T15:03Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "b2e87c0faf2adec9",
+    "household": "H1",
+    "payment": "netflix",
+    "branch": "unsure",
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Netflix",
+    "category": "streaming",
+    "isSubscription": true,
+    "proposedAction": "ASK",
+    "confidence": 0.65,
+    "rationale": "The member does not recognise the charge but says the kids watch Netflix on the Sky box, so this direct payment may be what powers it, and we should ask whether Netflix is part of their Sky package before suggesting cancellation."
+  }
+}

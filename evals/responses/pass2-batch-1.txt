@@ -1,0 +1,48 @@
+KEY H1/apple_bill_999@identified-disney_plus
+{"service": "Disney+ (billed via Apple)", "category": "streaming", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.75, "rationale": "The member has now identified this £9.99 Apple charge as Disney+ and gave no sign of wanting it cancelled, so it should be left in place."}
+KEY H1/apple_bill_999@identified-headspace
+{"service": "Headspace (billed via Apple)", "category": "wellness", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "The member has identified this £9.99 Apple charge as Headspace and has not asked for it to be cancelled, so it should be left alone."}
+KEY H1/netflix@identified-netflix
+{"service": "Netflix", "category": "streaming", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.6, "rationale": "The member recognises this direct Netflix charge but earlier suggested Netflix comes through their Sky box, so it is worth asking whether Sky already includes Netflix and they are paying twice."}
+KEY H1/netflix@unsure
+{"service": "Netflix", "category": "streaming", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.65, "rationale": "The member does not recognise the charge but says the kids watch Netflix on the Sky box, so this direct payment may be what powers it, and we should ask whether Netflix is part of their Sky package before suggesting cancellation."}
+KEY H2/simplycook@identified-simplycook
+{"service": "SimplyCook", "category": "food", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "The member recognises this £1 SimplyCook trial, and since they prefer manual control it should be left, though it converts to £12.99 a month on 6 November."}
+KEY H2/simplycook@unsure
+{"service": "SimplyCook", "category": "food", "isSubscription": true, "proposedAction": "FLAG", "confidence": 0.8, "rationale": "The member does not recognise this £1 SimplyCook trial that converts to £12.99 a month on 6 November, and they have asked to approve every change, so we should recommend cancelling and have them confirm."}
+KEY H3/duolingo@identified-duolingo
+{"service": "Duolingo", "category": "apps", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "The member recognises this free Duolingo trial, so it should be left, though it converts to £7.99 a month on 12 November."}
+KEY H3/duolingo@unsure
+{"service": "Duolingo", "category": "apps", "isSubscription": true, "proposedAction": "FLAG", "confidence": 0.75, "rationale": "The member does not recognise this free Duolingo trial, which converts to £7.99 a month on 12 November, and they have a history of forgotten trials, so we should recommend cancelling but have them confirm in case another household member started it."}
+KEY H4/google_play_apps_499@identified-candy_crush
+{"service": "Candy Crush (billed via Google Play)", "category": "gaming", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "The member has identified this £4.99 Google Play charge as Candy Crush and has not asked for it to be cancelled."}
+KEY H4/microsoft_365_cc@identified-microsoft_365
+{"service": "Microsoft 365 Personal", "category": "software", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.6, "rationale": "The member recognises this Microsoft 365 Personal charge on the credit card, so it should be kept, while the second Microsoft 365 charge on the current account is the likelier duplicate to follow up."}
+KEY H4/microsoft_365_cc@unsure
+{"service": "Microsoft 365 Personal", "category": "software", "isSubscription": true, "proposedAction": "FLAG", "confidence": 0.8, "rationale": "The member does not recognise this Microsoft 365 Personal charge and believed they only had one, so it looks like a duplicate of the current-account plan, but the member should confirm in case it holds someone's files or email."}
+KEY H4/microsoft_365_cur@identified-microsoft_365
+{"service": "Microsoft 365 Personal", "category": "software", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.6, "rationale": "The member recognises this Microsoft 365 Personal charge on the current account, so it should be kept, while the second Microsoft 365 charge on the credit card is the likelier duplicate to follow up."}
+KEY H4/microsoft_365_cur@unsure
+{"service": "Microsoft 365 Personal", "category": "software", "isSubscription": true, "proposedAction": "FLAG", "confidence": 0.8, "rationale": "The member does not recognise this Microsoft 365 Personal charge and believed they only had one, so it looks like a duplicate of the credit-card plan, but the member should confirm in case it holds someone's files or email."}
+KEY H4/paramount_plus@identified-paramount_plus
+{"service": "Paramount+", "category": "streaming", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "The member recognises this free Paramount+ trial, so it should be left, though it converts to £6.99 a month on 4 November."}
+KEY H4/paramount_plus@unsure
+{"service": "Paramount+", "category": "streaming", "isSubscription": true, "proposedAction": "FLAG", "confidence": 0.8, "rationale": "The member does not recognise this free Paramount+ trial, which converts to £6.99 a month on 4 November, so we should recommend cancelling urgently and get their confirmation."}
+KEY H4/spotify@not_shared
+{"service": "Spotify Premium Family", "category": "music", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.6, "rationale": "At £19.99 this looks like a Family plan, and the member says only they use it now, so we should ask whether they want to switch to a cheaper Individual plan rather than cancel."}
+KEY H5/strava@identified-strava
+{"service": "Strava", "category": "fitness", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "The member recognises Strava, which has moved from its free trial to £6.99 a month, so it should be left in place."}
+KEY H5/strava@unsure
+{"service": "Strava", "category": "fitness", "isSubscription": true, "proposedAction": "FLAG", "confidence": 0.8, "rationale": "The member does not recognise Strava, which converted from a free trial to a paid £6.99 charge on 20 October, so we should recommend cancelling and have them confirm in case someone else in the household uses it."}
+KEY H6/dropbox_cc@identified-dropbox
+{"service": "Dropbox", "category": "software", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.6, "rationale": "The member recognises this Dropbox charge on the credit card, so it should be kept, though a second Dropbox Plus charge on the current account may be a duplicate."}
+KEY H6/dropbox_cc@unsure
+{"service": "Dropbox", "category": "software", "isSubscription": true, "proposedAction": "FLAG", "confidence": 0.75, "rationale": "The member does not recognise this Dropbox charge, and a separate Dropbox Plus plan is billed to their current account, so it looks like a duplicate, but they should confirm before cancelling in case it holds stored files."}
+KEY H6/dropbox_cur@identified-dropbox
+{"service": "Dropbox Plus", "category": "software", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.6, "rationale": "The member recognises this Dropbox Plus charge on the current account, so it should be kept, though a second Dropbox charge on the credit card may be a duplicate."}
+KEY H6/dropbox_cur@unsure
+{"service": "Dropbox Plus", "category": "software", "isSubscription": true, "proposedAction": "FLAG", "confidence": 0.75, "rationale": "The member does not recognise this Dropbox Plus charge, and a separate Dropbox plan is billed to their credit card, so it looks like a duplicate, but they should confirm before cancelling in case it holds stored files."}
+KEY H6/the_telegraph@identified-the_telegraph
+{"service": "The Telegraph", "category": "news", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "The member recognises The Telegraph's £1 introductory offer, so it should be left, though it moves to £9 a month on 2 November."}
+KEY H6/the_telegraph@unsure
+{"service": "The Telegraph", "category": "news", "isSubscription": true, "proposedAction": "FLAG", "confidence": 0.8, "rationale": "The member does not recognise The Telegraph's £1 introductory offer, which moves to £9 a month on 2 November, so we should recommend cancelling promptly and get their confirmation."}

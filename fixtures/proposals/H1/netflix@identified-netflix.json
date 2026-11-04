@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T15:03Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "7e429f399eda02b3",
+    "household": "H1",
+    "payment": "netflix",
+    "branch": "identified-netflix",
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Netflix",
+    "category": "streaming",
+    "isSubscription": true,
+    "proposedAction": "ASK",
+    "confidence": 0.6,
+    "rationale": "The member recognises this direct Netflix charge but earlier suggested Netflix comes through their Sky box, so it is worth asking whether Sky already includes Netflix and they are paying twice."
+  }
+}

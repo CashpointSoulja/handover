@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T15:03Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "35dc6b8fea006a01",
+    "household": "H4",
+    "payment": "google_play_apps_499",
+    "branch": "identified-candy_crush",
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Candy Crush (billed via Google Play)",
+    "category": "gaming",
+    "isSubscription": true,
+    "proposedAction": "LEAVE",
+    "confidence": 0.7,
+    "rationale": "The member has identified this £4.99 Google Play charge as Candy Crush and has not asked for it to be cancelled."
+  }
+}
