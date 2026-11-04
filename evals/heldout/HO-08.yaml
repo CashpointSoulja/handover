@@ -1,0 +1,12 @@
+id: HO-08
+category: manual_mode
+household: H5
+recurring_payment: audible
+mode: manual
+expected:
+  decision: LEAVE
+  decided_by: R03
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "Keep reply 30 days ago, in Manual mode"

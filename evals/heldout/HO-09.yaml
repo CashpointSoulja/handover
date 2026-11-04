@@ -1,0 +1,13 @@
+id: HO-09
+category: ambiguous_merchant
+household: H4
+recurring_payment: google_play_apps_499
+mode: auto
+reply: { label: "It's Candy Crush", signal: { kind: identified, service: candy_crush } }
+expected:
+  decision: FLAG
+  decided_by: llm
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "After \"It's Candy Crush\": identified, but nothing says it is unwanted"

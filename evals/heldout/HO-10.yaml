@@ -1,0 +1,12 @@
+id: HO-10
+category: not_subscription
+household: H1
+recurring_payment: netflix
+mode: auto
+expected:
+  decision: ASK
+  decided_by: R08
+  attachments: [cancel_via]
+must_not: [CANCEL]
+weight: 10
+note: "Netflix billed directly and also inside the Sky bill"

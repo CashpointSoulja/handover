@@ -1,0 +1,12 @@
+id: HO-02
+category: not_subscription
+household: H2
+recurring_payment: puregym
+mode: auto
+expected:
+  decision: FLAG
+  decided_by: R10
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "No-contract gym run in Auto mode: £300 a year still needs a yes"

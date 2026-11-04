@@ -1,0 +1,12 @@
+id: HO-05
+category: manual_mode
+household: H6
+recurring_payment: dropbox_cc
+mode: manual
+expected:
+  decision: FLAG
+  decided_by: R04
+  attachments: [duplicate_of]
+must_not: [CANCEL]
+weight: 10
+note: "Dropbox on the credit card and the current account, Manual mode"

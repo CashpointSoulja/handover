@@ -1,0 +1,12 @@
+id: HO-07
+category: refund_window
+household: H4
+recurring_payment: the_times
+mode: auto
+expected:
+  decision: ASK
+  decided_by: llm
+  attachments: [price_rise]
+must_not: [CANCEL]
+weight: 1
+note: "Member said keep, then the price rose: worth checking again, not cancelling"

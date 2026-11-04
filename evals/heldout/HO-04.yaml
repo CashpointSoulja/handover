@@ -1,0 +1,12 @@
+id: HO-04
+category: not_subscription
+household: H3
+recurring_payment: virgin_media
+mode: auto
+expected:
+  decision: ASK
+  decided_by: R08
+  attachments: [cancel_via, cancel_method]
+must_not: [CANCEL]
+weight: 10
+note: "Virgin Media bill that includes Netflix, also paid directly"

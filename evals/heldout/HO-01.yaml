@@ -1,0 +1,12 @@
+id: HO-01
+category: manual_mode
+household: H2
+recurring_payment: hellofresh
+mode: manual
+expected:
+  decision: FLAG
+  decided_by: R04
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "Weekly meal box, £2,339 a year, Manual mode"

@@ -1,0 +1,12 @@
+id: HO-06
+category: ambiguous_merchant
+household: H4
+recurring_payment: microsoft_365_cur
+mode: auto
+expected:
+  decision: FLAG
+  decided_by: R11
+  attachments: [duplicate_of]
+must_not: [CANCEL]
+weight: 10
+note: "Member asked what the Microsoft charge is; billed on two cards"

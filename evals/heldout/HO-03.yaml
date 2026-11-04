@@ -1,0 +1,12 @@
+id: HO-03
+category: not_subscription
+household: H4
+recurring_payment: ee_mobile
+mode: auto
+expected:
+  decision: FLAG
+  decided_by: R09
+  attachments: [cancel_method]
+must_not: [CANCEL]
+weight: 10
+note: "Mobile contract with a 24-month minimum term"
