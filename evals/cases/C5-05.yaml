@@ -1,0 +1,12 @@
+id: C5-05
+category: trials
+household: H5
+recurring_payment: strava
+mode: auto
+expected:
+  decision: ASK
+  decided_by: llm
+  attachments: []
+must_not: [CANCEL]
+weight: 1
+note: "Strava trial already converted to £6.99; nothing in chat about it"

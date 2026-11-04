@@ -1,5 +1,5 @@
 // Node-only loader for the CLI and tests. The browser loads the same files through Vite.
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { parse } from 'yaml';
 import { buildConfig } from './config';
@@ -38,7 +38,7 @@ export function loadProposals(): Map<string, RecordedProposal> {
   if (!existsSync(dir)) return out;
   for (const hh of readdirSync(dir)) {
     const sub = join(dir, hh);
-    if (!existsSync(sub) || hh.startsWith('.') || hh.endsWith('.md')) continue;
+    if (hh.startsWith('.') || !statSync(sub).isDirectory()) continue;
     for (const f of readdirSync(sub)) {
       if (!f.endsWith('.json')) continue;
       out.set(`${hh}/${f.replace(/\.json$/, '')}`, JSON.parse(readFileSync(join(sub, f), 'utf8')));

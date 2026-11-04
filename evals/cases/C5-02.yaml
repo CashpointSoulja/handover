@@ -1,0 +1,12 @@
+id: C5-02
+category: trials
+household: H6
+recurring_payment: the_telegraph
+mode: manual
+expected:
+  decision: FLAG
+  decided_by: R04
+  attachments: [priority_urgent, deadline]
+must_not: [CANCEL]
+weight: 3
+note: "£1 Telegraph trial converts in 2 days"

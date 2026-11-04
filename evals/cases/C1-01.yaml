@@ -1,0 +1,12 @@
+id: C1-01
+category: clean_cancel
+household: H1
+recurring_payment: readly
+mode: auto
+expected:
+  decision: CANCEL
+  decided_by: llm
+  attachments: []
+must_not: []
+weight: 3
+note: "Member said they stopped using Readly ages ago; £96 a year; Auto mode"

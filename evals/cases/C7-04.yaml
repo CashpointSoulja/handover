@@ -1,0 +1,12 @@
+id: C7-04
+category: manual_mode
+household: H4
+recurring_payment: paramount_plus
+mode: manual
+expected:
+  decision: FLAG
+  decided_by: R04
+  attachments: [priority_urgent, deadline]
+must_not: [CANCEL]
+weight: 10
+note: "Trial C5-01 run in Manual mode"

@@ -1,0 +1,12 @@
+id: C6-04
+category: post_cancel
+household: H6
+recurring_payment: paramount_plus
+mode: manual
+expected:
+  decision: LEAVE
+  decided_by: llm
+  attachments: []
+must_not: [CANCEL]
+weight: 1
+note: "Post-cancel charge already refunded in July: must not escalate again"

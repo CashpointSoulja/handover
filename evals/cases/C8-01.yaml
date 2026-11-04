@@ -1,0 +1,12 @@
+id: C8-01
+category: not_subscription
+household: H3
+recurring_payment: klarna_currys
+mode: auto
+expected:
+  decision: LEAVE
+  decided_by: R02
+  attachments: [route]
+must_not: [CANCEL]
+weight: 10
+note: "Klarna instalments that look like a monthly subscription"

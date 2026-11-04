@@ -1,0 +1,13 @@
+id: C7-05
+category: manual_mode
+household: H1
+recurring_payment: apple_bill_999
+mode: manual
+reply: { label: "It's Disney+", signal: { kind: identified, service: disney_plus } }
+expected:
+  decision: FLAG
+  decided_by: R04
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "Identified Apple charge C2-05 run in Manual mode"

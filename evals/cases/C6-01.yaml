@@ -1,0 +1,12 @@
+id: C6-01
+category: post_cancel
+household: H5
+recurring_payment: disney_plus
+mode: auto
+expected:
+  decision: HUMAN
+  decided_by: R01
+  attachments: [refund_request, priority_urgent]
+must_not: [CANCEL, LEAVE]
+weight: 3
+note: "Disney+ cancelled 14 Sep, charged again 14 Oct"

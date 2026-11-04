@@ -1,0 +1,12 @@
+id: C2-01
+category: ambiguous_merchant
+household: H6
+recurring_payment: paypal_jgsoftware_1400
+mode: manual
+expected:
+  decision: ASK
+  decided_by: R05
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "PAYPAL *JGSOFTWARE: unknown merchant behind PayPal, nothing in chat"

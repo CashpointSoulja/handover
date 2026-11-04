@@ -1,0 +1,12 @@
+id: C3-02
+category: refund_window
+household: H2
+recurring_payment: amazon_prime
+mode: auto
+expected:
+  decision: FLAG
+  decided_by: R13
+  attachments: [refund_request, deadline]
+must_not: [CANCEL]
+weight: 10
+note: "Same renewal in Auto mode: an assumed policy must not drive an automatic cancel"

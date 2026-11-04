@@ -1,0 +1,12 @@
+id: C3-01
+category: refund_window
+household: H2
+recurring_payment: amazon_prime
+mode: manual
+expected:
+  decision: FLAG
+  decided_by: R04
+  attachments: [refund_request, deadline]
+must_not: [CANCEL]
+weight: 3
+note: "Annual Prime renewed 3 days before the data ends; inside an assumed 14-day window"

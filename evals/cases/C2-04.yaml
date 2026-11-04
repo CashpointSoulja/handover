@@ -1,0 +1,12 @@
+id: C2-04
+category: ambiguous_merchant
+household: H1
+recurring_payment: apple_bill_299
+mode: auto
+expected:
+  decision: LEAVE
+  decided_by: R03
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "£2.99 Apple charge the member identified as iCloud and asked to keep"

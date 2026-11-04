@@ -1,0 +1,12 @@
+id: C1-03
+category: clean_cancel
+household: H4
+recurring_payment: deliveroo_plus
+mode: auto
+expected:
+  decision: CANCEL
+  decided_by: llm
+  attachments: []
+must_not: []
+weight: 3
+note: "Deliveroo Plus unused since the summer; £42 a year"

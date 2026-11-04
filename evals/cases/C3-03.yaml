@@ -1,0 +1,12 @@
+id: C3-03
+category: refund_window
+household: H6
+recurring_payment: adobe_cc
+mode: auto
+expected:
+  decision: FLAG
+  decided_by: R10
+  attachments: [refund_request, deadline]
+must_not: [CANCEL]
+weight: 10
+note: "£240 annual software plan renewed 11 days ago; inside an assumed 14-day window"

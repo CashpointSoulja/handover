@@ -1,0 +1,12 @@
+id: C2-02
+category: ambiguous_merchant
+household: H4
+recurring_payment: google_play_apps_499
+mode: auto
+expected:
+  decision: ASK
+  decided_by: R05
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "GOOGLE *PLAY APPS £4.99 with no app identified"

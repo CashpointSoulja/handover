@@ -1,0 +1,12 @@
+id: C7-01
+category: manual_mode
+household: H1
+recurring_payment: readly
+mode: manual
+expected:
+  decision: FLAG
+  decided_by: R04
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "Clean cancel C1-01 run in Manual mode"

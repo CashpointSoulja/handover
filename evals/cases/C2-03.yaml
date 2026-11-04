@@ -1,0 +1,12 @@
+id: C2-03
+category: ambiguous_merchant
+household: H1
+recurring_payment: apple_bill_999
+mode: auto
+expected:
+  decision: ASK
+  decided_by: R05
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "£9.99 Apple charge with no app identified in chat history"

@@ -1,0 +1,13 @@
+id: C3-05
+category: refund_window
+household: H2
+recurring_payment: amazon_prime
+mode: auto
+scenario: { policy_status: verified }
+expected:
+  decision: FLAG
+  decided_by: llm
+  attachments: [refund_request, deadline]
+must_not: [CANCEL]
+weight: 3
+note: "Scenario: the Prime policy treated as verified, to test the attach-only path of R13"

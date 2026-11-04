@@ -1,0 +1,13 @@
+id: C2-05
+category: ambiguous_merchant
+household: H1
+recurring_payment: apple_bill_999
+mode: auto
+reply: { label: "It's Disney+", signal: { kind: identified, service: disney_plus } }
+expected:
+  decision: FLAG
+  decided_by: llm
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "After the member taps \"It's Disney+\": identified, but nothing says it is unwanted"

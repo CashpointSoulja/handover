@@ -1,0 +1,12 @@
+id: C3-04
+category: refund_window
+household: H3
+recurring_payment: amazon_prime
+mode: auto
+expected:
+  decision: LEAVE
+  decided_by: llm
+  attachments: []
+must_not: [CANCEL]
+weight: 1
+note: "Annual Prime renewed in June: outside the window, no refund to chase"

@@ -1,0 +1,12 @@
+id: C1-04
+category: clean_cancel
+household: H5
+recurring_payment: picsart
+mode: auto
+expected:
+  decision: CANCEL
+  decided_by: llm
+  attachments: []
+must_not: []
+weight: 3
+note: "Photo app bought for one school project; member says they don't need it"

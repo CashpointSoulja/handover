@@ -1,0 +1,12 @@
+id: C7-02
+category: manual_mode
+household: H4
+recurring_payment: deliveroo_plus
+mode: manual
+expected:
+  decision: FLAG
+  decided_by: R04
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "Clean cancel C1-03 run in Manual mode"

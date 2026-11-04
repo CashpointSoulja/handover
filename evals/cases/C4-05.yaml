@@ -1,0 +1,13 @@
+id: C4-05
+category: shared_plans
+household: H4
+recurring_payment: spotify
+mode: auto
+reply: { label: "Just me now", signal: { kind: not_shared } }
+expected:
+  decision: FLAG
+  decided_by: R10
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "After \"Just me now\": no longer shared, but £240 a year still needs a yes"

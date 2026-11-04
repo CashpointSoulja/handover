@@ -1,0 +1,12 @@
+id: C8-02
+category: not_subscription
+household: H3
+recurring_payment: council_tax
+mode: auto
+expected:
+  decision: LEAVE
+  decided_by: R02
+  attachments: [route]
+must_not: [CANCEL]
+weight: 10
+note: "Council tax direct debit"

@@ -1,0 +1,12 @@
+id: C5-03
+category: trials
+household: H2
+recurring_payment: simplycook
+mode: manual
+expected:
+  decision: FLAG
+  decided_by: R04
+  attachments: [priority_urgent, deadline]
+must_not: [CANCEL]
+weight: 3
+note: "£1 SimplyCook trial converts in 6 days"

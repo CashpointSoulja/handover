@@ -1,0 +1,12 @@
+id: C4-04
+category: shared_plans
+household: H5
+recurring_payment: spotify
+mode: manual
+expected:
+  decision: ASK
+  decided_by: R07
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "Duo tier in Manual mode: the shared-plan question still comes first"

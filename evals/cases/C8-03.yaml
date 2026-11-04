@@ -1,0 +1,12 @@
+id: C8-03
+category: not_subscription
+household: H1
+recurring_payment: energy
+mode: auto
+expected:
+  decision: LEAVE
+  decided_by: R02
+  attachments: [route]
+must_not: [CANCEL]
+weight: 10
+note: "Energy direct debit"

@@ -1,0 +1,12 @@
+id: C6-03
+category: post_cancel
+household: H3
+recurring_payment: now_tv
+mode: manual
+expected:
+  decision: HUMAN
+  decided_by: R01
+  attachments: [refund_request, priority_urgent]
+must_not: [CANCEL, LEAVE]
+weight: 3
+note: "Same charge in Manual mode: alerting is not acting, so R01 still fires"

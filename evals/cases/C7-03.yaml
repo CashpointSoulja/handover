@@ -1,0 +1,12 @@
+id: C7-03
+category: manual_mode
+household: H5
+recurring_payment: mubi
+mode: manual
+expected:
+  decision: FLAG
+  decided_by: R04
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "Clean cancel C1-05 run in Manual mode"

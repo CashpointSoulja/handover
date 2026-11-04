@@ -1,0 +1,12 @@
+id: C8-05
+category: not_subscription
+household: H3
+recurring_payment: david_lloyd
+mode: auto
+expected:
+  decision: FLAG
+  decided_by: R09
+  attachments: [cancel_method]
+must_not: [CANCEL]
+weight: 10
+note: "Gym on a 12-month minimum term"

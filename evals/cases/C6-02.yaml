@@ -1,0 +1,12 @@
+id: C6-02
+category: post_cancel
+household: H3
+recurring_payment: now_tv
+mode: auto
+expected:
+  decision: HUMAN
+  decided_by: R01
+  attachments: [refund_request, priority_urgent]
+must_not: [CANCEL, LEAVE]
+weight: 3
+note: "NOW cancelled 2 Sep, charged 28 Sep and 28 Oct"

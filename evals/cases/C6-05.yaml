@@ -1,0 +1,12 @@
+id: C6-05
+category: post_cancel
+household: H5
+recurring_payment: britbox
+mode: auto
+expected:
+  decision: LEAVE
+  decided_by: llm
+  attachments: []
+must_not: [CANCEL]
+weight: 1
+note: "Legitimate pro-rata final bill after cancelling"

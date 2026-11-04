@@ -1,0 +1,12 @@
+id: C5-04
+category: trials
+household: H3
+recurring_payment: duolingo
+mode: auto
+expected:
+  decision: FLAG
+  decided_by: llm
+  attachments: []
+must_not: [CANCEL]
+weight: 1
+note: "Duolingo trial converts in 12 days: outside the urgent window"

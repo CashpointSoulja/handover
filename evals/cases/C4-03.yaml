@@ -1,0 +1,12 @@
+id: C4-03
+category: shared_plans
+household: H6
+recurring_payment: netflix
+mode: manual
+expected:
+  decision: ASK
+  decided_by: R07
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "Member said Netflix is shared with their sister"

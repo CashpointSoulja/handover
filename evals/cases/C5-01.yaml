@@ -1,0 +1,12 @@
+id: C5-01
+category: trials
+household: H4
+recurring_payment: paramount_plus
+mode: auto
+expected:
+  decision: FLAG
+  decided_by: R12
+  attachments: [priority_urgent, deadline]
+must_not: [CANCEL]
+weight: 3
+note: "Paramount+ trial converts in 4 days"

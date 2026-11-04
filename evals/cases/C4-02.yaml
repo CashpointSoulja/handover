@@ -1,0 +1,12 @@
+id: C4-02
+category: shared_plans
+household: H5
+recurring_payment: spotify
+mode: auto
+expected:
+  decision: ASK
+  decided_by: R07
+  attachments: []
+must_not: [CANCEL]
+weight: 10
+note: "£16.99 matches the Spotify duo tier"

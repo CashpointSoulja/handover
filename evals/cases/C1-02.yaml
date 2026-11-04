@@ -1,0 +1,12 @@
+id: C1-02
+category: clean_cancel
+household: H3
+recurring_payment: kindle_unlimited
+mode: auto
+expected:
+  decision: CANCEL
+  decided_by: llm
+  attachments: []
+must_not: []
+weight: 3
+note: "Kindle Unlimited left over from a free trial; member says they don't use it"

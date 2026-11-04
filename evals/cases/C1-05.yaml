@@ -1,0 +1,12 @@
+id: C1-05
+category: clean_cancel
+household: H5
+recurring_payment: mubi
+mode: auto
+expected:
+  decision: CANCEL
+  decided_by: llm
+  attachments: []
+must_not: []
+weight: 3
+note: "MUBI was for a film course that has finished; member says it can go"
