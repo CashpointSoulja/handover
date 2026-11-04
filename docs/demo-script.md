@@ -1,8 +1,8 @@
 # Demo script: 90 seconds
 
-Vertical-friendly: record the console at 375 to 430px wide using the Queue, Trace, Chat, Evals and Rules tabs, or desktop cropped to one column at a time. One idea per shot, large cursor, no music under the voice.
+Vertical-friendly: record the console at 375 to 430px wide using the Queue, Trace, Chat, Evals and Rules tabs, or desktop cropped to one column at a time. One idea per shot, large pointer, no music under the voice.
 
-The proposals behind every screen are chat-recorded (see [test results](test-results.md)).
+The proposals behind every screen were recorded from a language-model run in a chat interface on 2026-11-04; not an API run; not production accuracy (see [test results](test-results.md)).
 
 | Time | Screen | Do | Say |
 |---|---|---|---|

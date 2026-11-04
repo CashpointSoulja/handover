@@ -1,6 +1,6 @@
 {
   "meta": {
-    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "model": "language model via chat interface (model id not exposed by UI)",
     "run_at": "2026-11-04T15:03Z",
     "prompt_version": "classifier-v1",
     "input_hash": "b2e87c0faf2adec9",

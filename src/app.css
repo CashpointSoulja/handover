@@ -21,9 +21,6 @@ input {
   font: inherit;
   color: inherit;
 }
-button {
-  cursor: pointer;
-}
 :focus-visible {
   outline: 2px solid var(--focus-ring);
   outline-offset: 2px;
@@ -809,7 +806,6 @@ h3 {
   box-shadow: 0 1px 0.5px rgba(11, 20, 26, 0.13);
 }
 .wa-buttons button:disabled {
-  cursor: default;
   opacity: 0.6;
 }
 .wa-buttons button:not(:disabled):hover {
@@ -944,7 +940,6 @@ tr.false-cancel td {
   inset: 0;
   opacity: 0;
   margin: 0;
-  cursor: pointer;
 }
 .switch span {
   position: absolute;
@@ -971,9 +966,6 @@ tr.false-cancel td {
 .switch input:checked + span::after {
   transform: translateX(14px);
   background: var(--on-brand);
-}
-.switch input:disabled {
-  cursor: not-allowed;
 }
 .switch input:focus-visible + span {
   outline: 2px solid var(--focus-ring);

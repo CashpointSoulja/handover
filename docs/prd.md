@@ -35,7 +35,7 @@ Two guarantees sit outside the toggles: R04 (Manual mode) is locked on, and the 
 
 ## Open questions
 
-- **Recorded proposals.** All proposals are chat-recorded: the classifier prompt was run in a chat (base proposals, then reply branches) and the answers imported unchanged with `eval:import`. They are not live API runs, and every score on them is an eval score on this case set, not production accuracy. See [test results](test-results.md).
+- **Recorded proposals.** All proposals were recorded from a language-model run in a chat interface on 2026-11-04; not an API run; not production accuracy. The classifier prompt was run in the chat (base proposals, then reply branches) and the answers imported unchanged with `eval:import`; every score on them is an eval score on this case set. See [test results](test-results.md).
 - **What the recorded run showed** (all from [test results](test-results.md)):
   - No false cancels on the 40 cases or the held-out set. The model proposed CANCEL only where the member had said a service was unused.
   - On the base data the model never proposed FLAG; it asked or left things instead, so FLAG does not appear in the household decision counts. It proposed FLAG only in reply branches where the member does not recognise a charge. The brief's "every decision type at least twice" is not met on the base data.
