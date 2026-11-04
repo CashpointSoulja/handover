@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "H3-0001",
+    "bookingDate": "2025-06-15",
+    "amount": -95,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZNPrime*B6Y1E4Q82",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0002",
+    "bookingDate": "2026-05-01",
+    "amount": -178,
+    "currency": "GBP",
+    "descriptor": "DD BRISTOL CITY COUNCIL",
+    "counterparty": "Bristol City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0003",
+    "bookingDate": "2026-05-01",
+    "amount": -89,
+    "currency": "GBP",
+    "descriptor": "DD DAVID LLOYD CLUBS",
+    "counterparty": "David Lloyd Leisure",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0004",
+    "bookingDate": "2026-05-03",
+    "amount": -26.75,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN Mktp UK*AYJJ",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0005",
+    "bookingDate": "2026-05-05",
+    "amount": -52.7,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SHELL FISHPONDS",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0006",
+    "bookingDate": "2026-05-06",
+    "amount": -84.08,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0007",
+    "bookingDate": "2026-05-07",
+    "amount": -9.49,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN DIGITAL*KU",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0008",
+    "bookingDate": "2026-05-10",
+    "amount": -11.07,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0009",
+    "bookingDate": "2026-05-11",
+    "amount": -5.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0010",
+    "bookingDate": "2026-05-14",
+    "amount": -83.33,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO KLARNA*CURRYS",
+    "counterparty": "Klarna",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0011",
+    "bookingDate": "2026-05-18",
+    "amount": -50.27,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SHELL FISHPONDS",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0012",
+    "bookingDate": "2026-05-18",
+    "amount": -120,
+    "currency": "GBP",
+    "descriptor": "DD EDF ENERGY",
+    "counterparty": "EDF Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0013",
+    "bookingDate": "2026-05-20",
+    "amount": -72,
+    "currency": "GBP",
+    "descriptor": "DD VIRGIN MEDIA",
+    "counterparty": "Virgin Media",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0014",
+    "bookingDate": "2026-05-21",
+    "amount": -77.59,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 5520",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0015",
+    "bookingDate": "2026-05-24",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P4A1K9WQ3B",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0016",
+    "bookingDate": "2026-05-27",
+    "amount": -130.16,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0017",
+    "bookingDate": "2026-05-28",
+    "amount": 2640,
+    "currency": "GBP",
+    "descriptor": "BGC AVONSIDE ENG SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0018",
+    "bookingDate": "2026-05-28",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NOWTV.COM",
+    "counterparty": "NOW",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0019",
+    "bookingDate": "2026-05-29",
+    "amount": -31.03,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 5520",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0020",
+    "bookingDate": "2026-06-01",
+    "amount": -178,
+    "currency": "GBP",
+    "descriptor": "DD BRISTOL CITY COUNCIL",
+    "counterparty": "Bristol City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0021",
+    "bookingDate": "2026-06-01",
+    "amount": -89,
+    "currency": "GBP",
+    "descriptor": "DD DAVID LLOYD CLUBS",
+    "counterparty": "David Lloyd Leisure",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0022",
+    "bookingDate": "2026-06-05",
+    "amount": -57.13,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0023",
+    "bookingDate": "2026-06-07",
+    "amount": -9.49,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN DIGITAL*KU",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0024",
+    "bookingDate": "2026-06-09",
+    "amount": 12.99,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK refund",
+    "counterparty": "Amazon",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0025",
+    "bookingDate": "2026-06-11",
+    "amount": -5.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0026",
+    "bookingDate": "2026-06-14",
+    "amount": -83.33,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO KLARNA*CURRYS",
+    "counterparty": "Klarna",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0027",
+    "bookingDate": "2026-06-14",
+    "amount": -121.24,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0028",
+    "bookingDate": "2026-06-15",
+    "amount": -95,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZNPrime*N0C7G3W51",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0029",
+    "bookingDate": "2026-06-16",
+    "amount": -70.5,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SHELL FISHPONDS",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0030",
+    "bookingDate": "2026-06-17",
+    "amount": -45.27,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN Mktp UK*G953",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0031",
+    "bookingDate": "2026-06-18",
+    "amount": -120,
+    "currency": "GBP",
+    "descriptor": "DD EDF ENERGY",
+    "counterparty": "EDF Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0032",
+    "bookingDate": "2026-06-19",
+    "amount": -79.96,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0033",
+    "bookingDate": "2026-06-20",
+    "amount": -32.83,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 5520",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0034",
+    "bookingDate": "2026-06-20",
+    "amount": -72,
+    "currency": "GBP",
+    "descriptor": "DD VIRGIN MEDIA",
+    "counterparty": "Virgin Media",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0035",
+    "bookingDate": "2026-06-22",
+    "amount": -131.36,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0036",
+    "bookingDate": "2026-06-23",
+    "amount": -28.62,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0037",
+    "bookingDate": "2026-06-24",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P4B6L2XR8C",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0038",
+    "bookingDate": "2026-06-25",
+    "amount": -69.31,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SHELL FISHPONDS",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0039",
+    "bookingDate": "2026-06-28",
+    "amount": 2640,
+    "currency": "GBP",
+    "descriptor": "BGC AVONSIDE ENG SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0040",
+    "bookingDate": "2026-06-28",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NOWTV.COM",
+    "counterparty": "NOW",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0041",
+    "bookingDate": "2026-06-29",
+    "amount": -136.23,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 5520",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0042",
+    "bookingDate": "2026-07-01",
+    "amount": -178,
+    "currency": "GBP",
+    "descriptor": "DD BRISTOL CITY COUNCIL",
+    "counterparty": "Bristol City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0043",
+    "bookingDate": "2026-07-01",
+    "amount": -89,
+    "currency": "GBP",
+    "descriptor": "DD DAVID LLOYD CLUBS",
+    "counterparty": "David Lloyd Leisure",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0044",
+    "bookingDate": "2026-07-03",
+    "amount": -38.85,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0045",
+    "bookingDate": "2026-07-04",
+    "amount": -41.72,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 5520",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0046",
+    "bookingDate": "2026-07-07",
+    "amount": -9.49,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN DIGITAL*KU",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0047",
+    "bookingDate": "2026-07-08",
+    "amount": -20.91,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN Mktp UK*7XIA",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0048",
+    "bookingDate": "2026-07-09",
+    "amount": -26.95,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0049",
+    "bookingDate": "2026-07-10",
+    "amount": -71.72,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0050",
+    "bookingDate": "2026-07-11",
+    "amount": -5.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0051",
+    "bookingDate": "2026-07-14",
+    "amount": -83.33,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO KLARNA*CURRYS",
+    "counterparty": "Klarna",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0052",
+    "bookingDate": "2026-07-14",
+    "amount": -15.44,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0053",
+    "bookingDate": "2026-07-16",
+    "amount": -121.94,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0054",
+    "bookingDate": "2026-07-18",
+    "amount": -120,
+    "currency": "GBP",
+    "descriptor": "DD EDF ENERGY",
+    "counterparty": "EDF Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0055",
+    "bookingDate": "2026-07-20",
+    "amount": -72,
+    "currency": "GBP",
+    "descriptor": "DD VIRGIN MEDIA",
+    "counterparty": "Virgin Media",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0056",
+    "bookingDate": "2026-07-23",
+    "amount": -29.54,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0057",
+    "bookingDate": "2026-07-24",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P4C0M7YS2D",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0058",
+    "bookingDate": "2026-07-26",
+    "amount": -109.2,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0059",
+    "bookingDate": "2026-07-28",
+    "amount": 2640,
+    "currency": "GBP",
+    "descriptor": "BGC AVONSIDE ENG SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0060",
+    "bookingDate": "2026-07-28",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NOWTV.COM",
+    "counterparty": "NOW",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0061",
+    "bookingDate": "2026-07-30",
+    "amount": -29.53,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0062",
+    "bookingDate": "2026-07-31",
+    "amount": -28.64,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0063",
+    "bookingDate": "2026-08-03",
+    "amount": -81.55,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0064",
+    "bookingDate": "2026-08-03",
+    "amount": -178,
+    "currency": "GBP",
+    "descriptor": "DD BRISTOL CITY COUNCIL",
+    "counterparty": "Bristol City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0065",
+    "bookingDate": "2026-08-03",
+    "amount": -89,
+    "currency": "GBP",
+    "descriptor": "DD DAVID LLOYD CLUBS",
+    "counterparty": "David Lloyd Leisure",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0066",
+    "bookingDate": "2026-08-06",
+    "amount": -95.39,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0067",
+    "bookingDate": "2026-08-07",
+    "amount": -9.49,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN DIGITAL*KU",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0068",
+    "bookingDate": "2026-08-07",
+    "amount": -97.13,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0069",
+    "bookingDate": "2026-08-09",
+    "amount": -19.33,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0070",
+    "bookingDate": "2026-08-09",
+    "amount": -23.32,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO KLARNA*ASOS",
+    "counterparty": "Klarna",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0071",
+    "bookingDate": "2026-08-10",
+    "amount": -74.62,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SHELL FISHPONDS",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0072",
+    "bookingDate": "2026-08-11",
+    "amount": -5.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0073",
+    "bookingDate": "2026-08-14",
+    "amount": -83.33,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO KLARNA*CURRYS",
+    "counterparty": "Klarna",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0074",
+    "bookingDate": "2026-08-16",
+    "amount": -37.26,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0075",
+    "bookingDate": "2026-08-18",
+    "amount": -120,
+    "currency": "GBP",
+    "descriptor": "DD EDF ENERGY",
+    "counterparty": "EDF Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0076",
+    "bookingDate": "2026-08-20",
+    "amount": -72,
+    "currency": "GBP",
+    "descriptor": "DD VIRGIN MEDIA",
+    "counterparty": "Virgin Media",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0077",
+    "bookingDate": "2026-08-22",
+    "amount": -44.85,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0078",
+    "bookingDate": "2026-08-24",
+    "amount": -81.91,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0079",
+    "bookingDate": "2026-08-24",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P4D5N1ZT6E",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0080",
+    "bookingDate": "2026-08-27",
+    "amount": -35.06,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 5520",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0081",
+    "bookingDate": "2026-08-28",
+    "amount": 2640,
+    "currency": "GBP",
+    "descriptor": "BGC AVONSIDE ENG SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0082",
+    "bookingDate": "2026-08-28",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NOWTV.COM",
+    "counterparty": "NOW",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0083",
+    "bookingDate": "2026-09-01",
+    "amount": -178,
+    "currency": "GBP",
+    "descriptor": "DD BRISTOL CITY COUNCIL",
+    "counterparty": "Bristol City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0084",
+    "bookingDate": "2026-09-01",
+    "amount": -89,
+    "currency": "GBP",
+    "descriptor": "DD DAVID LLOYD CLUBS",
+    "counterparty": "David Lloyd Leisure",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0085",
+    "bookingDate": "2026-09-02",
+    "amount": -48.74,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SHELL FISHPONDS",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0086",
+    "bookingDate": "2026-09-03",
+    "amount": -39.29,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN Mktp UK*E4XU",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0087",
+    "bookingDate": "2026-09-04",
+    "amount": -65.64,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0088",
+    "bookingDate": "2026-09-07",
+    "amount": -9.49,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN DIGITAL*KU",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0089",
+    "bookingDate": "2026-09-09",
+    "amount": -23.32,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO KLARNA*ASOS",
+    "counterparty": "Klarna",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0090",
+    "bookingDate": "2026-09-10",
+    "amount": -56.79,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0091",
+    "bookingDate": "2026-09-11",
+    "amount": -5.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0092",
+    "bookingDate": "2026-09-12",
+    "amount": -65.02,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0093",
+    "bookingDate": "2026-09-14",
+    "amount": -83.33,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO KLARNA*CURRYS",
+    "counterparty": "Klarna",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0094",
+    "bookingDate": "2026-09-14",
+    "amount": -128.37,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0095",
+    "bookingDate": "2026-09-15",
+    "amount": -88.77,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0096",
+    "bookingDate": "2026-09-16",
+    "amount": -30.64,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0097",
+    "bookingDate": "2026-09-18",
+    "amount": -120,
+    "currency": "GBP",
+    "descriptor": "DD EDF ENERGY",
+    "counterparty": "EDF Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0098",
+    "bookingDate": "2026-09-20",
+    "amount": -47.32,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 5520",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0099",
+    "bookingDate": "2026-09-20",
+    "amount": -72,
+    "currency": "GBP",
+    "descriptor": "DD VIRGIN MEDIA",
+    "counterparty": "Virgin Media",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0100",
+    "bookingDate": "2026-09-24",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P4E9P6AU0F",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0101",
+    "bookingDate": "2026-09-25",
+    "amount": -16.27,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0102",
+    "bookingDate": "2026-09-26",
+    "amount": -7.12,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN Mktp UK*B7N5",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0103",
+    "bookingDate": "2026-09-27",
+    "amount": -31.61,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0104",
+    "bookingDate": "2026-09-28",
+    "amount": 2640,
+    "currency": "GBP",
+    "descriptor": "BGC AVONSIDE ENG SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0105",
+    "bookingDate": "2026-09-28",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NOWTV.COM",
+    "counterparty": "NOW",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0106",
+    "bookingDate": "2026-09-29",
+    "amount": -136.13,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 5520",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0107",
+    "bookingDate": "2026-09-30",
+    "amount": -49.95,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SHELL FISHPONDS",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0108",
+    "bookingDate": "2026-10-01",
+    "amount": -178,
+    "currency": "GBP",
+    "descriptor": "DD BRISTOL CITY COUNCIL",
+    "counterparty": "Bristol City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0109",
+    "bookingDate": "2026-10-01",
+    "amount": -89,
+    "currency": "GBP",
+    "descriptor": "DD DAVID LLOYD CLUBS",
+    "counterparty": "David Lloyd Leisure",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0110",
+    "bookingDate": "2026-10-02",
+    "amount": -85.4,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0111",
+    "bookingDate": "2026-10-03",
+    "amount": -9.02,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 5520",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0112",
+    "bookingDate": "2026-10-07",
+    "amount": -9.49,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN DIGITAL*KU",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0113",
+    "bookingDate": "2026-10-09",
+    "amount": -23.32,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO KLARNA*ASOS",
+    "counterparty": "Klarna",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0114",
+    "bookingDate": "2026-10-11",
+    "amount": -5.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0115",
+    "bookingDate": "2026-10-14",
+    "amount": -83.33,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO KLARNA*CURRYS",
+    "counterparty": "Klarna",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0116",
+    "bookingDate": "2026-10-16",
+    "amount": -92.7,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0117",
+    "bookingDate": "2026-10-18",
+    "amount": -120,
+    "currency": "GBP",
+    "descriptor": "DD EDF ENERGY",
+    "counterparty": "EDF Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0118",
+    "bookingDate": "2026-10-19",
+    "amount": -39.3,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 5520",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0119",
+    "bookingDate": "2026-10-20",
+    "amount": -72,
+    "currency": "GBP",
+    "descriptor": "DD VIRGIN MEDIA",
+    "counterparty": "Virgin Media",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0120",
+    "bookingDate": "2026-10-24",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P4F3Q2BV5G",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0121",
+    "bookingDate": "2026-10-25",
+    "amount": -23.95,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0122",
+    "bookingDate": "2026-10-28",
+    "amount": 2640,
+    "currency": "GBP",
+    "descriptor": "BGC AVONSIDE ENG SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0123",
+    "bookingDate": "2026-10-28",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO NOWTV.COM",
+    "counterparty": "NOW",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0124",
+    "bookingDate": "2026-10-28",
+    "amount": -38.98,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 5520",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H3-0125",
+    "bookingDate": "2026-10-30",
+    "amount": -82.44,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB BRISTOL",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  }
+]

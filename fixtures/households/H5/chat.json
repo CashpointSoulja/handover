@@ -1,0 +1,61 @@
+[
+  {
+    "id": "m1",
+    "at": "2026-09-14T21:00:00",
+    "from": "member",
+    "author": "Claire",
+    "text": "Cancelled disney today, nobody watches it anymore"
+  },
+  {
+    "id": "m2",
+    "at": "2026-09-14T21:01:00",
+    "from": "nous",
+    "text": "Thanks Claire. We've made a note."
+  },
+  {
+    "id": "m3",
+    "at": "2026-10-01T08:22:00",
+    "from": "member",
+    "author": "Claire",
+    "text": "Leave audible pls, I listen on the school run x",
+    "signals": [
+      {
+        "payment": "audible",
+        "kind": "keep"
+      }
+    ]
+  },
+  {
+    "id": "m4",
+    "at": "2026-10-02T19:47:00",
+    "from": "member",
+    "author": "Claire",
+    "text": "cancelled britbox too. they said there's one last bill"
+  },
+  {
+    "id": "m5",
+    "at": "2026-10-17T22:30:00",
+    "from": "member",
+    "author": "Claire",
+    "text": "the photo app was for a school project, dont need it now",
+    "signals": [
+      {
+        "payment": "picsart",
+        "kind": "unused"
+      }
+    ]
+  },
+  {
+    "id": "m6",
+    "at": "2026-10-25T21:05:00",
+    "from": "member",
+    "author": "Claire",
+    "text": "and mubi was for my film course which finished. can go x",
+    "signals": [
+      {
+        "payment": "mubi",
+        "kind": "unused"
+      }
+    ]
+  }
+]

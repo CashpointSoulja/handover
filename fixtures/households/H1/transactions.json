@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "H1-0001",
+    "bookingDate": "2026-05-01",
+    "amount": -152,
+    "currency": "GBP",
+    "descriptor": "DD LB LEWISHAM CTAX",
+    "counterparty": "London Borough of Lewisham",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0002",
+    "bookingDate": "2026-05-01",
+    "amount": -58,
+    "currency": "GBP",
+    "descriptor": "DD SKY DIGITAL",
+    "counterparty": "Sky UK",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0003",
+    "bookingDate": "2026-05-01",
+    "amount": -78.74,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0004",
+    "bookingDate": "2026-05-03",
+    "amount": -2.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0005",
+    "bookingDate": "2026-05-03",
+    "amount": -37.11,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0006",
+    "bookingDate": "2026-05-05",
+    "amount": -96,
+    "currency": "GBP",
+    "descriptor": "DD OCTOPUS ENERGY",
+    "counterparty": "Octopus Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0007",
+    "bookingDate": "2026-05-06",
+    "amount": -58.76,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0008",
+    "bookingDate": "2026-05-09",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0009",
+    "bookingDate": "2026-05-11",
+    "amount": -62.89,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0010",
+    "bookingDate": "2026-05-12",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P2F8K3QX1A",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0011",
+    "bookingDate": "2026-05-12",
+    "amount": -107.11,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0012",
+    "bookingDate": "2026-05-13",
+    "amount": -40.32,
+    "currency": "GBP",
+    "descriptor": "SHELL LEWISHAM",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0013",
+    "bookingDate": "2026-05-15",
+    "amount": -34.5,
+    "currency": "GBP",
+    "descriptor": "DD THAMES WATER",
+    "counterparty": "Thames Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0014",
+    "bookingDate": "2026-05-15",
+    "amount": -15.79,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0015",
+    "bookingDate": "2026-05-17",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0016",
+    "bookingDate": "2026-05-22",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "READLY",
+    "counterparty": "Readly",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0017",
+    "bookingDate": "2026-05-22",
+    "amount": -27.79,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0018",
+    "bookingDate": "2026-05-24",
+    "amount": -24.82,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0019",
+    "bookingDate": "2026-05-25",
+    "amount": 2480,
+    "currency": "GBP",
+    "descriptor": "BGC HARGREAVE LTD SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0020",
+    "bookingDate": "2026-05-25",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *YouTube",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0021",
+    "bookingDate": "2026-05-25",
+    "amount": -132.58,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0022",
+    "bookingDate": "2026-05-27",
+    "amount": -52.43,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0023",
+    "bookingDate": "2026-05-28",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "AMZNPrime*2K4L9X0Q4",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0024",
+    "bookingDate": "2026-05-29",
+    "amount": -128.93,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0025",
+    "bookingDate": "2026-05-30",
+    "amount": -87,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0026",
+    "bookingDate": "2026-06-01",
+    "amount": -152,
+    "currency": "GBP",
+    "descriptor": "DD LB LEWISHAM CTAX",
+    "counterparty": "London Borough of Lewisham",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0027",
+    "bookingDate": "2026-06-01",
+    "amount": -58,
+    "currency": "GBP",
+    "descriptor": "DD SKY DIGITAL",
+    "counterparty": "Sky UK",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0028",
+    "bookingDate": "2026-06-02",
+    "amount": -39.11,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0029",
+    "bookingDate": "2026-06-03",
+    "amount": -2.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0030",
+    "bookingDate": "2026-06-03",
+    "amount": -89.9,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0031",
+    "bookingDate": "2026-06-05",
+    "amount": -96,
+    "currency": "GBP",
+    "descriptor": "DD OCTOPUS ENERGY",
+    "counterparty": "Octopus Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0032",
+    "bookingDate": "2026-06-07",
+    "amount": -23.37,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0033",
+    "bookingDate": "2026-06-08",
+    "amount": -92.33,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0034",
+    "bookingDate": "2026-06-09",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0035",
+    "bookingDate": "2026-06-10",
+    "amount": -109.07,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0036",
+    "bookingDate": "2026-06-11",
+    "amount": -93.92,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0037",
+    "bookingDate": "2026-06-12",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P2G1M7RT4C",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0038",
+    "bookingDate": "2026-06-13",
+    "amount": -98.23,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0039",
+    "bookingDate": "2026-06-15",
+    "amount": -34.5,
+    "currency": "GBP",
+    "descriptor": "DD THAMES WATER",
+    "counterparty": "Thames Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0040",
+    "bookingDate": "2026-06-16",
+    "amount": -116.52,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0041",
+    "bookingDate": "2026-06-17",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0042",
+    "bookingDate": "2026-06-20",
+    "amount": -73.73,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0043",
+    "bookingDate": "2026-06-21",
+    "amount": -132.87,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0044",
+    "bookingDate": "2026-06-22",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "READLY",
+    "counterparty": "Readly",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0045",
+    "bookingDate": "2026-06-24",
+    "amount": -95.1,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0046",
+    "bookingDate": "2026-06-25",
+    "amount": 2480,
+    "currency": "GBP",
+    "descriptor": "BGC HARGREAVE LTD SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0047",
+    "bookingDate": "2026-06-25",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *YouTube",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0048",
+    "bookingDate": "2026-06-26",
+    "amount": -91.68,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0049",
+    "bookingDate": "2026-06-28",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "AMZNPrime*R83KD1MZ0",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0050",
+    "bookingDate": "2026-06-28",
+    "amount": -22.07,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0051",
+    "bookingDate": "2026-07-01",
+    "amount": -152,
+    "currency": "GBP",
+    "descriptor": "DD LB LEWISHAM CTAX",
+    "counterparty": "London Borough of Lewisham",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0052",
+    "bookingDate": "2026-07-01",
+    "amount": -58,
+    "currency": "GBP",
+    "descriptor": "DD SKY DIGITAL",
+    "counterparty": "Sky UK",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0053",
+    "bookingDate": "2026-07-03",
+    "amount": -2.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0054",
+    "bookingDate": "2026-07-05",
+    "amount": -96,
+    "currency": "GBP",
+    "descriptor": "DD OCTOPUS ENERGY",
+    "counterparty": "Octopus Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0055",
+    "bookingDate": "2026-07-05",
+    "amount": -59.29,
+    "currency": "GBP",
+    "descriptor": "SHELL LEWISHAM",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0056",
+    "bookingDate": "2026-07-06",
+    "amount": -101.17,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0057",
+    "bookingDate": "2026-07-09",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0058",
+    "bookingDate": "2026-07-11",
+    "amount": -49.08,
+    "currency": "GBP",
+    "descriptor": "SHELL LEWISHAM",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0059",
+    "bookingDate": "2026-07-12",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P2H6V0LW8E",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0060",
+    "bookingDate": "2026-07-13",
+    "amount": -118.13,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0061",
+    "bookingDate": "2026-07-15",
+    "amount": -34.5,
+    "currency": "GBP",
+    "descriptor": "DD THAMES WATER",
+    "counterparty": "Thames Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0062",
+    "bookingDate": "2026-07-16",
+    "amount": 18.49,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK refund",
+    "counterparty": "Amazon",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0063",
+    "bookingDate": "2026-07-17",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0064",
+    "bookingDate": "2026-07-17",
+    "amount": -43.2,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0065",
+    "bookingDate": "2026-07-18",
+    "amount": -50.51,
+    "currency": "GBP",
+    "descriptor": "SHELL LEWISHAM",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0066",
+    "bookingDate": "2026-07-19",
+    "amount": -78.21,
+    "currency": "GBP",
+    "descriptor": "SHELL LEWISHAM",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0067",
+    "bookingDate": "2026-07-22",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "READLY",
+    "counterparty": "Readly",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0068",
+    "bookingDate": "2026-07-25",
+    "amount": 2480,
+    "currency": "GBP",
+    "descriptor": "BGC HARGREAVE LTD SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0069",
+    "bookingDate": "2026-07-25",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *YouTube",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0070",
+    "bookingDate": "2026-07-28",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "AMZNPrime*7QW2C5HJ1",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0071",
+    "bookingDate": "2026-08-02",
+    "amount": -25.33,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0072",
+    "bookingDate": "2026-08-03",
+    "amount": -2.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0073",
+    "bookingDate": "2026-08-03",
+    "amount": -152,
+    "currency": "GBP",
+    "descriptor": "DD LB LEWISHAM CTAX",
+    "counterparty": "London Borough of Lewisham",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0074",
+    "bookingDate": "2026-08-03",
+    "amount": -58,
+    "currency": "GBP",
+    "descriptor": "DD SKY DIGITAL",
+    "counterparty": "Sky UK",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0075",
+    "bookingDate": "2026-08-04",
+    "amount": -62.27,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0076",
+    "bookingDate": "2026-08-05",
+    "amount": -96,
+    "currency": "GBP",
+    "descriptor": "DD OCTOPUS ENERGY",
+    "counterparty": "Octopus Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0077",
+    "bookingDate": "2026-08-06",
+    "amount": -85.64,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0078",
+    "bookingDate": "2026-08-07",
+    "amount": -53.05,
+    "currency": "GBP",
+    "descriptor": "SHELL LEWISHAM",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0079",
+    "bookingDate": "2026-08-08",
+    "amount": -48,
+    "currency": "GBP",
+    "descriptor": "SHELL LEWISHAM",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0080",
+    "bookingDate": "2026-08-09",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0081",
+    "bookingDate": "2026-08-11",
+    "amount": -59.02,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0082",
+    "bookingDate": "2026-08-12",
+    "amount": -96.27,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0083",
+    "bookingDate": "2026-08-12",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P2J3B9QZ2D",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0084",
+    "bookingDate": "2026-08-15",
+    "amount": -34.5,
+    "currency": "GBP",
+    "descriptor": "DD THAMES WATER",
+    "counterparty": "Thames Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0085",
+    "bookingDate": "2026-08-15",
+    "amount": -82.57,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0086",
+    "bookingDate": "2026-08-17",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0087",
+    "bookingDate": "2026-08-17",
+    "amount": -33.66,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0088",
+    "bookingDate": "2026-08-21",
+    "amount": -117.14,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0089",
+    "bookingDate": "2026-08-22",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "READLY",
+    "counterparty": "Readly",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0090",
+    "bookingDate": "2026-08-25",
+    "amount": 2480,
+    "currency": "GBP",
+    "descriptor": "BGC HARGREAVE LTD SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0091",
+    "bookingDate": "2026-08-25",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *YouTube",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0092",
+    "bookingDate": "2026-08-26",
+    "amount": -123.11,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0093",
+    "bookingDate": "2026-08-28",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "AMZNPrime*M1P6Z0TB8",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0094",
+    "bookingDate": "2026-08-28",
+    "amount": -86.77,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0095",
+    "bookingDate": "2026-08-29",
+    "amount": -42.68,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0096",
+    "bookingDate": "2026-09-01",
+    "amount": -152,
+    "currency": "GBP",
+    "descriptor": "DD LB LEWISHAM CTAX",
+    "counterparty": "London Borough of Lewisham",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0097",
+    "bookingDate": "2026-09-01",
+    "amount": -58,
+    "currency": "GBP",
+    "descriptor": "DD SKY DIGITAL",
+    "counterparty": "Sky UK",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0098",
+    "bookingDate": "2026-09-03",
+    "amount": -2.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0099",
+    "bookingDate": "2026-09-05",
+    "amount": -96,
+    "currency": "GBP",
+    "descriptor": "DD OCTOPUS ENERGY",
+    "counterparty": "Octopus Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0100",
+    "bookingDate": "2026-09-05",
+    "amount": -129.15,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0101",
+    "bookingDate": "2026-09-07",
+    "amount": -15.32,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*BKBJ",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0102",
+    "bookingDate": "2026-09-08",
+    "amount": -135.23,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0103",
+    "bookingDate": "2026-09-09",
+    "amount": -29.62,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*45QN",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0104",
+    "bookingDate": "2026-09-09",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0105",
+    "bookingDate": "2026-09-10",
+    "amount": -59.74,
+    "currency": "GBP",
+    "descriptor": "SHELL LEWISHAM",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0106",
+    "bookingDate": "2026-09-11",
+    "amount": -60.69,
+    "currency": "GBP",
+    "descriptor": "SHELL LEWISHAM",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0107",
+    "bookingDate": "2026-09-12",
+    "amount": -92.3,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0108",
+    "bookingDate": "2026-09-12",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P2K8D4XN6F",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0109",
+    "bookingDate": "2026-09-13",
+    "amount": -69.82,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0110",
+    "bookingDate": "2026-09-14",
+    "amount": -57.84,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*7J29",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0111",
+    "bookingDate": "2026-09-15",
+    "amount": -34.5,
+    "currency": "GBP",
+    "descriptor": "DD THAMES WATER",
+    "counterparty": "Thames Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0112",
+    "bookingDate": "2026-09-17",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0113",
+    "bookingDate": "2026-09-17",
+    "amount": -86.99,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0114",
+    "bookingDate": "2026-09-22",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "READLY",
+    "counterparty": "Readly",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0115",
+    "bookingDate": "2026-09-23",
+    "amount": -18,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*5UF1",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0116",
+    "bookingDate": "2026-09-25",
+    "amount": 2480,
+    "currency": "GBP",
+    "descriptor": "BGC HARGREAVE LTD SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0117",
+    "bookingDate": "2026-09-25",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *YouTube",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0118",
+    "bookingDate": "2026-09-27",
+    "amount": -47.96,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0119",
+    "bookingDate": "2026-09-28",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "AMZNPrime*HJ2V8N3K5",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0120",
+    "bookingDate": "2026-09-28",
+    "amount": -127.56,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0121",
+    "bookingDate": "2026-09-29",
+    "amount": -61.8,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0122",
+    "bookingDate": "2026-09-30",
+    "amount": -66.68,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0123",
+    "bookingDate": "2026-10-01",
+    "amount": -152,
+    "currency": "GBP",
+    "descriptor": "DD LB LEWISHAM CTAX",
+    "counterparty": "London Borough of Lewisham",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0124",
+    "bookingDate": "2026-10-01",
+    "amount": -58,
+    "currency": "GBP",
+    "descriptor": "DD SKY DIGITAL",
+    "counterparty": "Sky UK",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0125",
+    "bookingDate": "2026-10-03",
+    "amount": -2.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0126",
+    "bookingDate": "2026-10-04",
+    "amount": -62.78,
+    "currency": "GBP",
+    "descriptor": "SHELL LEWISHAM",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0127",
+    "bookingDate": "2026-10-05",
+    "amount": -96,
+    "currency": "GBP",
+    "descriptor": "DD OCTOPUS ENERGY",
+    "counterparty": "Octopus Energy",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0128",
+    "bookingDate": "2026-10-06",
+    "amount": -11.62,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0129",
+    "bookingDate": "2026-10-07",
+    "amount": -42.52,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*HWJT",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0130",
+    "bookingDate": "2026-10-09",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "NETFLIX.COM",
+    "counterparty": "Netflix",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0131",
+    "bookingDate": "2026-10-11",
+    "amount": -33.13,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*9JA0",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0132",
+    "bookingDate": "2026-10-12",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P2L2T5HY9G",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0133",
+    "bookingDate": "2026-10-13",
+    "amount": -30.95,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0134",
+    "bookingDate": "2026-10-15",
+    "amount": -34.5,
+    "currency": "GBP",
+    "descriptor": "DD THAMES WATER",
+    "counterparty": "Thames Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0135",
+    "bookingDate": "2026-10-17",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0136",
+    "bookingDate": "2026-10-21",
+    "amount": -41.43,
+    "currency": "GBP",
+    "descriptor": "SHELL LEWISHAM",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0137",
+    "bookingDate": "2026-10-22",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "READLY",
+    "counterparty": "Readly",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0138",
+    "bookingDate": "2026-10-23",
+    "amount": -60.09,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 2041",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0139",
+    "bookingDate": "2026-10-25",
+    "amount": 2480,
+    "currency": "GBP",
+    "descriptor": "BGC HARGREAVE LTD SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0140",
+    "bookingDate": "2026-10-25",
+    "amount": -12.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *YouTube",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0141",
+    "bookingDate": "2026-10-26",
+    "amount": -38.13,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*A8G7",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0142",
+    "bookingDate": "2026-10-28",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "AMZNPrime*Q71HT2LD9",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0143",
+    "bookingDate": "2026-10-28",
+    "amount": -78.12,
+    "currency": "GBP",
+    "descriptor": "LIDL GB LEWISHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H1-0144",
+    "bookingDate": "2026-10-31",
+    "amount": -21.46,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  }
+]

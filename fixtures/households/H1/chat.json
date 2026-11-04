@@ -1,0 +1,50 @@
+[
+  {
+    "id": "m1",
+    "at": "2026-08-03T18:05:00",
+    "from": "nous",
+    "text": "Hi Ngozi, quick one. There's a £2.99 Apple charge every month. Do you know what it's for?",
+    "buttons": [
+      "iCloud storage",
+      "Not sure"
+    ]
+  },
+  {
+    "id": "m2",
+    "at": "2026-08-03T18:31:00",
+    "from": "member",
+    "author": "Ngozi",
+    "text": "its the icloud storage, keep that pls x",
+    "signals": [
+      {
+        "payment": "apple_bill_299",
+        "kind": "identified",
+        "service": "icloud_plus"
+      },
+      {
+        "payment": "apple_bill_299",
+        "kind": "keep"
+      }
+    ]
+  },
+  {
+    "id": "m3",
+    "at": "2026-09-27T21:12:00",
+    "from": "member",
+    "author": "Ngozi",
+    "text": "we stopped using readly ages ago btw, cant remember the last time i opened it",
+    "signals": [
+      {
+        "payment": "readly",
+        "kind": "unused"
+      }
+    ]
+  },
+  {
+    "id": "m4",
+    "at": "2026-10-12T07:48:00",
+    "from": "member",
+    "author": "Ngozi",
+    "text": "also think we get netflix thru the sky box?? kids watch it on there"
+  }
+]

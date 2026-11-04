@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "H2-0001",
+    "bookingDate": "2025-10-28",
+    "amount": -95,
+    "currency": "GBP",
+    "descriptor": "AMZNPrime*T4K2R8P10",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cc"
+  },
+  {
+    "id": "H2-0002",
+    "bookingDate": "2026-05-01",
+    "amount": -37.23,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0003",
+    "bookingDate": "2026-05-01",
+    "amount": -141,
+    "currency": "GBP",
+    "descriptor": "DD BIRMINGHAM CITY COUNCIL",
+    "counterparty": "Birmingham City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0004",
+    "bookingDate": "2026-05-02",
+    "amount": -24.99,
+    "currency": "GBP",
+    "descriptor": "PUREGYM",
+    "counterparty": "PureGym",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0005",
+    "bookingDate": "2026-05-03",
+    "amount": -25.58,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0006",
+    "bookingDate": "2026-05-04",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0007",
+    "bookingDate": "2026-05-05",
+    "amount": -24.95,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0008",
+    "bookingDate": "2026-05-06",
+    "amount": -95.24,
+    "currency": "GBP",
+    "descriptor": "ASDA STORES 4419",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0009",
+    "bookingDate": "2026-05-06",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P3A7Q2WX5B",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0010",
+    "bookingDate": "2026-05-09",
+    "amount": -58.68,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0011",
+    "bookingDate": "2026-05-10",
+    "amount": -53.68,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0012",
+    "bookingDate": "2026-05-11",
+    "amount": -21.89,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0013",
+    "bookingDate": "2026-05-11",
+    "amount": -0.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0014",
+    "bookingDate": "2026-05-11",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0015",
+    "bookingDate": "2026-05-12",
+    "amount": -82,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0016",
+    "bookingDate": "2026-05-15",
+    "amount": -114.62,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0017",
+    "bookingDate": "2026-05-18",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0018",
+    "bookingDate": "2026-05-18",
+    "amount": -46.12,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0019",
+    "bookingDate": "2026-05-19",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0020",
+    "bookingDate": "2026-05-20",
+    "amount": -56.26,
+    "currency": "GBP",
+    "descriptor": "ASDA STORES 4419",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0021",
+    "bookingDate": "2026-05-25",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0022",
+    "bookingDate": "2026-05-26",
+    "amount": -96.22,
+    "currency": "GBP",
+    "descriptor": "ASDA STORES 4419",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0023",
+    "bookingDate": "2026-05-27",
+    "amount": 2215,
+    "currency": "GBP",
+    "descriptor": "BGC WMNHS SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0024",
+    "bookingDate": "2026-05-30",
+    "amount": -13.63,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0025",
+    "bookingDate": "2026-06-01",
+    "amount": -141,
+    "currency": "GBP",
+    "descriptor": "DD BIRMINGHAM CITY COUNCIL",
+    "counterparty": "Birmingham City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0026",
+    "bookingDate": "2026-06-01",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0027",
+    "bookingDate": "2026-06-02",
+    "amount": -33.29,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0028",
+    "bookingDate": "2026-06-02",
+    "amount": -24.99,
+    "currency": "GBP",
+    "descriptor": "PUREGYM",
+    "counterparty": "PureGym",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0029",
+    "bookingDate": "2026-06-06",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P3B1R8YK0C",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0030",
+    "bookingDate": "2026-06-07",
+    "amount": -54.28,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0031",
+    "bookingDate": "2026-06-08",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0032",
+    "bookingDate": "2026-06-11",
+    "amount": -0.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0033",
+    "bookingDate": "2026-06-12",
+    "amount": -82,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0034",
+    "bookingDate": "2026-06-15",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0035",
+    "bookingDate": "2026-06-19",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0036",
+    "bookingDate": "2026-06-20",
+    "amount": -87.72,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0037",
+    "bookingDate": "2026-06-22",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0038",
+    "bookingDate": "2026-06-24",
+    "amount": -67.95,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0039",
+    "bookingDate": "2026-06-27",
+    "amount": 2215,
+    "currency": "GBP",
+    "descriptor": "BGC WMNHS SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0040",
+    "bookingDate": "2026-06-27",
+    "amount": -66.77,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0041",
+    "bookingDate": "2026-06-28",
+    "amount": -37.36,
+    "currency": "GBP",
+    "descriptor": "ASDA STORES 4419",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0042",
+    "bookingDate": "2026-06-29",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0043",
+    "bookingDate": "2026-06-29",
+    "amount": -93.91,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0044",
+    "bookingDate": "2026-07-01",
+    "amount": -141,
+    "currency": "GBP",
+    "descriptor": "DD BIRMINGHAM CITY COUNCIL",
+    "counterparty": "Birmingham City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0045",
+    "bookingDate": "2026-07-01",
+    "amount": -52.62,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0046",
+    "bookingDate": "2026-07-02",
+    "amount": -24.99,
+    "currency": "GBP",
+    "descriptor": "PUREGYM",
+    "counterparty": "PureGym",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0047",
+    "bookingDate": "2026-07-03",
+    "amount": -84.29,
+    "currency": "GBP",
+    "descriptor": "ASDA STORES 4419",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0048",
+    "bookingDate": "2026-07-05",
+    "amount": -38.08,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0049",
+    "bookingDate": "2026-07-06",
+    "amount": -21.58,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*ATN4",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0050",
+    "bookingDate": "2026-07-06",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0051",
+    "bookingDate": "2026-07-06",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P3C6S3ZN4D",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0052",
+    "bookingDate": "2026-07-08",
+    "amount": -57.27,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0053",
+    "bookingDate": "2026-07-10",
+    "amount": -56.3,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*P9X",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0054",
+    "bookingDate": "2026-07-11",
+    "amount": -0.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0055",
+    "bookingDate": "2026-07-12",
+    "amount": -82,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0056",
+    "bookingDate": "2026-07-13",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0057",
+    "bookingDate": "2026-07-14",
+    "amount": -82.9,
+    "currency": "GBP",
+    "descriptor": "ASDA STORES 4419",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0058",
+    "bookingDate": "2026-07-15",
+    "amount": -45.77,
+    "currency": "GBP",
+    "descriptor": "ASDA STORES 4419",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0059",
+    "bookingDate": "2026-07-16",
+    "amount": -62.62,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0060",
+    "bookingDate": "2026-07-18",
+    "amount": -82.24,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0061",
+    "bookingDate": "2026-07-19",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0062",
+    "bookingDate": "2026-07-20",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0063",
+    "bookingDate": "2026-07-25",
+    "amount": -89.07,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0064",
+    "bookingDate": "2026-07-27",
+    "amount": 2215,
+    "currency": "GBP",
+    "descriptor": "BGC WMNHS SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0065",
+    "bookingDate": "2026-07-27",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0066",
+    "bookingDate": "2026-07-27",
+    "amount": -137.28,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0067",
+    "bookingDate": "2026-07-30",
+    "amount": -28.59,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*EJIX",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0068",
+    "bookingDate": "2026-07-31",
+    "amount": -99.97,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0069",
+    "bookingDate": "2026-08-02",
+    "amount": -24.99,
+    "currency": "GBP",
+    "descriptor": "PUREGYM",
+    "counterparty": "PureGym",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0070",
+    "bookingDate": "2026-08-03",
+    "amount": -141,
+    "currency": "GBP",
+    "descriptor": "DD BIRMINGHAM CITY COUNCIL",
+    "counterparty": "Birmingham City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0071",
+    "bookingDate": "2026-08-03",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0072",
+    "bookingDate": "2026-08-06",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P3D2T9AM7E",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0073",
+    "bookingDate": "2026-08-07",
+    "amount": -13.58,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0074",
+    "bookingDate": "2026-08-09",
+    "amount": -78.44,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0075",
+    "bookingDate": "2026-08-10",
+    "amount": -46.22,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0076",
+    "bookingDate": "2026-08-10",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0077",
+    "bookingDate": "2026-08-11",
+    "amount": -0.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0078",
+    "bookingDate": "2026-08-11",
+    "amount": -43.86,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0079",
+    "bookingDate": "2026-08-12",
+    "amount": -82,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0080",
+    "bookingDate": "2026-08-14",
+    "amount": -32.2,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0081",
+    "bookingDate": "2026-08-15",
+    "amount": -102.3,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0082",
+    "bookingDate": "2026-08-17",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0083",
+    "bookingDate": "2026-08-18",
+    "amount": -51.95,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*72V6",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0084",
+    "bookingDate": "2026-08-19",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0085",
+    "bookingDate": "2026-08-21",
+    "amount": 24.99,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK refund",
+    "counterparty": "Amazon",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0086",
+    "bookingDate": "2026-08-21",
+    "amount": -55.77,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0087",
+    "bookingDate": "2026-08-22",
+    "amount": -13.77,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0088",
+    "bookingDate": "2026-08-24",
+    "amount": -115.93,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0089",
+    "bookingDate": "2026-08-24",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0090",
+    "bookingDate": "2026-08-27",
+    "amount": 2215,
+    "currency": "GBP",
+    "descriptor": "BGC WMNHS SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0091",
+    "bookingDate": "2026-08-27",
+    "amount": -42.24,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0092",
+    "bookingDate": "2026-08-30",
+    "amount": -97.68,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0093",
+    "bookingDate": "2026-08-31",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0094",
+    "bookingDate": "2026-09-01",
+    "amount": -141,
+    "currency": "GBP",
+    "descriptor": "DD BIRMINGHAM CITY COUNCIL",
+    "counterparty": "Birmingham City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0095",
+    "bookingDate": "2026-09-02",
+    "amount": -24.99,
+    "currency": "GBP",
+    "descriptor": "PUREGYM",
+    "counterparty": "PureGym",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0096",
+    "bookingDate": "2026-09-06",
+    "amount": -56.99,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0097",
+    "bookingDate": "2026-09-06",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P3E8U4BL1F",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0098",
+    "bookingDate": "2026-09-07",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0099",
+    "bookingDate": "2026-09-11",
+    "amount": -0.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0100",
+    "bookingDate": "2026-09-12",
+    "amount": -82,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0101",
+    "bookingDate": "2026-09-13",
+    "amount": -103.8,
+    "currency": "GBP",
+    "descriptor": "ASDA STORES 4419",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0102",
+    "bookingDate": "2026-09-14",
+    "amount": -98.96,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0103",
+    "bookingDate": "2026-09-14",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0104",
+    "bookingDate": "2026-09-15",
+    "amount": -45.72,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0105",
+    "bookingDate": "2026-09-16",
+    "amount": -68.52,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0106",
+    "bookingDate": "2026-09-19",
+    "amount": -9.99,
+    "currency": "GBP",
+    "descriptor": "DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0107",
+    "bookingDate": "2026-09-19",
+    "amount": -32.93,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0108",
+    "bookingDate": "2026-09-20",
+    "amount": -14.98,
+    "currency": "GBP",
+    "descriptor": "ASDA STORES 4419",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0109",
+    "bookingDate": "2026-09-21",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0110",
+    "bookingDate": "2026-09-25",
+    "amount": -51.69,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0111",
+    "bookingDate": "2026-09-27",
+    "amount": 2215,
+    "currency": "GBP",
+    "descriptor": "BGC WMNHS SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0112",
+    "bookingDate": "2026-09-28",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0113",
+    "bookingDate": "2026-09-29",
+    "amount": -14.47,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*9NFF",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0114",
+    "bookingDate": "2026-10-01",
+    "amount": -141,
+    "currency": "GBP",
+    "descriptor": "DD BIRMINGHAM CITY COUNCIL",
+    "counterparty": "Birmingham City Council",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0115",
+    "bookingDate": "2026-10-02",
+    "amount": -57.41,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0116",
+    "bookingDate": "2026-10-02",
+    "amount": -24.99,
+    "currency": "GBP",
+    "descriptor": "PUREGYM",
+    "counterparty": "PureGym",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0117",
+    "bookingDate": "2026-10-05",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0118",
+    "bookingDate": "2026-10-06",
+    "amount": -27.15,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0119",
+    "bookingDate": "2026-10-06",
+    "amount": -11.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P3F3V0CP6G",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0120",
+    "bookingDate": "2026-10-07",
+    "amount": -81.33,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0121",
+    "bookingDate": "2026-10-08",
+    "amount": -39.19,
+    "currency": "GBP",
+    "descriptor": "ASDA STORES 4419",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0122",
+    "bookingDate": "2026-10-09",
+    "amount": -39.14,
+    "currency": "GBP",
+    "descriptor": "ASDA STORES 4419",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0123",
+    "bookingDate": "2026-10-11",
+    "amount": -40.29,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0124",
+    "bookingDate": "2026-10-11",
+    "amount": -0.99,
+    "currency": "GBP",
+    "descriptor": "APPLE.COM/BILL",
+    "counterparty": "Apple",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0125",
+    "bookingDate": "2026-10-12",
+    "amount": -82,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0126",
+    "bookingDate": "2026-10-12",
+    "amount": -73.11,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0127",
+    "bookingDate": "2026-10-12",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0128",
+    "bookingDate": "2026-10-13",
+    "amount": -74.42,
+    "currency": "GBP",
+    "descriptor": "ALDI 61 BIRMINGHAM",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0129",
+    "bookingDate": "2026-10-14",
+    "amount": -25.78,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0130",
+    "bookingDate": "2026-10-19",
+    "amount": -10.99,
+    "currency": "GBP",
+    "descriptor": "DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0131",
+    "bookingDate": "2026-10-19",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0132",
+    "bookingDate": "2026-10-21",
+    "amount": -54.76,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0133",
+    "bookingDate": "2026-10-23",
+    "amount": -1,
+    "currency": "GBP",
+    "descriptor": "SIMPLYCOOK",
+    "counterparty": "SimplyCook",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0134",
+    "bookingDate": "2026-10-26",
+    "amount": -44.99,
+    "currency": "GBP",
+    "descriptor": "HELLOFRESH",
+    "counterparty": "HelloFresh",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0135",
+    "bookingDate": "2026-10-27",
+    "amount": 2215,
+    "currency": "GBP",
+    "descriptor": "BGC WMNHS SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0136",
+    "bookingDate": "2026-10-28",
+    "amount": -95,
+    "currency": "GBP",
+    "descriptor": "AMZNPrime*W9N3J6B27",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cc"
+  },
+  {
+    "id": "H2-0137",
+    "bookingDate": "2026-10-28",
+    "amount": -63.68,
+    "currency": "GBP",
+    "descriptor": "ESSO HALL GREEN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H2-0138",
+    "bookingDate": "2026-10-31",
+    "amount": -25.7,
+    "currency": "GBP",
+    "descriptor": "TESCO STORES 3310",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  }
+]

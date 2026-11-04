@@ -1,0 +1,35 @@
+[
+  {
+    "id": "m1",
+    "at": "2026-09-02T19:20:00",
+    "from": "member",
+    "author": "Aoife",
+    "text": "cancelled now tv today, footballs finished lol"
+  },
+  {
+    "id": "m2",
+    "at": "2026-09-02T19:21:00",
+    "from": "nous",
+    "text": "Thanks Aoife, noted. We'll keep an eye out for any more charges."
+  },
+  {
+    "id": "m3",
+    "at": "2026-10-05T08:10:00",
+    "from": "member",
+    "author": "Aoife",
+    "text": "is the gym one locked in? we signed up in january"
+  },
+  {
+    "id": "m4",
+    "at": "2026-10-19T22:03:00",
+    "from": "member",
+    "author": "Aoife",
+    "text": "kindle unlimited was from a free trial i forgot about, we dont use it",
+    "signals": [
+      {
+        "payment": "kindle_unlimited",
+        "kind": "unused"
+      }
+    ]
+  }
+]

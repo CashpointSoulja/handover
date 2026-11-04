@@ -1,0 +1,39 @@
+{
+  "id": "H6",
+  "surname": "Nwosu",
+  "member": "Tunde",
+  "mode": "manual",
+  "asOf": "2026-10-31",
+  "accounts": [
+    {
+      "id": "cur",
+      "label": "Current account ••5068"
+    },
+    {
+      "id": "cc",
+      "label": "Credit card ••7714"
+    }
+  ],
+  "story": "Manual mode. An unidentified PAYPAL *JGSOFTWARE. Adobe Creative Cloud renewed annually on 20 October. Paramount+ charged after cancelling in July and already refunded. Dropbox on two cards. A £1 Telegraph trial converting in 2 days. Netflix the member shares with their sister.",
+  "cancellations": [
+    {
+      "payment": "paramount_plus",
+      "service": "paramount_plus",
+      "cancelledOn": "2026-07-05",
+      "source": null
+    }
+  ],
+  "trials": [
+    {
+      "service": "the_telegraph",
+      "descriptor": "THE TELEGRAPH",
+      "account": "cur",
+      "startedOn": "2026-08-02",
+      "convertsOn": "2026-11-02",
+      "trialPrice": 1,
+      "fullPrice": 9,
+      "cadence": "monthly"
+    }
+  ],
+  "bundles": []
+}

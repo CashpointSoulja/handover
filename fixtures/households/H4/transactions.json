@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "H4-0001",
+    "bookingDate": "2026-05-01",
+    "amount": -14.5,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*J89D",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0002",
+    "bookingDate": "2026-05-01",
+    "amount": -164,
+    "currency": "GBP",
+    "descriptor": "DD LB CAMDEN CTAX",
+    "counterparty": "London Borough of Camden",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0003",
+    "bookingDate": "2026-05-02",
+    "amount": -89.08,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0004",
+    "bookingDate": "2026-05-03",
+    "amount": -19.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P5A8C1DQ4H",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0005",
+    "bookingDate": "2026-05-04",
+    "amount": -22.56,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*5KIQ",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0006",
+    "bookingDate": "2026-05-05",
+    "amount": -105,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0007",
+    "bookingDate": "2026-05-06",
+    "amount": -45.87,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0008",
+    "bookingDate": "2026-05-08",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MICROSOFT*365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0009",
+    "bookingDate": "2026-05-13",
+    "amount": -30.29,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0010",
+    "bookingDate": "2026-05-13",
+    "amount": -3.49,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO PLUS",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0011",
+    "bookingDate": "2026-05-15",
+    "amount": -49.52,
+    "currency": "GBP",
+    "descriptor": "BP KENTISH TOWN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0012",
+    "bookingDate": "2026-05-16",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *PLAY APPS",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0013",
+    "bookingDate": "2026-05-18",
+    "amount": -25,
+    "currency": "GBP",
+    "descriptor": "DD EE LIMITED",
+    "counterparty": "EE",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0014",
+    "bookingDate": "2026-05-19",
+    "amount": -41.48,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0015",
+    "bookingDate": "2026-05-21",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MSFT *365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cc"
+  },
+  {
+    "id": "H4-0016",
+    "bookingDate": "2026-05-22",
+    "amount": -117.48,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0017",
+    "bookingDate": "2026-05-23",
+    "amount": -46.68,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*KYVL",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0018",
+    "bookingDate": "2026-05-26",
+    "amount": 2950,
+    "currency": "GBP",
+    "descriptor": "BGC NORTHGATE DENTAL SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0019",
+    "bookingDate": "2026-05-26",
+    "amount": -8,
+    "currency": "GBP",
+    "descriptor": "TIMES & SUNDAY T",
+    "counterparty": "Times Media",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0020",
+    "bookingDate": "2026-05-30",
+    "amount": -123.6,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0021",
+    "bookingDate": "2026-06-01",
+    "amount": -164,
+    "currency": "GBP",
+    "descriptor": "DD LB CAMDEN CTAX",
+    "counterparty": "London Borough of Camden",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0022",
+    "bookingDate": "2026-06-03",
+    "amount": -105,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0023",
+    "bookingDate": "2026-06-03",
+    "amount": -19.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P5B3D6ER9J",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0024",
+    "bookingDate": "2026-06-03",
+    "amount": -71.42,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0025",
+    "bookingDate": "2026-06-06",
+    "amount": -54.12,
+    "currency": "GBP",
+    "descriptor": "BP KENTISH TOWN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0026",
+    "bookingDate": "2026-06-08",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MICROSOFT*365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0027",
+    "bookingDate": "2026-06-13",
+    "amount": -3.49,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO PLUS",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0028",
+    "bookingDate": "2026-06-13",
+    "amount": -56.74,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0029",
+    "bookingDate": "2026-06-16",
+    "amount": -29.68,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0030",
+    "bookingDate": "2026-06-16",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *PLAY APPS",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0031",
+    "bookingDate": "2026-06-17",
+    "amount": -59.02,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0032",
+    "bookingDate": "2026-06-18",
+    "amount": -25,
+    "currency": "GBP",
+    "descriptor": "DD EE LIMITED",
+    "counterparty": "EE",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0033",
+    "bookingDate": "2026-06-19",
+    "amount": -135.1,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0034",
+    "bookingDate": "2026-06-21",
+    "amount": -54.69,
+    "currency": "GBP",
+    "descriptor": "BP KENTISH TOWN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0035",
+    "bookingDate": "2026-06-21",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MSFT *365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cc"
+  },
+  {
+    "id": "H4-0036",
+    "bookingDate": "2026-06-24",
+    "amount": -87.39,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0037",
+    "bookingDate": "2026-06-26",
+    "amount": 2950,
+    "currency": "GBP",
+    "descriptor": "BGC NORTHGATE DENTAL SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0038",
+    "bookingDate": "2026-06-26",
+    "amount": -8,
+    "currency": "GBP",
+    "descriptor": "TIMES & SUNDAY T",
+    "counterparty": "Times Media",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0039",
+    "bookingDate": "2026-06-28",
+    "amount": -50.21,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0040",
+    "bookingDate": "2026-06-29",
+    "amount": -131.11,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0041",
+    "bookingDate": "2026-06-30",
+    "amount": -74.07,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0042",
+    "bookingDate": "2026-07-01",
+    "amount": -164,
+    "currency": "GBP",
+    "descriptor": "DD LB CAMDEN CTAX",
+    "counterparty": "London Borough of Camden",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0043",
+    "bookingDate": "2026-07-02",
+    "amount": -8.18,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*76PB",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0044",
+    "bookingDate": "2026-07-03",
+    "amount": -105,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0045",
+    "bookingDate": "2026-07-03",
+    "amount": -19.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P5C7E0FS3K",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0046",
+    "bookingDate": "2026-07-04",
+    "amount": -24.5,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0047",
+    "bookingDate": "2026-07-05",
+    "amount": -69.97,
+    "currency": "GBP",
+    "descriptor": "BP KENTISH TOWN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0048",
+    "bookingDate": "2026-07-06",
+    "amount": -100.94,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0049",
+    "bookingDate": "2026-07-07",
+    "amount": -34.01,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0050",
+    "bookingDate": "2026-07-08",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MICROSOFT*365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0051",
+    "bookingDate": "2026-07-12",
+    "amount": -41.71,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0052",
+    "bookingDate": "2026-07-13",
+    "amount": -3.49,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO PLUS",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0053",
+    "bookingDate": "2026-07-15",
+    "amount": -10.3,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0054",
+    "bookingDate": "2026-07-16",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *PLAY APPS",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0055",
+    "bookingDate": "2026-07-18",
+    "amount": -25,
+    "currency": "GBP",
+    "descriptor": "DD EE LIMITED",
+    "counterparty": "EE",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0056",
+    "bookingDate": "2026-07-20",
+    "amount": -24.47,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0057",
+    "bookingDate": "2026-07-21",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MSFT *365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cc"
+  },
+  {
+    "id": "H4-0058",
+    "bookingDate": "2026-07-25",
+    "amount": -76.61,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0059",
+    "bookingDate": "2026-07-26",
+    "amount": 2950,
+    "currency": "GBP",
+    "descriptor": "BGC NORTHGATE DENTAL SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0060",
+    "bookingDate": "2026-07-26",
+    "amount": -8,
+    "currency": "GBP",
+    "descriptor": "TIMES & SUNDAY T",
+    "counterparty": "Times Media",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0061",
+    "bookingDate": "2026-07-28",
+    "amount": -114.21,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0062",
+    "bookingDate": "2026-07-31",
+    "amount": -131.36,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0063",
+    "bookingDate": "2026-08-02",
+    "amount": -137.26,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0064",
+    "bookingDate": "2026-08-03",
+    "amount": -105,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0065",
+    "bookingDate": "2026-08-03",
+    "amount": -164,
+    "currency": "GBP",
+    "descriptor": "DD LB CAMDEN CTAX",
+    "counterparty": "London Borough of Camden",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0066",
+    "bookingDate": "2026-08-03",
+    "amount": -19.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P5D2F5GT8L",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0067",
+    "bookingDate": "2026-08-06",
+    "amount": -120.91,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0068",
+    "bookingDate": "2026-08-08",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MICROSOFT*365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0069",
+    "bookingDate": "2026-08-10",
+    "amount": -88.68,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0070",
+    "bookingDate": "2026-08-12",
+    "amount": -12.58,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*33H3",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0071",
+    "bookingDate": "2026-08-13",
+    "amount": -3.49,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO PLUS",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0072",
+    "bookingDate": "2026-08-16",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *PLAY APPS",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0073",
+    "bookingDate": "2026-08-18",
+    "amount": -25,
+    "currency": "GBP",
+    "descriptor": "DD EE LIMITED",
+    "counterparty": "EE",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0074",
+    "bookingDate": "2026-08-21",
+    "amount": -38.79,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0075",
+    "bookingDate": "2026-08-21",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MSFT *365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cc"
+  },
+  {
+    "id": "H4-0076",
+    "bookingDate": "2026-08-22",
+    "amount": -17.16,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0077",
+    "bookingDate": "2026-08-26",
+    "amount": 2950,
+    "currency": "GBP",
+    "descriptor": "BGC NORTHGATE DENTAL SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0078",
+    "bookingDate": "2026-08-26",
+    "amount": -8,
+    "currency": "GBP",
+    "descriptor": "TIMES & SUNDAY T",
+    "counterparty": "Times Media",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0079",
+    "bookingDate": "2026-08-29",
+    "amount": -36.73,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0080",
+    "bookingDate": "2026-09-01",
+    "amount": -164,
+    "currency": "GBP",
+    "descriptor": "DD LB CAMDEN CTAX",
+    "counterparty": "London Borough of Camden",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0081",
+    "bookingDate": "2026-09-03",
+    "amount": -105,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0082",
+    "bookingDate": "2026-09-03",
+    "amount": -19.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P5E6G9HU2M",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0083",
+    "bookingDate": "2026-09-04",
+    "amount": 31.5,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK refund",
+    "counterparty": "Amazon",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0084",
+    "bookingDate": "2026-09-08",
+    "amount": -50.02,
+    "currency": "GBP",
+    "descriptor": "BP KENTISH TOWN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0085",
+    "bookingDate": "2026-09-08",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MICROSOFT*365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0086",
+    "bookingDate": "2026-09-13",
+    "amount": -43,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0087",
+    "bookingDate": "2026-09-13",
+    "amount": -3.49,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO PLUS",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0088",
+    "bookingDate": "2026-09-16",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *PLAY APPS",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0089",
+    "bookingDate": "2026-09-18",
+    "amount": -53.97,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0090",
+    "bookingDate": "2026-09-18",
+    "amount": -25,
+    "currency": "GBP",
+    "descriptor": "DD EE LIMITED",
+    "counterparty": "EE",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0091",
+    "bookingDate": "2026-09-19",
+    "amount": -32.73,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*7BS",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0092",
+    "bookingDate": "2026-09-20",
+    "amount": -25.95,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0093",
+    "bookingDate": "2026-09-21",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MSFT *365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cc"
+  },
+  {
+    "id": "H4-0094",
+    "bookingDate": "2026-09-23",
+    "amount": -53.09,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*GO1E",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0095",
+    "bookingDate": "2026-09-24",
+    "amount": -70.07,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0096",
+    "bookingDate": "2026-09-25",
+    "amount": -25.1,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0097",
+    "bookingDate": "2026-09-26",
+    "amount": 2950,
+    "currency": "GBP",
+    "descriptor": "BGC NORTHGATE DENTAL SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0098",
+    "bookingDate": "2026-09-26",
+    "amount": -71.91,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0099",
+    "bookingDate": "2026-09-26",
+    "amount": -8,
+    "currency": "GBP",
+    "descriptor": "TIMES & SUNDAY T",
+    "counterparty": "Times Media",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0100",
+    "bookingDate": "2026-09-27",
+    "amount": -105.85,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0101",
+    "bookingDate": "2026-09-30",
+    "amount": -46.27,
+    "currency": "GBP",
+    "descriptor": "BP KENTISH TOWN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0102",
+    "bookingDate": "2026-10-01",
+    "amount": -164,
+    "currency": "GBP",
+    "descriptor": "DD LB CAMDEN CTAX",
+    "counterparty": "London Borough of Camden",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0103",
+    "bookingDate": "2026-10-03",
+    "amount": -105,
+    "currency": "GBP",
+    "descriptor": "DD BRITISH GAS",
+    "counterparty": "British Gas",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0104",
+    "bookingDate": "2026-10-03",
+    "amount": -39.68,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0105",
+    "bookingDate": "2026-10-03",
+    "amount": -19.99,
+    "currency": "GBP",
+    "descriptor": "Spotify P5F1H4JV7N",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0106",
+    "bookingDate": "2026-10-05",
+    "amount": -78.61,
+    "currency": "GBP",
+    "descriptor": "BP KENTISH TOWN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0107",
+    "bookingDate": "2026-10-08",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MICROSOFT*365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0108",
+    "bookingDate": "2026-10-09",
+    "amount": -62.92,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*UL7",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0109",
+    "bookingDate": "2026-10-11",
+    "amount": -14.76,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0110",
+    "bookingDate": "2026-10-13",
+    "amount": -3.49,
+    "currency": "GBP",
+    "descriptor": "DELIVEROO PLUS",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0111",
+    "bookingDate": "2026-10-14",
+    "amount": -100.47,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0112",
+    "bookingDate": "2026-10-16",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "GOOGLE *PLAY APPS",
+    "counterparty": "Google",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0113",
+    "bookingDate": "2026-10-17",
+    "amount": -44.66,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0114",
+    "bookingDate": "2026-10-18",
+    "amount": -25,
+    "currency": "GBP",
+    "descriptor": "DD EE LIMITED",
+    "counterparty": "EE",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0115",
+    "bookingDate": "2026-10-21",
+    "amount": -36.68,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK*EYWL",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0116",
+    "bookingDate": "2026-10-21",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "MSFT *365 PERSONAL",
+    "counterparty": "Microsoft",
+    "paymentType": "card",
+    "accountId": "cc"
+  },
+  {
+    "id": "H4-0117",
+    "bookingDate": "2026-10-22",
+    "amount": -77.06,
+    "currency": "GBP",
+    "descriptor": "SAINSBURYS S/MKTS",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0118",
+    "bookingDate": "2026-10-23",
+    "amount": -70.04,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0119",
+    "bookingDate": "2026-10-24",
+    "amount": -15.09,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0120",
+    "bookingDate": "2026-10-25",
+    "amount": -53.13,
+    "currency": "GBP",
+    "descriptor": "BP KENTISH TOWN",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0121",
+    "bookingDate": "2026-10-26",
+    "amount": -104.58,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0122",
+    "bookingDate": "2026-10-26",
+    "amount": 2950,
+    "currency": "GBP",
+    "descriptor": "BGC NORTHGATE DENTAL SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0123",
+    "bookingDate": "2026-10-26",
+    "amount": -9,
+    "currency": "GBP",
+    "descriptor": "TIMES & SUNDAY T",
+    "counterparty": "Times Media",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0124",
+    "bookingDate": "2026-10-29",
+    "amount": -44.34,
+    "currency": "GBP",
+    "descriptor": "ALDI 88 CAMDEN",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H4-0125",
+    "bookingDate": "2026-10-30",
+    "amount": -71.93,
+    "currency": "GBP",
+    "descriptor": "TESCO EXPRESS 1187",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  }
+]

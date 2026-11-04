@@ -1,0 +1,43 @@
+{
+  "id": "H3",
+  "surname": "Byrne",
+  "member": "Aoife",
+  "mode": "auto",
+  "asOf": "2026-10-31",
+  "accounts": [
+    {
+      "id": "cur",
+      "label": "Current account ••0954"
+    }
+  ],
+  "story": "A gym on a 12-month minimum term. Klarna instalments that look monthly. Council tax and energy direct debits. NOW cancelled on 2 September but still charging. Virgin Media bundle that includes Netflix, plus Netflix billed directly. A Duolingo trial converting in 12 days.",
+  "cancellations": [
+    {
+      "payment": "now_tv",
+      "service": "now_tv",
+      "cancelledOn": "2026-09-02",
+      "source": "m1"
+    }
+  ],
+  "trials": [
+    {
+      "service": "duolingo",
+      "descriptor": "CARD PAYMENT TO DUOLINGO",
+      "account": "cur",
+      "startedOn": "2026-10-29",
+      "convertsOn": "2026-11-12",
+      "trialPrice": 0,
+      "fullPrice": 7.99,
+      "cadence": "monthly"
+    }
+  ],
+  "bundles": [
+    {
+      "parent": "virgin_media",
+      "includes": [
+        "netflix"
+      ],
+      "source": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "H1",
+  "surname": "Okafor",
+  "member": "Ngozi",
+  "mode": "auto",
+  "asOf": "2026-10-31",
+  "accounts": [
+    {
+      "id": "cur",
+      "label": "Current account ••4417"
+    }
+  ],
+  "story": "Two APPLE.COM/BILL streams: £2.99 the member identified as iCloud, £9.99 nobody has identified. Netflix billed directly and also inside the Sky bill. Readly the member says they stopped using.",
+  "cancellations": [],
+  "trials": [],
+  "bundles": [
+    {
+      "parent": "sky",
+      "includes": [
+        "netflix"
+      ],
+      "source": "m4"
+    }
+  ]
+}

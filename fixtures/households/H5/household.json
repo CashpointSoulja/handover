@@ -1,0 +1,45 @@
+{
+  "id": "H5",
+  "surname": "Walsh",
+  "member": "Claire",
+  "mode": "auto",
+  "asOf": "2026-10-31",
+  "accounts": [
+    {
+      "id": "cur",
+      "label": "Current account ••2785"
+    }
+  ],
+  "story": "Disney+ cancelled on 14 September and charged again on 14 October. Audible: member said keep it 30 days ago. BritBox cancelled with one legitimate pro-rata final bill. Spotify Duo. A Strava trial that has already converted. Picsart and MUBI the member says can go.",
+  "cancellations": [
+    {
+      "payment": "disney_plus",
+      "service": "disney_plus",
+      "cancelledOn": "2026-09-14",
+      "source": "m1"
+    },
+    {
+      "payment": "britbox",
+      "service": "britbox",
+      "cancelledOn": "2026-10-02",
+      "source": "m4",
+      "finalBill": {
+        "maxAmount": 5.99,
+        "by": "2026-10-31"
+      }
+    }
+  ],
+  "trials": [
+    {
+      "service": "strava",
+      "descriptor": "CARD PAYMENT TO STRAVA",
+      "account": "cur",
+      "startedOn": "2026-09-20",
+      "convertsOn": "2026-10-20",
+      "trialPrice": 0,
+      "fullPrice": 6.99,
+      "cadence": "monthly"
+    }
+  ],
+  "bundles": []
+}

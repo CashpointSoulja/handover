@@ -1,0 +1,17 @@
+# Sample prices for this concept only. They are not claims about any provider's current list prices.
+# Tiers named family or duo count as shared plans for R07.
+# billed_via lists aggregators a service can be billed through; used to suggest what an
+# unidentified aggregator charge might be.
+
+services:
+  netflix:          { tiers: { with_ads: 5.99, standard: 12.99, premium: 18.99 } }
+  disney_plus:      { billed_via: [apple_bill], tiers: { with_ads: 4.99, standard: 9.99, premium: 12.99 } }
+  headspace:        { name: Headspace, billed_via: [apple_bill, google_play], tiers: { monthly: 9.99 } }
+  icloud_plus:      { name: iCloud+, billed_via: [apple_bill], tiers: { gb50: 0.99, gb200: 2.99, tb2: 8.99 } }
+  spotify:          { tiers: { individual: 11.99, duo: 16.99, family: 19.99 } }
+  youtube_premium:  { tiers: { individual: 12.99, family: 19.99 } }
+  microsoft_365:    { tiers: { personal: 7.99, family: 10.99 } }
+  amazon_prime:     { tiers: { monthly: 8.99, annual: 95.00 } }
+  audible:          { tiers: { premium_plus: 7.99 } }
+  google_one:       { name: Google One, billed_via: [google_play], tiers: { gb100: 1.99, gb2000: 7.99 } }
+  candy_crush:      { name: Candy Crush, billed_via: [google_play, apple_bill], tiers: { gold_pack: 4.99 } }

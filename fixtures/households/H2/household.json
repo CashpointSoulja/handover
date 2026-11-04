@@ -1,0 +1,32 @@
+{
+  "id": "H2",
+  "surname": "Patel",
+  "member": "Priya",
+  "mode": "manual",
+  "asOf": "2026-10-31",
+  "accounts": [
+    {
+      "id": "cur",
+      "label": "Current account ••6630"
+    },
+    {
+      "id": "cc",
+      "label": "Credit card ••2290"
+    }
+  ],
+  "story": "Manual mode. Annual Amazon Prime renewed 3 days before the data ends. Disney+ went up in October after the member said keep it. A weekly HelloFresh box and a £1 SimplyCook trial converting in 6 days. Everything caps at FLAG.",
+  "cancellations": [],
+  "trials": [
+    {
+      "service": "simplycook",
+      "descriptor": "SIMPLYCOOK",
+      "account": "cur",
+      "startedOn": "2026-10-23",
+      "convertsOn": "2026-11-06",
+      "trialPrice": 1,
+      "fullPrice": 12.99,
+      "cadence": "monthly"
+    }
+  ],
+  "bundles": []
+}

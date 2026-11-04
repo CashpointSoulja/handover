@@ -1,0 +1,117 @@
+# The ruleset, evaluated in this order. Rules can only make a decision more cautious.
+# type: terminal (sets the decision and stops), cap (sets the most autonomous decision
+# still allowed), attach (adds a side action without changing the decision).
+# locked rules cannot be switched off in the UI.
+
+version: rules-v1
+rules:
+  - id: R01
+    name: Charge after cancellation
+    type: terminal
+    effect: HUMAN
+    attach: [refund_request, priority_urgent]
+    enabled: true
+    protects: Paying for something already cancelled. Fires in any mode, because alerting is not acting.
+
+  - id: R02
+    name: Not a subscription
+    type: terminal
+    effect: LEAVE
+    attach: [route]
+    enabled: true
+    protects: Cancelling a debt repayment or an essential bill
+
+  - id: R03
+    name: Member said keep
+    type: terminal
+    effect: LEAVE
+    threshold: { window_days: 90 }
+    enabled: true
+    protects: Nagging, which erodes trust
+
+  - id: R04
+    name: Manual mode
+    type: cap
+    effect: FLAG
+    enabled: true
+    locked: true
+    protects: Acting against the member's chosen mode
+
+  - id: R05
+    name: Unidentified aggregator
+    type: cap
+    effect: ASK
+    enabled: true
+    protects: Cancelling the wrong app behind APPLE.COM/BILL
+
+  - id: R06
+    name: Low confidence
+    type: cap
+    effect: ASK
+    threshold: { min_confidence: 0.80 }
+    enabled: true
+    protects: Acting on a guess
+
+  - id: R07
+    name: Shared plan
+    type: cap
+    effect: ASK
+    enabled: true
+    protects: Cutting off a partner or child
+
+  - id: R08
+    name: Bundled service
+    type: cap
+    effect: ASK
+    attach: [cancel_via]
+    enabled: true
+    protects: Cancelling the parent bundle by mistake
+
+  - id: R09
+    name: Minimum term or notice
+    type: cap
+    effect: FLAG
+    attach: [cancel_method]
+    enabled: true
+    protects: Cancelling the direct debit but leaving the contract, which creates arrears
+
+  - id: R10
+    name: High annual cost
+    type: cap
+    effect: FLAG
+    threshold: { annual_gbp: 150 }
+    enabled: true
+    protects: High-value mistakes
+
+  - id: R11
+    name: Billed twice
+    type: cap
+    effect: FLAG
+    attach: [duplicate_of]
+    enabled: true
+    protects: Cancelling the copy the member actually uses
+
+  - id: R12
+    name: Trial converting soon
+    type: cap
+    effect: FLAG
+    attach: [priority_urgent, deadline]
+    threshold: { within_days: 7 }
+    enabled: true
+    protects: Missing the window before the first full charge
+
+  - id: R13
+    name: Inside refund window
+    type: attach
+    effect: FLAG if policy assumed
+    attach: [refund_request, deadline]
+    enabled: true
+    protects: Leaving recoverable money on the table
+
+  - id: R14
+    name: Price rise
+    type: attach
+    attach: [price_rise]
+    threshold: { rise_pct: 10, trailing_charges: 3 }
+    enabled: true
+    protects: Silent price creep

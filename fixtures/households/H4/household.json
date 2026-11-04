@@ -1,0 +1,32 @@
+{
+  "id": "H4",
+  "surname": "Haddad",
+  "member": "Layla",
+  "mode": "auto",
+  "asOf": "2026-10-31",
+  "accounts": [
+    {
+      "id": "cur",
+      "label": "Current account ••6120"
+    },
+    {
+      "id": "cc",
+      "label": "Credit card ••3391"
+    }
+  ],
+  "story": "A Paramount+ trial converting in 4 days. Spotify on the family tier. Microsoft 365 billed on two cards. An unidentified Google Play charge. The Times went up after the member said keep it. Deliveroo Plus the member says they no longer use.",
+  "cancellations": [],
+  "trials": [
+    {
+      "service": "paramount_plus",
+      "descriptor": "PARAMOUNT+",
+      "account": "cc",
+      "startedOn": "2026-10-28",
+      "convertsOn": "2026-11-04",
+      "trialPrice": 0,
+      "fullPrice": 6.99,
+      "cadence": "monthly"
+    }
+  ],
+  "bundles": []
+}

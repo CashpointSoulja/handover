@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "H5-0001",
+    "bookingDate": "2026-05-01",
+    "amount": -76.35,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0002",
+    "bookingDate": "2026-05-02",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZNPrime*D3F7H1K59",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0003",
+    "bookingDate": "2026-05-02",
+    "amount": -56.18,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0004",
+    "bookingDate": "2026-05-04",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AUDIBLE UK",
+    "counterparty": "Audible",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0005",
+    "bookingDate": "2026-05-06",
+    "amount": -5.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO BRITBOX",
+    "counterparty": "BritBox",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0006",
+    "bookingDate": "2026-05-07",
+    "amount": -110.27,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0007",
+    "bookingDate": "2026-05-09",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO PICSART",
+    "counterparty": "Picsart",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0008",
+    "bookingDate": "2026-05-09",
+    "amount": -88.28,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0009",
+    "bookingDate": "2026-05-10",
+    "amount": -33.6,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0010",
+    "bookingDate": "2026-05-10",
+    "amount": -42,
+    "currency": "GBP",
+    "descriptor": "DD ADMIRAL INSURANCE",
+    "counterparty": "Admiral",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0011",
+    "bookingDate": "2026-05-11",
+    "amount": -51.35,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0012",
+    "bookingDate": "2026-05-12",
+    "amount": -31.66,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0013",
+    "bookingDate": "2026-05-14",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0014",
+    "bookingDate": "2026-05-14",
+    "amount": -55.61,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ESSO MICKLEOVER",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0015",
+    "bookingDate": "2026-05-15",
+    "amount": -38,
+    "currency": "GBP",
+    "descriptor": "DD SEVERN TRENT",
+    "counterparty": "Severn Trent Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0016",
+    "bookingDate": "2026-05-17",
+    "amount": -49.33,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0017",
+    "bookingDate": "2026-05-20",
+    "amount": -61.09,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0018",
+    "bookingDate": "2026-05-21",
+    "amount": -16.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P6A4K8LW2P",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0019",
+    "bookingDate": "2026-05-22",
+    "amount": -44.51,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0020",
+    "bookingDate": "2026-05-23",
+    "amount": -112.32,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0021",
+    "bookingDate": "2026-05-24",
+    "amount": -30.73,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0022",
+    "bookingDate": "2026-05-27",
+    "amount": -10.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO MUBI",
+    "counterparty": "MUBI",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0023",
+    "bookingDate": "2026-05-27",
+    "amount": -130.56,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0024",
+    "bookingDate": "2026-05-28",
+    "amount": 2105,
+    "currency": "GBP",
+    "descriptor": "BGC DERBYSHIRE CC SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0025",
+    "bookingDate": "2026-05-31",
+    "amount": -29.5,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN Mktp UK*3X4D",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0026",
+    "bookingDate": "2026-06-02",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZNPrime*E8G2J6L04",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0027",
+    "bookingDate": "2026-06-04",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AUDIBLE UK",
+    "counterparty": "Audible",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0028",
+    "bookingDate": "2026-06-05",
+    "amount": -7.22,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN Mktp UK*J1AB",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0029",
+    "bookingDate": "2026-06-06",
+    "amount": -5.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO BRITBOX",
+    "counterparty": "BritBox",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0030",
+    "bookingDate": "2026-06-07",
+    "amount": -15.03,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0031",
+    "bookingDate": "2026-06-09",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO PICSART",
+    "counterparty": "Picsart",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0032",
+    "bookingDate": "2026-06-10",
+    "amount": -134.98,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0033",
+    "bookingDate": "2026-06-10",
+    "amount": -42,
+    "currency": "GBP",
+    "descriptor": "DD ADMIRAL INSURANCE",
+    "counterparty": "Admiral",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0034",
+    "bookingDate": "2026-06-11",
+    "amount": -21.93,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0035",
+    "bookingDate": "2026-06-14",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0036",
+    "bookingDate": "2026-06-15",
+    "amount": -38,
+    "currency": "GBP",
+    "descriptor": "DD SEVERN TRENT",
+    "counterparty": "Severn Trent Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0037",
+    "bookingDate": "2026-06-16",
+    "amount": -70.66,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0038",
+    "bookingDate": "2026-06-21",
+    "amount": -16.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P6B9L3MX7Q",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0039",
+    "bookingDate": "2026-06-22",
+    "amount": -20.69,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0040",
+    "bookingDate": "2026-06-23",
+    "amount": -102.33,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0041",
+    "bookingDate": "2026-06-24",
+    "amount": -122.89,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0042",
+    "bookingDate": "2026-06-27",
+    "amount": -108.5,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0043",
+    "bookingDate": "2026-06-27",
+    "amount": -10.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO MUBI",
+    "counterparty": "MUBI",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0044",
+    "bookingDate": "2026-06-28",
+    "amount": 2105,
+    "currency": "GBP",
+    "descriptor": "BGC DERBYSHIRE CC SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0045",
+    "bookingDate": "2026-06-28",
+    "amount": -109.68,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0046",
+    "bookingDate": "2026-06-30",
+    "amount": -47.76,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ESSO MICKLEOVER",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0047",
+    "bookingDate": "2026-07-02",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZNPrime*F2H7K0M38",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0048",
+    "bookingDate": "2026-07-04",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AUDIBLE UK",
+    "counterparty": "Audible",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0049",
+    "bookingDate": "2026-07-06",
+    "amount": -5.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO BRITBOX",
+    "counterparty": "BritBox",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0050",
+    "bookingDate": "2026-07-06",
+    "amount": -80.11,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0051",
+    "bookingDate": "2026-07-09",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO PICSART",
+    "counterparty": "Picsart",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0052",
+    "bookingDate": "2026-07-10",
+    "amount": -42,
+    "currency": "GBP",
+    "descriptor": "DD ADMIRAL INSURANCE",
+    "counterparty": "Admiral",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0053",
+    "bookingDate": "2026-07-11",
+    "amount": -125.28,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0054",
+    "bookingDate": "2026-07-14",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0055",
+    "bookingDate": "2026-07-15",
+    "amount": -38,
+    "currency": "GBP",
+    "descriptor": "DD SEVERN TRENT",
+    "counterparty": "Severn Trent Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0056",
+    "bookingDate": "2026-07-16",
+    "amount": -48.95,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ESSO MICKLEOVER",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0057",
+    "bookingDate": "2026-07-18",
+    "amount": -128.94,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0058",
+    "bookingDate": "2026-07-19",
+    "amount": -109.12,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0059",
+    "bookingDate": "2026-07-21",
+    "amount": -16.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P6C3M7NY1R",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0060",
+    "bookingDate": "2026-07-23",
+    "amount": -47.24,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ESSO MICKLEOVER",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0061",
+    "bookingDate": "2026-07-25",
+    "amount": -118.18,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0062",
+    "bookingDate": "2026-07-27",
+    "amount": -10.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO MUBI",
+    "counterparty": "MUBI",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0063",
+    "bookingDate": "2026-07-28",
+    "amount": 2105,
+    "currency": "GBP",
+    "descriptor": "BGC DERBYSHIRE CC SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0064",
+    "bookingDate": "2026-07-30",
+    "amount": -77.75,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0065",
+    "bookingDate": "2026-08-02",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZNPrime*G7J1L5N83",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0066",
+    "bookingDate": "2026-08-04",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AUDIBLE UK",
+    "counterparty": "Audible",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0067",
+    "bookingDate": "2026-08-05",
+    "amount": -92.34,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0068",
+    "bookingDate": "2026-08-06",
+    "amount": -5.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO BRITBOX",
+    "counterparty": "BritBox",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0069",
+    "bookingDate": "2026-08-07",
+    "amount": -19.94,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0070",
+    "bookingDate": "2026-08-09",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO PICSART",
+    "counterparty": "Picsart",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0071",
+    "bookingDate": "2026-08-10",
+    "amount": -42,
+    "currency": "GBP",
+    "descriptor": "DD ADMIRAL INSURANCE",
+    "counterparty": "Admiral",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0072",
+    "bookingDate": "2026-08-12",
+    "amount": 9.99,
+    "currency": "GBP",
+    "descriptor": "AMZN Mktp UK refund",
+    "counterparty": "Amazon",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0073",
+    "bookingDate": "2026-08-12",
+    "amount": -57.66,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ESSO MICKLEOVER",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0074",
+    "bookingDate": "2026-08-13",
+    "amount": -85.73,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0075",
+    "bookingDate": "2026-08-14",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0076",
+    "bookingDate": "2026-08-15",
+    "amount": -38,
+    "currency": "GBP",
+    "descriptor": "DD SEVERN TRENT",
+    "counterparty": "Severn Trent Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0077",
+    "bookingDate": "2026-08-16",
+    "amount": -26.24,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0078",
+    "bookingDate": "2026-08-17",
+    "amount": -60.18,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ESSO MICKLEOVER",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0079",
+    "bookingDate": "2026-08-19",
+    "amount": -41.33,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0080",
+    "bookingDate": "2026-08-20",
+    "amount": -46.75,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ESSO MICKLEOVER",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0081",
+    "bookingDate": "2026-08-21",
+    "amount": -27.56,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0082",
+    "bookingDate": "2026-08-21",
+    "amount": -16.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P6D8N2PZ6S",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0083",
+    "bookingDate": "2026-08-23",
+    "amount": -89.2,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0084",
+    "bookingDate": "2026-08-24",
+    "amount": -87,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0085",
+    "bookingDate": "2026-08-25",
+    "amount": -45.88,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN Mktp UK*7AWO",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0086",
+    "bookingDate": "2026-08-26",
+    "amount": -12.06,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZN Mktp UK*875Y",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0087",
+    "bookingDate": "2026-08-27",
+    "amount": -19.8,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0088",
+    "bookingDate": "2026-08-27",
+    "amount": -10.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO MUBI",
+    "counterparty": "MUBI",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0089",
+    "bookingDate": "2026-08-28",
+    "amount": 2105,
+    "currency": "GBP",
+    "descriptor": "BGC DERBYSHIRE CC SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0090",
+    "bookingDate": "2026-08-29",
+    "amount": -16.69,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0091",
+    "bookingDate": "2026-09-01",
+    "amount": -136.94,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0092",
+    "bookingDate": "2026-09-02",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZNPrime*H1K6M9P27",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0093",
+    "bookingDate": "2026-09-03",
+    "amount": -68.27,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0094",
+    "bookingDate": "2026-09-04",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AUDIBLE UK",
+    "counterparty": "Audible",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0095",
+    "bookingDate": "2026-09-05",
+    "amount": -121.39,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0096",
+    "bookingDate": "2026-09-06",
+    "amount": -5.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO BRITBOX",
+    "counterparty": "BritBox",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0097",
+    "bookingDate": "2026-09-09",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO PICSART",
+    "counterparty": "Picsart",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0098",
+    "bookingDate": "2026-09-10",
+    "amount": -91.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0099",
+    "bookingDate": "2026-09-10",
+    "amount": -42,
+    "currency": "GBP",
+    "descriptor": "DD ADMIRAL INSURANCE",
+    "counterparty": "Admiral",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0100",
+    "bookingDate": "2026-09-13",
+    "amount": -90.12,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0101",
+    "bookingDate": "2026-09-14",
+    "amount": -76.21,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0102",
+    "bookingDate": "2026-09-14",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0103",
+    "bookingDate": "2026-09-15",
+    "amount": -38,
+    "currency": "GBP",
+    "descriptor": "DD SEVERN TRENT",
+    "counterparty": "Severn Trent Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0104",
+    "bookingDate": "2026-09-21",
+    "amount": -16.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P6E2P6QA0T",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0105",
+    "bookingDate": "2026-09-24",
+    "amount": -83.87,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0106",
+    "bookingDate": "2026-09-26",
+    "amount": -45.98,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DELIVEROO",
+    "counterparty": "Deliveroo",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0107",
+    "bookingDate": "2026-09-27",
+    "amount": -26.13,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0108",
+    "bookingDate": "2026-09-27",
+    "amount": -10.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO MUBI",
+    "counterparty": "MUBI",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0109",
+    "bookingDate": "2026-09-28",
+    "amount": 2105,
+    "currency": "GBP",
+    "descriptor": "BGC DERBYSHIRE CC SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0110",
+    "bookingDate": "2026-10-02",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AMZNPrime*J6L0N4Q72",
+    "counterparty": "Amazon",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0111",
+    "bookingDate": "2026-10-03",
+    "amount": -57.65,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0112",
+    "bookingDate": "2026-10-04",
+    "amount": -7.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO AUDIBLE UK",
+    "counterparty": "Audible",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0113",
+    "bookingDate": "2026-10-06",
+    "amount": -3.2,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO BRITBOX",
+    "counterparty": "BritBox",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0114",
+    "bookingDate": "2026-10-06",
+    "amount": -82.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0115",
+    "bookingDate": "2026-10-07",
+    "amount": -56.85,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ESSO MICKLEOVER",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0116",
+    "bookingDate": "2026-10-09",
+    "amount": -4.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO PICSART",
+    "counterparty": "Picsart",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0117",
+    "bookingDate": "2026-10-09",
+    "amount": -81.81,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0118",
+    "bookingDate": "2026-10-10",
+    "amount": -43.39,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ESSO MICKLEOVER",
+    "counterparty": "Fuel",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0119",
+    "bookingDate": "2026-10-10",
+    "amount": -42,
+    "currency": "GBP",
+    "descriptor": "DD ADMIRAL INSURANCE",
+    "counterparty": "Admiral",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0120",
+    "bookingDate": "2026-10-13",
+    "amount": -75.92,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0121",
+    "bookingDate": "2026-10-14",
+    "amount": -29.67,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO ASDA STORES 4102",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0122",
+    "bookingDate": "2026-10-14",
+    "amount": -8.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO DISNEY PLUS",
+    "counterparty": "Disney+",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0123",
+    "bookingDate": "2026-10-15",
+    "amount": -38,
+    "currency": "GBP",
+    "descriptor": "DD SEVERN TRENT",
+    "counterparty": "Severn Trent Water",
+    "paymentType": "direct_debit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0124",
+    "bookingDate": "2026-10-18",
+    "amount": -64.82,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0125",
+    "bookingDate": "2026-10-20",
+    "amount": -6.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO STRAVA",
+    "counterparty": "Strava",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0126",
+    "bookingDate": "2026-10-21",
+    "amount": -16.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO Spotify P6F7Q1RB5U",
+    "counterparty": "Spotify",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0127",
+    "bookingDate": "2026-10-22",
+    "amount": -112.06,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0128",
+    "bookingDate": "2026-10-23",
+    "amount": -131.39,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0129",
+    "bookingDate": "2026-10-24",
+    "amount": -110.54,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO TESCO STORES 2876",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0130",
+    "bookingDate": "2026-10-26",
+    "amount": -47.29,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0131",
+    "bookingDate": "2026-10-27",
+    "amount": -70.61,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0132",
+    "bookingDate": "2026-10-27",
+    "amount": -10.99,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO MUBI",
+    "counterparty": "MUBI",
+    "paymentType": "card",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0133",
+    "bookingDate": "2026-10-28",
+    "amount": 2105,
+    "currency": "GBP",
+    "descriptor": "BGC DERBYSHIRE CC SALARY",
+    "counterparty": "Employer",
+    "paymentType": "credit",
+    "accountId": "cur"
+  },
+  {
+    "id": "H5-0134",
+    "bookingDate": "2026-10-29",
+    "amount": -27.53,
+    "currency": "GBP",
+    "descriptor": "CARD PAYMENT TO LIDL GB DERBY",
+    "counterparty": "Groceries",
+    "paymentType": "card",
+    "accountId": "cur"
+  }
+]

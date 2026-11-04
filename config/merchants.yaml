@@ -1,0 +1,53 @@
+# Descriptor lookup: raw bank string -> service key.
+# Patterns are case-insensitive regular expressions, tried in order; first match wins.
+# kind: subscription | instalment | essential_bill | retail | income
+#   retail and income are never treated as recurring payments.
+# Aggregators keep the raw string and get an id built from it.
+
+merchants:
+  - { key: netflix, name: Netflix, category: streaming, kind: subscription, patterns: ['NETFLIX\.COM', '^NETFLIX'] }
+  - { key: disney_plus, name: Disney+, category: streaming, kind: subscription, patterns: ['DISNEY ?PLUS', 'DISNEYPLUS'] }
+  - { key: now_tv, name: NOW, category: streaming, kind: subscription, patterns: ['NOWTV', 'NOW TV'] }
+  - { key: britbox, name: BritBox, category: streaming, kind: subscription, patterns: ['BRITBOX'] }
+  - { key: paramount_plus, name: Paramount+, category: streaming, kind: subscription, patterns: ['PARAMOUNT\+', 'PARAMOUNTPLUS'] }
+  - { key: mubi, name: MUBI, category: streaming, kind: subscription, patterns: ['MUBI'] }
+  - { key: youtube_premium, name: YouTube Premium, category: streaming, kind: subscription, patterns: ['GOOGLE \*YOUTUBE'] }
+  - { key: spotify, name: Spotify, category: music, kind: subscription, patterns: ['SPOTIFY'] }
+  - { key: audible, name: Audible, category: books, kind: subscription, patterns: ['AUDIBLE'] }
+  - { key: kindle_unlimited, name: Kindle Unlimited, category: books, kind: subscription, patterns: ['AMZN DIGITAL\*KU', 'KINDLE UNLTD'] }
+  - { key: amazon_prime, name: Amazon Prime, category: shopping, kind: subscription, patterns: ['AMZNPRIME\*', 'AMAZON PRIME'] }
+  - { key: readly, name: Readly, category: magazines, kind: subscription, patterns: ['READLY'] }
+  - { key: the_times, name: The Times, category: news, kind: subscription, patterns: ['TIMES & SUNDAY T', 'THE TIMES'] }
+  - { key: the_telegraph, name: The Telegraph, category: news, kind: subscription, patterns: ['TELEGRAPH'] }
+  - { key: picsart, name: Picsart, category: apps, kind: subscription, patterns: ['PICSART'] }
+  - { key: duolingo, name: Duolingo, category: apps, kind: subscription, patterns: ['DUOLINGO'] }
+  - { key: strava, name: Strava, category: fitness, kind: subscription, patterns: ['STRAVA'] }
+  - { key: deliveroo_plus, name: Deliveroo Plus, category: food, kind: subscription, patterns: ['DELIVEROO PLUS'] }
+  - { key: hellofresh, name: HelloFresh, category: food, kind: subscription, patterns: ['HELLOFRESH'] }
+  - { key: simplycook, name: SimplyCook, category: food, kind: subscription, patterns: ['SIMPLYCOOK'] }
+  - { key: microsoft_365, name: Microsoft 365, category: software, kind: subscription, patterns: ['MICROSOFT\*365', 'MSFT \*365'] }
+  - { key: dropbox, name: Dropbox, category: software, kind: subscription, patterns: ['DROPBOX'] }
+  - { key: adobe_cc, name: Adobe Creative Cloud, category: software, kind: subscription, patterns: ['ADOBE'] }
+  - { key: sky, name: Sky, category: tv_broadband, kind: subscription, patterns: ['SKY DIGITAL'], contract: { minimum_term_months: 18, notice_days: 31 } }
+  - { key: virgin_media, name: Virgin Media, category: tv_broadband, kind: subscription, patterns: ['VIRGIN MEDIA'], contract: { minimum_term_months: 18, notice_days: 30 } }
+  - { key: ee_mobile, name: EE, category: mobile, kind: subscription, patterns: ['EE LIMITED'], contract: { minimum_term_months: 24, notice_days: 30 } }
+  - { key: david_lloyd, name: David Lloyd Clubs, category: gym, kind: subscription, patterns: ['DAVID LLOYD'], contract: { minimum_term_months: 12, notice_days: 30 } }
+  - { key: puregym, name: PureGym, category: gym, kind: subscription, patterns: ['PUREGYM'] }
+
+  - { key: klarna, name: Klarna, category: instalments, kind: instalment, route: credit, patterns: ['^KLARNA\*'] }
+  - { key: council_tax, name: Council tax, category: council_tax, kind: essential_bill, route: council_tax, patterns: ['CTAX', 'COUNCIL TAX', 'CITY COUNCIL'] }
+  - { key: energy, name: Energy, category: energy, kind: essential_bill, route: energy, patterns: ['OCTOPUS ENERGY', 'EDF ENERGY', 'BRITISH GAS', 'OVO ENERGY'] }
+  - { key: water, name: Water, category: water, kind: essential_bill, route: water, patterns: ['SEVERN TRENT', 'THAMES WATER'] }
+  - { key: insurance, name: Insurance, category: insurance, kind: essential_bill, route: insurance, patterns: ['ADMIRAL', 'AVIVA'] }
+
+  - { key: groceries, name: Groceries, category: retail, kind: retail, patterns: ['TESCO', 'SAINSBURYS', 'ALDI', 'LIDL', 'ASDA'] }
+  - { key: fuel, name: Fuel, category: retail, kind: retail, patterns: ['SHELL', 'ESSO', '^BP '] }
+  - { key: amazon_orders, name: Amazon orders, category: retail, kind: retail, patterns: ['AMZN MKTP', 'AMAZON\.CO\.UK'] }
+  - { key: takeaway, name: Takeaway, category: retail, kind: retail, patterns: ['DELIVEROO(?! PLUS)', 'JUST EAT'] }
+  - { key: transport, name: Transport, category: retail, kind: retail, patterns: ['TFL TRAVEL', 'TRAINLINE'] }
+  - { key: salary, name: Salary, category: income, kind: income, patterns: ['SALARY', '^BGC '] }
+
+aggregators:
+  - { key: apple_bill, name: Apple, patterns: ['APPLE\.COM/BILL'], id: apple_bill }
+  - { key: google_play, name: Google, patterns: ['^GOOGLE \*'], id: from_descriptor }
+  - { key: paypal, name: PayPal, patterns: ['^PAYPAL \*'], id: from_descriptor }

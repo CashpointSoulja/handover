@@ -1,0 +1,9 @@
+# Provider refund windows for annual renewals, used by R13.
+# None of these has been checked against the provider's own page in this build,
+# so every entry is status: assumed and has no source_url. An assumed policy can
+# never drive an automatic action: R13 also caps the decision at FLAG.
+
+policies:
+  - { provider: amazon_prime, refund_window_days: 14, source_url: null, verified_on: null, status: assumed }
+  - { provider: adobe_cc, refund_window_days: 14, source_url: null, verified_on: null, status: assumed }
+  - { provider: microsoft_365, refund_window_days: 30, source_url: null, verified_on: null, status: assumed }
