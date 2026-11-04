@@ -1,0 +1,31 @@
+{
+  "pass": 2,
+  "prompt_version": "classifier-v1",
+  "exported_at": "2026-11-04T14:59:52.914Z",
+  "requests": {
+    "H1/apple_bill_999@identified-disney_plus": "ab68966eca8c8ac4",
+    "H1/apple_bill_999@identified-headspace": "3fbe013cb9c84de6",
+    "H1/netflix@identified-netflix": "7e429f399eda02b3",
+    "H1/netflix@unsure": "b2e87c0faf2adec9",
+    "H2/simplycook@identified-simplycook": "b6284bd9f0e94caf",
+    "H2/simplycook@unsure": "da12034bfc7058b1",
+    "H3/duolingo@identified-duolingo": "9b258cc6f2b64390",
+    "H3/duolingo@unsure": "1da0503c31a2888e",
+    "H4/google_play_apps_499@identified-candy_crush": "35dc6b8fea006a01",
+    "H4/microsoft_365_cc@identified-microsoft_365": "145e6edd9730bad7",
+    "H4/microsoft_365_cc@unsure": "f2eeb05f024bbb69",
+    "H4/microsoft_365_cur@identified-microsoft_365": "b37616dd026eb187",
+    "H4/microsoft_365_cur@unsure": "4192112beed3b395",
+    "H4/paramount_plus@identified-paramount_plus": "d6e2486e9b169f9c",
+    "H4/paramount_plus@unsure": "e6ad4418586a8a6e",
+    "H4/spotify@not_shared": "69d28078c36a6a72",
+    "H5/strava@identified-strava": "a34f5b644a0114e6",
+    "H5/strava@unsure": "0b7fbf8ed16e7d40",
+    "H6/dropbox_cc@identified-dropbox": "cf238ccc1f4d8bc6",
+    "H6/dropbox_cc@unsure": "a20518321eca54d4",
+    "H6/dropbox_cur@identified-dropbox": "f5ea7871ff3a1ebb",
+    "H6/dropbox_cur@unsure": "8c4ae793b15baced",
+    "H6/the_telegraph@identified-the_telegraph": "3b9a0e40d079b64e",
+    "H6/the_telegraph@unsure": "07793f6e9f9cc954"
+  }
+}

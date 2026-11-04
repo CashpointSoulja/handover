@@ -1,0 +1,62 @@
+KEY H3/council_tax
+{"service": "Council tax (Bristol)", "category": "council_tax", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.98, "rationale": "This is a statutory council tax direct debit, not a subscription, and must not be cancelled."}
+
+KEY H3/david_lloyd
+{"service": "David Lloyd Clubs", "category": "gym", "isSubscription": true, "proposedAction": "HUMAN", "confidence": 0.7, "rationale": "The member has asked whether the gym membership signed in January is locked in, which needs someone to check the contract's minimum term and notice period before any cancellation is considered."}
+
+KEY H3/duolingo
+{"service": "Duolingo Super", "category": "apps", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.7, "rationale": "A free trial converts to £7.99 a month on 12 November and this household has forgotten trials before, so we should check whether they want to keep it."}
+
+KEY H3/energy
+{"service": "EDF Energy", "category": "energy", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.97, "rationale": "This is an essential household energy bill, not a discretionary subscription."}
+
+KEY H3/kindle_unlimited
+{"service": "Kindle Unlimited", "category": "books", "isSubscription": true, "proposedAction": "CANCEL", "confidence": 0.9, "rationale": "The member said this came from a forgotten free trial and that they do not use it, so it is clearly unwanted."}
+
+KEY H3/klarna_asos
+{"service": "Klarna instalments (ASOS)", "category": "instalments", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.9, "rationale": "These are buy-now-pay-later repayments for an ASOS purchase, which is a credit agreement rather than a subscription and cannot be cancelled."}
+
+KEY H3/klarna_currys
+{"service": "Klarna instalments (Currys)", "category": "instalments", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.9, "rationale": "These are finance repayments for a Currys purchase, which is a credit agreement rather than a subscription and must keep being paid."}
+
+KEY H3/netflix
+{"service": "Netflix (Standard with adverts)", "category": "streaming", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "A regular low-cost Netflix plan with no sign from the member that it is unwanted."}
+
+KEY H3/now_tv
+{"service": "NOW", "category": "streaming", "isSubscription": true, "proposedAction": "HUMAN", "confidence": 0.8, "rationale": "The member says she cancelled NOW on 2 September, yet £9.99 was still taken on 28 September and 28 October, so someone needs to check whether a membership is still active and chase a refund."}
+
+KEY H3/spotify
+{"service": "Spotify Premium", "category": "music", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "A regular Spotify charge with no sign from the member that it is unwanted."}
+
+KEY H3/virgin_media
+{"service": "Virgin Media", "category": "tv_broadband", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.85, "rationale": "This is the household's broadband and TV service, likely under contract, with nothing to suggest it is unwanted."}
+
+KEY H4/council_tax
+{"service": "Council tax (Camden)", "category": "council_tax", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.98, "rationale": "This is a statutory council tax direct debit, not a subscription, and must not be cancelled."}
+
+KEY H4/deliveroo_plus
+{"service": "Deliveroo Plus", "category": "food", "isSubscription": true, "proposedAction": "CANCEL", "confidence": 0.8, "rationale": "The member said they have not used Deliveroo since the summer, so the membership is paying for nothing."}
+
+KEY H4/ee_mobile
+{"service": "EE mobile", "category": "mobile", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.85, "rationale": "This is a phone contract, likely in use and within a minimum term, with nothing to suggest it is unwanted."}
+
+KEY H4/energy
+{"service": "British Gas", "category": "energy", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.97, "rationale": "This is an essential household energy bill, not a discretionary subscription."}
+
+KEY H4/google_play_apps_499
+{"service": "Google Play (unidentified app subscription)", "category": "unknown", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.7, "rationale": "This £4.99 monthly Google Play charge could be any app subscription and the member has not mentioned it, so we need to ask what it is for."}
+
+KEY H4/microsoft_365_cc
+{"service": "Microsoft 365 Personal", "category": "software", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.7, "rationale": "There are two Microsoft 365 Personal subscriptions and the member thought they had only one, so we should ask whether both are needed or which one to keep before cancelling either."}
+
+KEY H4/microsoft_365_cur
+{"service": "Microsoft 365 Personal", "category": "software", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.7, "rationale": "This duplicates the Microsoft 365 Personal charge on the credit card, and since a Personal plan covers one person each may be in use, so we should ask which one to keep."}
+
+KEY H4/paramount_plus
+{"service": "Paramount+", "category": "streaming", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.7, "rationale": "A free trial converts to £6.99 a month on 4 November and the member has not mentioned it, so we should check urgently whether they want to keep it."}
+
+KEY H4/spotify
+{"service": "Spotify Premium Family", "category": "music", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.75, "rationale": "A regular Spotify Family plan with no sign from the member that it is unwanted."}
+
+KEY H4/the_times
+{"service": "The Times and Sunday Times", "category": "news", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.9, "rationale": "The member asked to keep The Times because Omar reads it daily, though the price has just risen from £8 to £9."}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "9e9e4a9cc3428aea",
+    "household": "H1",
+    "payment": "readly",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Readly",
+    "category": "magazines",
+    "isSubscription": true,
+    "proposedAction": "CANCEL",
+    "confidence": 0.85,
+    "rationale": "The member said they stopped using Readly ages ago and can't remember last opening it, so this is clearly unwanted."
+  }
+}

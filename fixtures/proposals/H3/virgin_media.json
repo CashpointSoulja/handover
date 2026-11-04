@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "2698edff280c19a9",
+    "household": "H3",
+    "payment": "virgin_media",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Virgin Media",
+    "category": "tv_broadband",
+    "isSubscription": true,
+    "proposedAction": "LEAVE",
+    "confidence": 0.85,
+    "rationale": "This is the household's broadband and TV service, likely under contract, with nothing to suggest it is unwanted."
+  }
+}

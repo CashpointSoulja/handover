@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "16b3f442d3982e88",
+    "household": "H4",
+    "payment": "microsoft_365_cc",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Microsoft 365 Personal",
+    "category": "software",
+    "isSubscription": true,
+    "proposedAction": "ASK",
+    "confidence": 0.7,
+    "rationale": "There are two Microsoft 365 Personal subscriptions and the member thought they had only one, so we should ask whether both are needed or which one to keep before cancelling either."
+  }
+}

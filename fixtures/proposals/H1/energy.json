@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "16923eca0535aa34",
+    "household": "H1",
+    "payment": "energy",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Octopus Energy",
+    "category": "energy",
+    "isSubscription": false,
+    "proposedAction": "LEAVE",
+    "confidence": 0.97,
+    "rationale": "This is an essential household energy bill, not a discretionary subscription."
+  }
+}

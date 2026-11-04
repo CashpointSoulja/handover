@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "357f42559a9f55c7",
+    "household": "H2",
+    "payment": "disney_plus",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Disney+",
+    "category": "streaming",
+    "isSubscription": true,
+    "proposedAction": "LEAVE",
+    "confidence": 0.9,
+    "rationale": "The member asked to keep Disney+ for the children, though the price has just risen from £9.99 to £10.99."
+  }
+}

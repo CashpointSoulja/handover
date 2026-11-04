@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "2ceca334a3df55de",
+    "household": "H2",
+    "payment": "hellofresh",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "HelloFresh",
+    "category": "food",
+    "isSubscription": true,
+    "proposedAction": "LEAVE",
+    "confidence": 0.65,
+    "rationale": "A consistent weekly meal-kit order that looks actively used, though it is a large annual spend and overlaps with the new SimplyCook trial."
+  }
+}

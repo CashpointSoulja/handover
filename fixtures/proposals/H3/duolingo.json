@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "d8d5025ebbd3dae4",
+    "household": "H3",
+    "payment": "duolingo",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Duolingo Super",
+    "category": "apps",
+    "isSubscription": true,
+    "proposedAction": "ASK",
+    "confidence": 0.7,
+    "rationale": "A free trial converts to £7.99 a month on 12 November and this household has forgotten trials before, so we should check whether they want to keep it."
+  }
+}

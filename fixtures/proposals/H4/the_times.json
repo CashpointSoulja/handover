@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "9f57bd61c4df602b",
+    "household": "H4",
+    "payment": "the_times",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "The Times and Sunday Times",
+    "category": "news",
+    "isSubscription": true,
+    "proposedAction": "LEAVE",
+    "confidence": 0.9,
+    "rationale": "The member asked to keep The Times because Omar reads it daily, though the price has just risen from £8 to £9."
+  }
+}

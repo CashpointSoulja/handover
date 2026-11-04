@@ -1,0 +1,62 @@
+KEY H1/amazon_prime
+{"service": "Amazon Prime", "category": "shopping", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "A steady monthly Prime membership at the standard price with nothing in the chat to suggest it is unwanted."}
+
+KEY H1/apple_bill_299
+{"service": "iCloud+ storage", "category": "cloud_storage", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.95, "rationale": "The member identified this as iCloud storage and explicitly asked to keep it."}
+
+KEY H1/apple_bill_999
+{"service": "Apple (unidentified subscription)", "category": "unknown", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.75, "rationale": "The member did not know what this £9.99 Apple charge was and said she would check with the children, but six weeks on there has been no answer, so a follow-up question is needed."}
+
+KEY H1/council_tax
+{"service": "Council tax (Lewisham)", "category": "council_tax", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.98, "rationale": "This is a statutory council tax direct debit, not a subscription, and must not be cancelled."}
+
+KEY H1/energy
+{"service": "Octopus Energy", "category": "energy", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.97, "rationale": "This is an essential household energy bill, not a discretionary subscription."}
+
+KEY H1/netflix
+{"service": "Netflix", "category": "streaming", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.6, "rationale": "The member thinks Netflix comes through Sky, which could make this direct charge a duplicate, but the kids may simply be using this account on the Sky box, so we need to ask whether her Sky package includes Netflix."}
+
+KEY H1/readly
+{"service": "Readly", "category": "magazines", "isSubscription": true, "proposedAction": "CANCEL", "confidence": 0.85, "rationale": "The member said they stopped using Readly ages ago and can't remember last opening it, so this is clearly unwanted."}
+
+KEY H1/sky
+{"service": "Sky TV and broadband", "category": "tv_broadband", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.85, "rationale": "This is an actively used TV package that the kids watch and is likely under contract, so it is not a candidate for cancellation."}
+
+KEY H1/spotify
+{"service": "Spotify Premium", "category": "music", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "A regular Spotify charge with no sign from the member that it is unwanted."}
+
+KEY H1/water
+{"service": "Thames Water", "category": "water", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.98, "rationale": "This is an essential water bill, not a subscription."}
+
+KEY H1/youtube_premium
+{"service": "YouTube Premium", "category": "streaming", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.6, "rationale": "Nothing suggests this is unwanted, although it includes YouTube Music and so overlaps somewhat with Spotify, which may be worth raising later."}
+
+KEY H2/amazon_prime
+{"service": "Amazon Prime (annual)", "category": "shopping", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "An annual Prime membership that renewed as normal three days ago, with no indication from the member that it is unwanted."}
+
+KEY H2/apple_bill_099
+{"service": "iCloud+ storage", "category": "cloud_storage", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.95, "rationale": "The member confirmed the 99p Apple charge is iCloud storage for her photos."}
+
+KEY H2/council_tax
+{"service": "Council tax (Birmingham)", "category": "council_tax", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.98, "rationale": "This is a statutory council tax direct debit, not a subscription."}
+
+KEY H2/disney_plus
+{"service": "Disney+", "category": "streaming", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.9, "rationale": "The member asked to keep Disney+ for the children, though the price has just risen from £9.99 to £10.99."}
+
+KEY H2/energy
+{"service": "British Gas", "category": "energy", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.97, "rationale": "This is an essential household energy bill, not a discretionary subscription."}
+
+KEY H2/hellofresh
+{"service": "HelloFresh", "category": "food", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.65, "rationale": "A consistent weekly meal-kit order that looks actively used, though it is a large annual spend and overlaps with the new SimplyCook trial."}
+
+KEY H2/puregym
+{"service": "PureGym", "category": "gym", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "A regular gym membership with no indication from the member that it is unwanted."}
+
+KEY H2/simplycook
+{"service": "SimplyCook", "category": "food", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.75, "rationale": "A £1 trial converts to £12.99 a month on 6 November and overlaps with HelloFresh, so we should check with the member, who prefers to approve changes, before it converts."}
+
+KEY H2/spotify
+{"service": "Spotify Premium", "category": "music", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "A regular Spotify charge with no sign from the member that it is unwanted."}
+
+KEY H3/amazon_prime
+{"service": "Amazon Prime (annual)", "category": "shopping", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "An annual Prime membership renewed in June with no indication from the member that it is unwanted, and the next renewal is months away."}

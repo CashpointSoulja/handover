@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "a0a15da8f11b0d96",
+    "household": "H2",
+    "payment": "energy",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "British Gas",
+    "category": "energy",
+    "isSubscription": false,
+    "proposedAction": "LEAVE",
+    "confidence": 0.97,
+    "rationale": "This is an essential household energy bill, not a discretionary subscription."
+  }
+}

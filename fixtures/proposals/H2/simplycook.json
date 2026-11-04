@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "043489760fbb8d74",
+    "household": "H2",
+    "payment": "simplycook",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "SimplyCook",
+    "category": "food",
+    "isSubscription": true,
+    "proposedAction": "ASK",
+    "confidence": 0.75,
+    "rationale": "A £1 trial converts to £12.99 a month on 6 November and overlaps with HelloFresh, so we should check with the member, who prefers to approve changes, before it converts."
+  }
+}

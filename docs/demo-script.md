@@ -2,7 +2,7 @@
 
 Vertical-friendly: record the console at 375 to 430px wide using the Queue, Trace, Chat, Evals and Rules tabs, or desktop cropped to one column at a time. One idea per shot, large cursor, no music under the voice.
 
-Shots 3, 4 and 6 need recorded proposals (`npm run eval:live`). Until those exist, those screens show "Pending".
+The base proposals are chat-recorded (see [test results](test-results.md)). Shot 4 needs the reply-branch proposals (pass 2); until they are imported, the reply shows the decision as pending.
 
 | Time | Screen | Do | Say |
 |---|---|---|---|
@@ -11,7 +11,7 @@ Shots 3, 4 and 6 need recorded proposals (`npm run eval:live`). Until those exis
 | 0:22–0:35 | Trace | Hover R05: the charges light up. Stop on "Handed to rules at R05". | "The model proposes. Then fourteen plain rules check it, and they can only make it more careful. This one says: we don't know which app, so we ask." |
 | 0:35–0:50 | Chat | Show the question. Tap "It's Disney+". The decision changes live. | "The member gets one question on WhatsApp, with a tap to answer. Once they tell us it's Disney+, the decision moves on." |
 | 0:50–1:02 | Trace, H5 Disney+ | Open from the queue. Hover R01: the 14 Oct charge and the "Cancelled disney today" message light up. | "And if something we cancelled charges again, it goes straight to a person, with a refund request and an urgent flag." |
-| 1:02–1:15 | Rules | Turn off R05. Cut to the Evals headline: false cancels turns red. Turn it back on: green. | "Every rule is a switch. Turn one off and every household and every eval re-runs. The gate is simple: false cancels must be zero." |
+| 1:02–1:15 | Rules | Turn off R05. Back on the Apple trace, the handover line moves to R06: the model was unsure too, and the next rule caught it. The Evals headline stays at zero false cancels. | "Every rule is a switch. Turn one off and every household and every eval re-runs. Here the next rule catches it. The gate is simple: false cancels must be zero." |
 | 1:15–1:25 | Evals | Pan the headline strip, then the category filter. Point at "Held-out". | "Forty test cases across eight ways this goes wrong, plus ten held-out cases written after the rules were frozen." |
 | 1:25–1:30 | Footer | Hold on the console. | "The LLM proposes. The rules decide. Nothing gets cancelled that a member would want back." |
 

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "63da2a0bf7ece8a9",
+    "household": "H6",
+    "payment": "dropbox_cur",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Dropbox Plus",
+    "category": "software",
+    "isSubscription": true,
+    "proposedAction": "ASK",
+    "confidence": 0.7,
+    "rationale": "This duplicates the Dropbox charge on the credit card, so we should ask the member whether both accounts are in use or which one to keep."
+  }
+}

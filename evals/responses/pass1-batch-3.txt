@@ -1,0 +1,56 @@
+KEY H5/amazon_prime
+{"service": "Amazon Prime", "category": "shopping", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "A steady monthly Prime membership with nothing in the chat to suggest it is unwanted."}
+
+KEY H5/audible
+{"service": "Audible", "category": "books", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.95, "rationale": "The member explicitly asked to keep Audible because she listens on the school run."}
+
+KEY H5/britbox
+{"service": "BritBox", "category": "streaming", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.85, "rationale": "The member cancelled BritBox on 2 October and no charge has appeared since the September bill, so this looks already handled."}
+
+KEY H5/disney_plus
+{"service": "Disney+", "category": "streaming", "isSubscription": true, "proposedAction": "HUMAN", "confidence": 0.8, "rationale": "The member cancelled Disney+ on 14 September but was still charged £8.99 on 14 October, so someone needs to confirm the cancellation went through and chase a refund."}
+
+KEY H5/insurance
+{"service": "Admiral Insurance", "category": "insurance", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.95, "rationale": "This is an insurance policy premium, not a discretionary subscription, and cancelling it could leave the household uninsured."}
+
+KEY H5/mubi
+{"service": "MUBI", "category": "streaming", "isSubscription": true, "proposedAction": "CANCEL", "confidence": 0.9, "rationale": "The member said MUBI was for a film course that has finished and that it can go."}
+
+KEY H5/picsart
+{"service": "Picsart", "category": "apps", "isSubscription": true, "proposedAction": "CANCEL", "confidence": 0.88, "rationale": "The member said the photo app was for a school project and is no longer needed."}
+
+KEY H5/spotify
+{"service": "Spotify Premium Duo", "category": "music", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.7, "rationale": "A regular Spotify charge with no sign from the member that it is unwanted."}
+
+KEY H5/strava
+{"service": "Strava", "category": "fitness", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.65, "rationale": "A free trial converted to a paid £6.99 monthly plan on 20 October without any mention from the member, so we should check whether she meant to keep it."}
+
+KEY H5/water
+{"service": "Severn Trent", "category": "water", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.98, "rationale": "This is an essential water bill, not a subscription."}
+
+KEY H6/adobe_cc
+{"service": "Adobe Creative Cloud (annual)", "category": "software", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.65, "rationale": "An annual Creative Cloud plan renewed as normal on 20 October with nothing in the chat to suggest it is unwanted."}
+
+KEY H6/council_tax
+{"service": "Council tax (Southwark)", "category": "council_tax", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.98, "rationale": "This is a statutory council tax direct debit, not a subscription, and must not be cancelled."}
+
+KEY H6/dropbox_cc
+{"service": "Dropbox Plus", "category": "software", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.7, "rationale": "There are two separate £9.99 Dropbox subscriptions on different accounts, which may be a duplicate or two genuinely separate accounts, so we should ask whether both are needed."}
+
+KEY H6/dropbox_cur
+{"service": "Dropbox Plus", "category": "software", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.7, "rationale": "This duplicates the Dropbox charge on the credit card, so we should ask the member whether both accounts are in use or which one to keep."}
+
+KEY H6/energy
+{"service": "OVO Energy", "category": "energy", "isSubscription": false, "proposedAction": "LEAVE", "confidence": 0.97, "rationale": "This is an essential household energy bill, not a discretionary subscription."}
+
+KEY H6/netflix
+{"service": "Netflix", "category": "streaming", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.9, "rationale": "The member said Netflix is shared with his sister, who pays him half, so it is wanted."}
+
+KEY H6/paramount_plus
+{"service": "Paramount+", "category": "streaming", "isSubscription": true, "proposedAction": "LEAVE", "confidence": 0.9, "rationale": "Paramount+ was cancelled in July, the stray charge was refunded and no charges have appeared since, so this is already handled."}
+
+KEY H6/paypal_jgsoftware_1400
+{"service": "JG Software (via PayPal)", "category": "unknown", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.7, "rationale": "This £14 monthly PayPal charge to an unfamiliar software merchant has not been identified by the member, so we need to ask what it is for."}
+
+KEY H6/the_telegraph
+{"service": "The Telegraph", "category": "news", "isSubscription": true, "proposedAction": "ASK", "confidence": 0.7, "rationale": "A £1 introductory trial converts to £9 a month on 2 November and the member has not mentioned it, so we should check urgently whether he wants to keep it."}

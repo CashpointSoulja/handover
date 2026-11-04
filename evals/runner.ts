@@ -9,7 +9,7 @@ import { execSync } from 'node:child_process';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { parse } from 'yaml';
-import { runHousehold } from '../engine/index';
+import { runHousehold, withRuleToggles } from '../engine/index';
 import { loadConfig, loadHouseholds, loadProposals, ROOT } from '../engine/load-node';
 import { requiredProposals } from './required';
 import { CATEGORY_LABELS, decisionCounts, diffResults, runEval, type CaseResult, type EvalCase } from './score';
@@ -45,6 +45,14 @@ for (const h of households) {
     for (const f of r.fired) if (!coverage[f.id].includes(h.household.id)) coverage[f.id].push(h.household.id);
   }
 }
+
+// One rule off at a time, on the 40 cases with the recorded proposals: what each rule is holding back.
+const ablation = config.rules
+  .filter((r) => !r.locked)
+  .map((r) => {
+    const m = runEval(cases, households, withRuleToggles(config, { [r.id]: false }), proposals).metrics;
+    return { rule: r.id, name: r.name, falseCancels: m.falseCancels, weightedCost: m.weightedCost, scored: m.scored };
+  });
 
 interface UnitSummary {
   total: number;
@@ -94,6 +102,7 @@ const result = {
   asks_per_household: main.asks,
   decision_counts: counts,
   rule_coverage: coverage,
+  ablation,
   cases: main.results,
   heldout: held ? { metrics: held.metrics, cases: held.results } : null,
   unit_tests: unit,
@@ -163,6 +172,14 @@ Households each rule fired in, on the sample data.
 | Rule | Fired in |
 |---|---|
 ${config.rules.map((r) => `| ${r.id} ${r.name} | ${coverage[r.id].length ? coverage[r.id].join(', ') : r.id === 'R06' ? 'none yet (needs recorded proposals)' : 'none'} |`).join('\n')}
+
+## One rule off at a time
+
+The 40 cases re-scored with each toggleable rule switched off (R04 is locked on), using the same recorded proposals. Baseline: ${main.metrics.falseCancels} false cancels, weighted cost ${main.metrics.weightedCost}.
+
+| Rule off | False cancels | Weighted cost | Scored |
+|---|---|---|---|
+${ablation.map((a) => `| ${a.rule} ${a.name} | ${a.falseCancels} | ${a.weightedCost} | ${a.scored} |`).join('\n')}
 
 ## Unit tests
 

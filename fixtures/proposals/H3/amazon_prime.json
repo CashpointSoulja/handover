@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "4bc75c03ab44a56d",
+    "household": "H3",
+    "payment": "amazon_prime",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Amazon Prime (annual)",
+    "category": "shopping",
+    "isSubscription": true,
+    "proposedAction": "LEAVE",
+    "confidence": 0.7,
+    "rationale": "An annual Prime membership renewed in June with no indication from the member that it is unwanted, and the next renewal is months away."
+  }
+}

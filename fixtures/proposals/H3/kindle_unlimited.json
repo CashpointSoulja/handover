@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "ba275ab947ef4fbf",
+    "household": "H3",
+    "payment": "kindle_unlimited",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Kindle Unlimited",
+    "category": "books",
+    "isSubscription": true,
+    "proposedAction": "CANCEL",
+    "confidence": 0.9,
+    "rationale": "The member said this came from a forgotten free trial and that they do not use it, so it is clearly unwanted."
+  }
+}

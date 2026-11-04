@@ -1,11 +1,11 @@
 /**
- * npm run eval:import -- <file> --model "<model label>" [--source chat-recorded] [--force] [--dry-run]
+ * npm run eval:import -- <file> --model "<model label>" [--run-at <ISO time>] [--source chat-recorded] [--force] [--dry-run]
  *
  * Reads answers in the export format: a KEY line (e.g. "KEY H1/apple_bill_999"), then the raw
  * JSON object the classifier prompt asks for. Each answer goes through parseProposal and is
  * written to fixtures/proposals/<household>/<payment>[@branch].json with:
  *   model          the label passed with --model, verbatim (required; never guessed)
- *   run_at         the time of this import
+ *   run_at         --run-at when given (the time the chat run happened), otherwise the time of this import
  *   prompt_version, input_hash   exactly as eval:live records them
  *   source         chat-recorded (default) or live-api
  * Malformed answers, unknown keys, duplicates, already-recorded keys (without --force) and keys
@@ -17,7 +17,7 @@ import { allRequests, splitAnswers, writeRecorded } from './proposals-io';
 
 const args = process.argv.slice(2);
 const arg = (name: string) => (args.includes(name) ? args[args.indexOf(name) + 1] : null);
-const file = args.find((a, i) => !a.startsWith('--') && !['--model', '--source'].includes(args[i - 1]));
+const file = args.find((a, i) => !a.startsWith('--') && !['--model', '--source', '--run-at'].includes(args[i - 1]));
 const model = arg('--model');
 const source = (arg('--source') ?? 'chat-recorded') as 'chat-recorded' | 'live-api';
 const force = args.includes('--force');
@@ -48,7 +48,12 @@ const answers = splitAnswers(readFileSync(file, 'utf8'));
 const seen = new Set<string>();
 const errors: string[] = [];
 let written = 0;
-const runAt = new Date().toISOString();
+const runAtArg = arg('--run-at');
+if (runAtArg && Number.isNaN(Date.parse(runAtArg))) {
+  console.error(`--run-at must be an ISO date-time, got "${runAtArg}"`);
+  process.exit(1);
+}
+const runAt = runAtArg ?? new Date().toISOString();
 
 for (const a of answers) {
   const where = `${a.key} (line ${a.line})`;

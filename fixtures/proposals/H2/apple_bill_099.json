@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "2f792d7292cbe86c",
+    "household": "H2",
+    "payment": "apple_bill_099",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "iCloud+ storage",
+    "category": "cloud_storage",
+    "isSubscription": true,
+    "proposedAction": "LEAVE",
+    "confidence": 0.95,
+    "rationale": "The member confirmed the 99p Apple charge is iCloud storage for her photos."
+  }
+}

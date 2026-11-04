@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "36b24ea639349128",
+    "household": "H5",
+    "payment": "disney_plus",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Disney+",
+    "category": "streaming",
+    "isSubscription": true,
+    "proposedAction": "HUMAN",
+    "confidence": 0.8,
+    "rationale": "The member cancelled Disney+ on 14 September but was still charged £8.99 on 14 October, so someone needs to confirm the cancellation went through and chase a refund."
+  }
+}

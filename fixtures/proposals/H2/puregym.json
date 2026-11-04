@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "0cea58f721677f8d",
+    "household": "H2",
+    "payment": "puregym",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "PureGym",
+    "category": "gym",
+    "isSubscription": true,
+    "proposedAction": "LEAVE",
+    "confidence": 0.7,
+    "rationale": "A regular gym membership with no indication from the member that it is unwanted."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "model": "Claude Opus 5.5 via claude.ai chat (model id not exposed by UI)",
+    "run_at": "2026-11-04T14:55Z",
+    "prompt_version": "classifier-v1",
+    "input_hash": "e0c3ca5746adeeed",
+    "household": "H4",
+    "payment": "google_play_apps_499",
+    "branch": null,
+    "source": "chat-recorded"
+  },
+  "proposal": {
+    "service": "Google Play (unidentified app subscription)",
+    "category": "unknown",
+    "isSubscription": true,
+    "proposedAction": "ASK",
+    "confidence": 0.7,
+    "rationale": "This £4.99 monthly Google Play charge could be any app subscription and the member has not mentioned it, so we need to ask what it is for."
+  }
+}
