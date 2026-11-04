@@ -1,0 +1,1478 @@
+{
+  "run_at": "2026-11-04T14:25:21.709Z",
+  "rules_version": "rules-v1",
+  "enabled_rules": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14"
+  ],
+  "proposals": {
+    "required": 64,
+    "recorded": 0,
+    "stale": 0,
+    "missing": 64
+  },
+  "metrics": {
+    "cases": 40,
+    "scored": 7,
+    "pending": 33,
+    "passed": 7,
+    "failed": 0,
+    "falseCancels": 0,
+    "gate": "pending",
+    "decisionAccuracy": 100,
+    "attributionAccuracy": 100,
+    "weightedCost": 0
+  },
+  "asks_per_household": {
+    "value": 0,
+    "asks": 0,
+    "decided": 19,
+    "pending": 42
+  },
+  "decision_counts": {
+    "CANCEL": 0,
+    "FLAG": 0,
+    "ASK": 0,
+    "HUMAN": 2,
+    "LEAVE": 17,
+    "pending": 42
+  },
+  "rule_coverage": {
+    "R01": [
+      "H3",
+      "H5"
+    ],
+    "R02": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "R03": [
+      "H1",
+      "H5"
+    ],
+    "R04": [
+      "H2",
+      "H6"
+    ],
+    "R05": [
+      "H1",
+      "H4",
+      "H6"
+    ],
+    "R06": [],
+    "R07": [
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "R08": [
+      "H1",
+      "H3"
+    ],
+    "R09": [
+      "H1",
+      "H3",
+      "H4"
+    ],
+    "R10": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "R11": [
+      "H4",
+      "H6"
+    ],
+    "R12": [
+      "H2",
+      "H4",
+      "H6"
+    ],
+    "R13": [
+      "H2",
+      "H6"
+    ],
+    "R14": [
+      "H2",
+      "H4"
+    ]
+  },
+  "cases": [
+    {
+      "id": "C1-01",
+      "category": "clean_cancel",
+      "household": "H1",
+      "payment": "readly",
+      "mode": "auto",
+      "expected": {
+        "decision": "CANCEL",
+        "decided_by": "llm",
+        "attachments": []
+      },
+      "weight": 3,
+      "note": "Member said they stopped using Readly ages ago; £96 a year; Auto mode",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C1-02",
+      "category": "clean_cancel",
+      "household": "H3",
+      "payment": "kindle_unlimited",
+      "mode": "auto",
+      "expected": {
+        "decision": "CANCEL",
+        "decided_by": "llm",
+        "attachments": []
+      },
+      "weight": 3,
+      "note": "Kindle Unlimited left over from a free trial; member says they don't use it",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C1-03",
+      "category": "clean_cancel",
+      "household": "H4",
+      "payment": "deliveroo_plus",
+      "mode": "auto",
+      "expected": {
+        "decision": "CANCEL",
+        "decided_by": "llm",
+        "attachments": []
+      },
+      "weight": 3,
+      "note": "Deliveroo Plus unused since the summer; £42 a year",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C1-04",
+      "category": "clean_cancel",
+      "household": "H5",
+      "payment": "picsart",
+      "mode": "auto",
+      "expected": {
+        "decision": "CANCEL",
+        "decided_by": "llm",
+        "attachments": []
+      },
+      "weight": 3,
+      "note": "Photo app bought for one school project; member says they don't need it",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C1-05",
+      "category": "clean_cancel",
+      "household": "H5",
+      "payment": "mubi",
+      "mode": "auto",
+      "expected": {
+        "decision": "CANCEL",
+        "decided_by": "llm",
+        "attachments": []
+      },
+      "weight": 3,
+      "note": "MUBI was for a film course that has finished; member says it can go",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C2-01",
+      "category": "ambiguous_merchant",
+      "household": "H6",
+      "payment": "paypal_jgsoftware_1400",
+      "mode": "manual",
+      "expected": {
+        "decision": "ASK",
+        "decided_by": "R05",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "PAYPAL *JGSOFTWARE: unknown merchant behind PayPal, nothing in chat",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C2-02",
+      "category": "ambiguous_merchant",
+      "household": "H4",
+      "payment": "google_play_apps_499",
+      "mode": "auto",
+      "expected": {
+        "decision": "ASK",
+        "decided_by": "R05",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "GOOGLE *PLAY APPS £4.99 with no app identified",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C2-03",
+      "category": "ambiguous_merchant",
+      "household": "H1",
+      "payment": "apple_bill_999",
+      "mode": "auto",
+      "expected": {
+        "decision": "ASK",
+        "decided_by": "R05",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "£9.99 Apple charge with no app identified in chat history",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C2-04",
+      "category": "ambiguous_merchant",
+      "household": "H1",
+      "payment": "apple_bill_299",
+      "mode": "auto",
+      "expected": {
+        "decision": "LEAVE",
+        "decided_by": "R03",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "£2.99 Apple charge the member identified as iCloud and asked to keep",
+      "status": "pass",
+      "decision": "LEAVE",
+      "decidedBy": "R03",
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": true,
+      "attributionMatch": true,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C2-05",
+      "category": "ambiguous_merchant",
+      "household": "H1",
+      "payment": "apple_bill_999",
+      "mode": "auto",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "llm",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "After the member taps \"It's Disney+\": identified, but nothing says it is unwanted",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C3-01",
+      "category": "refund_window",
+      "household": "H2",
+      "payment": "amazon_prime",
+      "mode": "manual",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R04",
+        "attachments": [
+          "refund_request",
+          "deadline"
+        ]
+      },
+      "weight": 3,
+      "note": "Annual Prime renewed 3 days before the data ends; inside an assumed 14-day window",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [
+        "refund_request",
+        "deadline"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C3-02",
+      "category": "refund_window",
+      "household": "H2",
+      "payment": "amazon_prime",
+      "mode": "auto",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R13",
+        "attachments": [
+          "refund_request",
+          "deadline"
+        ]
+      },
+      "weight": 10,
+      "note": "Same renewal in Auto mode: an assumed policy must not drive an automatic cancel",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [
+        "refund_request",
+        "deadline"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C3-03",
+      "category": "refund_window",
+      "household": "H6",
+      "payment": "adobe_cc",
+      "mode": "auto",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R10",
+        "attachments": [
+          "refund_request",
+          "deadline"
+        ]
+      },
+      "weight": 10,
+      "note": "£240 annual software plan renewed 11 days ago; inside an assumed 14-day window",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [
+        "refund_request",
+        "deadline"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C3-04",
+      "category": "refund_window",
+      "household": "H3",
+      "payment": "amazon_prime",
+      "mode": "auto",
+      "expected": {
+        "decision": "LEAVE",
+        "decided_by": "llm",
+        "attachments": []
+      },
+      "weight": 1,
+      "note": "Annual Prime renewed in June: outside the window, no refund to chase",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C3-05",
+      "category": "refund_window",
+      "household": "H2",
+      "payment": "amazon_prime",
+      "mode": "auto",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "llm",
+        "attachments": [
+          "refund_request",
+          "deadline"
+        ]
+      },
+      "weight": 3,
+      "note": "Scenario: the Prime policy treated as verified, to test the attach-only path of R13",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [
+        "refund_request",
+        "deadline"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C4-01",
+      "category": "shared_plans",
+      "household": "H4",
+      "payment": "spotify",
+      "mode": "auto",
+      "expected": {
+        "decision": "ASK",
+        "decided_by": "R07",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "£19.99 matches the Spotify family tier",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C4-02",
+      "category": "shared_plans",
+      "household": "H5",
+      "payment": "spotify",
+      "mode": "auto",
+      "expected": {
+        "decision": "ASK",
+        "decided_by": "R07",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "£16.99 matches the Spotify duo tier",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C4-03",
+      "category": "shared_plans",
+      "household": "H6",
+      "payment": "netflix",
+      "mode": "manual",
+      "expected": {
+        "decision": "ASK",
+        "decided_by": "R07",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "Member said Netflix is shared with their sister",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C4-04",
+      "category": "shared_plans",
+      "household": "H5",
+      "payment": "spotify",
+      "mode": "manual",
+      "expected": {
+        "decision": "ASK",
+        "decided_by": "R07",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "Duo tier in Manual mode: the shared-plan question still comes first",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C4-05",
+      "category": "shared_plans",
+      "household": "H4",
+      "payment": "spotify",
+      "mode": "auto",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R10",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "After \"Just me now\": no longer shared, but £240 a year still needs a yes",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C5-01",
+      "category": "trials",
+      "household": "H4",
+      "payment": "paramount_plus",
+      "mode": "auto",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R12",
+        "attachments": [
+          "priority_urgent",
+          "deadline"
+        ]
+      },
+      "weight": 3,
+      "note": "Paramount+ trial converts in 4 days",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [
+        "priority_urgent",
+        "deadline"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C5-02",
+      "category": "trials",
+      "household": "H6",
+      "payment": "the_telegraph",
+      "mode": "manual",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R04",
+        "attachments": [
+          "priority_urgent",
+          "deadline"
+        ]
+      },
+      "weight": 3,
+      "note": "£1 Telegraph trial converts in 2 days",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [
+        "priority_urgent",
+        "deadline"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C5-03",
+      "category": "trials",
+      "household": "H2",
+      "payment": "simplycook",
+      "mode": "manual",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R04",
+        "attachments": [
+          "priority_urgent",
+          "deadline"
+        ]
+      },
+      "weight": 3,
+      "note": "£1 SimplyCook trial converts in 6 days",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [
+        "priority_urgent",
+        "deadline"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C5-04",
+      "category": "trials",
+      "household": "H3",
+      "payment": "duolingo",
+      "mode": "auto",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "llm",
+        "attachments": []
+      },
+      "weight": 1,
+      "note": "Duolingo trial converts in 12 days: outside the urgent window",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C5-05",
+      "category": "trials",
+      "household": "H5",
+      "payment": "strava",
+      "mode": "auto",
+      "expected": {
+        "decision": "ASK",
+        "decided_by": "llm",
+        "attachments": []
+      },
+      "weight": 1,
+      "note": "Strava trial already converted to £6.99; nothing in chat about it",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C6-01",
+      "category": "post_cancel",
+      "household": "H5",
+      "payment": "disney_plus",
+      "mode": "auto",
+      "expected": {
+        "decision": "HUMAN",
+        "decided_by": "R01",
+        "attachments": [
+          "refund_request",
+          "priority_urgent"
+        ]
+      },
+      "weight": 3,
+      "note": "Disney+ cancelled 14 Sep, charged again 14 Oct",
+      "status": "pass",
+      "decision": "HUMAN",
+      "decidedBy": "R01",
+      "attachments": [
+        "refund_request",
+        "priority_urgent"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": true,
+      "attributionMatch": true,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C6-02",
+      "category": "post_cancel",
+      "household": "H3",
+      "payment": "now_tv",
+      "mode": "auto",
+      "expected": {
+        "decision": "HUMAN",
+        "decided_by": "R01",
+        "attachments": [
+          "refund_request",
+          "priority_urgent"
+        ]
+      },
+      "weight": 3,
+      "note": "NOW cancelled 2 Sep, charged 28 Sep and 28 Oct",
+      "status": "pass",
+      "decision": "HUMAN",
+      "decidedBy": "R01",
+      "attachments": [
+        "refund_request",
+        "priority_urgent"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": true,
+      "attributionMatch": true,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C6-03",
+      "category": "post_cancel",
+      "household": "H3",
+      "payment": "now_tv",
+      "mode": "manual",
+      "expected": {
+        "decision": "HUMAN",
+        "decided_by": "R01",
+        "attachments": [
+          "refund_request",
+          "priority_urgent"
+        ]
+      },
+      "weight": 3,
+      "note": "Same charge in Manual mode: alerting is not acting, so R01 still fires",
+      "status": "pass",
+      "decision": "HUMAN",
+      "decidedBy": "R01",
+      "attachments": [
+        "refund_request",
+        "priority_urgent"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": true,
+      "attributionMatch": true,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C6-04",
+      "category": "post_cancel",
+      "household": "H6",
+      "payment": "paramount_plus",
+      "mode": "manual",
+      "expected": {
+        "decision": "LEAVE",
+        "decided_by": "llm",
+        "attachments": []
+      },
+      "weight": 1,
+      "note": "Post-cancel charge already refunded in July: must not escalate again",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C6-05",
+      "category": "post_cancel",
+      "household": "H5",
+      "payment": "britbox",
+      "mode": "auto",
+      "expected": {
+        "decision": "LEAVE",
+        "decided_by": "llm",
+        "attachments": []
+      },
+      "weight": 1,
+      "note": "Legitimate pro-rata final bill after cancelling",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C7-01",
+      "category": "manual_mode",
+      "household": "H1",
+      "payment": "readly",
+      "mode": "manual",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R04",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "Clean cancel C1-01 run in Manual mode",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C7-02",
+      "category": "manual_mode",
+      "household": "H4",
+      "payment": "deliveroo_plus",
+      "mode": "manual",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R04",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "Clean cancel C1-03 run in Manual mode",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C7-03",
+      "category": "manual_mode",
+      "household": "H5",
+      "payment": "mubi",
+      "mode": "manual",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R04",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "Clean cancel C1-05 run in Manual mode",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C7-04",
+      "category": "manual_mode",
+      "household": "H4",
+      "payment": "paramount_plus",
+      "mode": "manual",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R04",
+        "attachments": [
+          "priority_urgent",
+          "deadline"
+        ]
+      },
+      "weight": 10,
+      "note": "Trial C5-01 run in Manual mode",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [
+        "priority_urgent",
+        "deadline"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C7-05",
+      "category": "manual_mode",
+      "household": "H1",
+      "payment": "apple_bill_999",
+      "mode": "manual",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R04",
+        "attachments": []
+      },
+      "weight": 10,
+      "note": "Identified Apple charge C2-05 run in Manual mode",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C8-01",
+      "category": "not_subscription",
+      "household": "H3",
+      "payment": "klarna_currys",
+      "mode": "auto",
+      "expected": {
+        "decision": "LEAVE",
+        "decided_by": "R02",
+        "attachments": [
+          "route"
+        ]
+      },
+      "weight": 10,
+      "note": "Klarna instalments that look like a monthly subscription",
+      "status": "pass",
+      "decision": "LEAVE",
+      "decidedBy": "R02",
+      "attachments": [
+        "route"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": true,
+      "attributionMatch": true,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C8-02",
+      "category": "not_subscription",
+      "household": "H3",
+      "payment": "council_tax",
+      "mode": "auto",
+      "expected": {
+        "decision": "LEAVE",
+        "decided_by": "R02",
+        "attachments": [
+          "route"
+        ]
+      },
+      "weight": 10,
+      "note": "Council tax direct debit",
+      "status": "pass",
+      "decision": "LEAVE",
+      "decidedBy": "R02",
+      "attachments": [
+        "route"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": true,
+      "attributionMatch": true,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C8-03",
+      "category": "not_subscription",
+      "household": "H1",
+      "payment": "energy",
+      "mode": "auto",
+      "expected": {
+        "decision": "LEAVE",
+        "decided_by": "R02",
+        "attachments": [
+          "route"
+        ]
+      },
+      "weight": 10,
+      "note": "Energy direct debit",
+      "status": "pass",
+      "decision": "LEAVE",
+      "decidedBy": "R02",
+      "attachments": [
+        "route"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": true,
+      "attributionMatch": true,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C8-04",
+      "category": "not_subscription",
+      "household": "H1",
+      "payment": "sky",
+      "mode": "auto",
+      "expected": {
+        "decision": "ASK",
+        "decided_by": "R08",
+        "attachments": [
+          "cancel_via",
+          "cancel_method"
+        ]
+      },
+      "weight": 10,
+      "note": "Sky bill that bundles Netflix, also paid directly",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [
+        "cancel_via",
+        "cancel_method"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    },
+    {
+      "id": "C8-05",
+      "category": "not_subscription",
+      "household": "H3",
+      "payment": "david_lloyd",
+      "mode": "auto",
+      "expected": {
+        "decision": "FLAG",
+        "decided_by": "R09",
+        "attachments": [
+          "cancel_method"
+        ]
+      },
+      "weight": 10,
+      "note": "Gym on a 12-month minimum term",
+      "status": "pending",
+      "decision": null,
+      "decidedBy": null,
+      "attachments": [
+        "cancel_method"
+      ],
+      "missingAttachments": [],
+      "falseCancel": false,
+      "mustNotHit": false,
+      "decisionMatch": false,
+      "attributionMatch": false,
+      "proposalStatus": "missing"
+    }
+  ],
+  "heldout": {
+    "metrics": {
+      "cases": 10,
+      "scored": 1,
+      "pending": 9,
+      "passed": 1,
+      "failed": 0,
+      "falseCancels": 0,
+      "gate": "pending",
+      "decisionAccuracy": 100,
+      "attributionAccuracy": 100,
+      "weightedCost": 0
+    },
+    "cases": [
+      {
+        "id": "HO-01",
+        "category": "manual_mode",
+        "household": "H2",
+        "payment": "hellofresh",
+        "mode": "manual",
+        "expected": {
+          "decision": "FLAG",
+          "decided_by": "R04",
+          "attachments": []
+        },
+        "weight": 10,
+        "note": "Weekly meal box, £2,339 a year, Manual mode",
+        "status": "pending",
+        "decision": null,
+        "decidedBy": null,
+        "attachments": [],
+        "missingAttachments": [],
+        "falseCancel": false,
+        "mustNotHit": false,
+        "decisionMatch": false,
+        "attributionMatch": false,
+        "proposalStatus": "missing"
+      },
+      {
+        "id": "HO-02",
+        "category": "not_subscription",
+        "household": "H2",
+        "payment": "puregym",
+        "mode": "auto",
+        "expected": {
+          "decision": "FLAG",
+          "decided_by": "R10",
+          "attachments": []
+        },
+        "weight": 10,
+        "note": "No-contract gym run in Auto mode: £300 a year still needs a yes",
+        "status": "pending",
+        "decision": null,
+        "decidedBy": null,
+        "attachments": [],
+        "missingAttachments": [],
+        "falseCancel": false,
+        "mustNotHit": false,
+        "decisionMatch": false,
+        "attributionMatch": false,
+        "proposalStatus": "missing"
+      },
+      {
+        "id": "HO-03",
+        "category": "not_subscription",
+        "household": "H4",
+        "payment": "ee_mobile",
+        "mode": "auto",
+        "expected": {
+          "decision": "FLAG",
+          "decided_by": "R09",
+          "attachments": [
+            "cancel_method"
+          ]
+        },
+        "weight": 10,
+        "note": "Mobile contract with a 24-month minimum term",
+        "status": "pending",
+        "decision": null,
+        "decidedBy": null,
+        "attachments": [
+          "cancel_method"
+        ],
+        "missingAttachments": [],
+        "falseCancel": false,
+        "mustNotHit": false,
+        "decisionMatch": false,
+        "attributionMatch": false,
+        "proposalStatus": "missing"
+      },
+      {
+        "id": "HO-04",
+        "category": "not_subscription",
+        "household": "H3",
+        "payment": "virgin_media",
+        "mode": "auto",
+        "expected": {
+          "decision": "ASK",
+          "decided_by": "R08",
+          "attachments": [
+            "cancel_via",
+            "cancel_method"
+          ]
+        },
+        "weight": 10,
+        "note": "Virgin Media bill that includes Netflix, also paid directly",
+        "status": "pending",
+        "decision": null,
+        "decidedBy": null,
+        "attachments": [
+          "cancel_via",
+          "cancel_method"
+        ],
+        "missingAttachments": [],
+        "falseCancel": false,
+        "mustNotHit": false,
+        "decisionMatch": false,
+        "attributionMatch": false,
+        "proposalStatus": "missing"
+      },
+      {
+        "id": "HO-05",
+        "category": "manual_mode",
+        "household": "H6",
+        "payment": "dropbox_cc",
+        "mode": "manual",
+        "expected": {
+          "decision": "FLAG",
+          "decided_by": "R04",
+          "attachments": [
+            "duplicate_of"
+          ]
+        },
+        "weight": 10,
+        "note": "Dropbox on the credit card and the current account, Manual mode",
+        "status": "pending",
+        "decision": null,
+        "decidedBy": null,
+        "attachments": [
+          "duplicate_of"
+        ],
+        "missingAttachments": [],
+        "falseCancel": false,
+        "mustNotHit": false,
+        "decisionMatch": false,
+        "attributionMatch": false,
+        "proposalStatus": "missing"
+      },
+      {
+        "id": "HO-06",
+        "category": "ambiguous_merchant",
+        "household": "H4",
+        "payment": "microsoft_365_cur",
+        "mode": "auto",
+        "expected": {
+          "decision": "FLAG",
+          "decided_by": "R11",
+          "attachments": [
+            "duplicate_of"
+          ]
+        },
+        "weight": 10,
+        "note": "Member asked what the Microsoft charge is; billed on two cards",
+        "status": "pending",
+        "decision": null,
+        "decidedBy": null,
+        "attachments": [
+          "duplicate_of"
+        ],
+        "missingAttachments": [],
+        "falseCancel": false,
+        "mustNotHit": false,
+        "decisionMatch": false,
+        "attributionMatch": false,
+        "proposalStatus": "missing"
+      },
+      {
+        "id": "HO-07",
+        "category": "refund_window",
+        "household": "H4",
+        "payment": "the_times",
+        "mode": "auto",
+        "expected": {
+          "decision": "ASK",
+          "decided_by": "llm",
+          "attachments": [
+            "price_rise"
+          ]
+        },
+        "weight": 1,
+        "note": "Member said keep, then the price rose: worth checking again, not cancelling",
+        "status": "pending",
+        "decision": null,
+        "decidedBy": null,
+        "attachments": [
+          "price_rise"
+        ],
+        "missingAttachments": [],
+        "falseCancel": false,
+        "mustNotHit": false,
+        "decisionMatch": false,
+        "attributionMatch": false,
+        "proposalStatus": "missing"
+      },
+      {
+        "id": "HO-08",
+        "category": "manual_mode",
+        "household": "H5",
+        "payment": "audible",
+        "mode": "manual",
+        "expected": {
+          "decision": "LEAVE",
+          "decided_by": "R03",
+          "attachments": []
+        },
+        "weight": 10,
+        "note": "Keep reply 30 days ago, in Manual mode",
+        "status": "pass",
+        "decision": "LEAVE",
+        "decidedBy": "R03",
+        "attachments": [],
+        "missingAttachments": [],
+        "falseCancel": false,
+        "mustNotHit": false,
+        "decisionMatch": true,
+        "attributionMatch": true,
+        "proposalStatus": "missing"
+      },
+      {
+        "id": "HO-09",
+        "category": "ambiguous_merchant",
+        "household": "H4",
+        "payment": "google_play_apps_499",
+        "mode": "auto",
+        "expected": {
+          "decision": "FLAG",
+          "decided_by": "llm",
+          "attachments": []
+        },
+        "weight": 10,
+        "note": "After \"It's Candy Crush\": identified, but nothing says it is unwanted",
+        "status": "pending",
+        "decision": null,
+        "decidedBy": null,
+        "attachments": [],
+        "missingAttachments": [],
+        "falseCancel": false,
+        "mustNotHit": false,
+        "decisionMatch": false,
+        "attributionMatch": false,
+        "proposalStatus": "missing"
+      },
+      {
+        "id": "HO-10",
+        "category": "not_subscription",
+        "household": "H1",
+        "payment": "netflix",
+        "mode": "auto",
+        "expected": {
+          "decision": "ASK",
+          "decided_by": "R08",
+          "attachments": [
+            "cancel_via"
+          ]
+        },
+        "weight": 10,
+        "note": "Netflix billed directly and also inside the Sky bill",
+        "status": "pending",
+        "decision": null,
+        "decidedBy": null,
+        "attachments": [
+          "cancel_via"
+        ],
+        "missingAttachments": [],
+        "falseCancel": false,
+        "mustNotHit": false,
+        "decisionMatch": false,
+        "attributionMatch": false,
+        "proposalStatus": "missing"
+      }
+    ]
+  },
+  "unit_tests": {
+    "total": 131,
+    "passed": 131,
+    "failed": 0,
+    "files": [
+      {
+        "name": "engine/engine.test.ts",
+        "passed": 25,
+        "failed": 0
+      },
+      {
+        "name": "engine/rules.test.ts",
+        "passed": 35,
+        "failed": 0
+      },
+      {
+        "name": "evals/score.test.ts",
+        "passed": 7,
+        "failed": 0
+      },
+      {
+        "name": "design/contrast.test.ts",
+        "passed": 64,
+        "failed": 0
+      }
+    ]
+  }
+}
