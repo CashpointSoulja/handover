@@ -5,26 +5,31 @@
 :root {
   color-scheme: light;
 
-  /* Brand (primary from the Nous job board theme colour; tints derived) */
-  --brand: #473bce;
-  --brand-hover: #3a2fb0;
-  --brand-text: #473bce;
-  --brand-tint: #f1f0fc;
-  --brand-tint-strong: #e3e1f9;
+  /* Brand: Nous live site, 4 Nov 2026 (design/brand.md) */
+  --brand: #1c1917;
+  --brand-hover: #2e2925;
+  --brand-text: #1c1917;
+  --brand-tint: #f3eee8;
+  --brand-tint-strong: #feeed3;
   --on-brand: #ffffff;
-  --focus-ring: #473bce;
+  --focus-ring: #1c1917;
+  --glow: #fcb747;
+  --glow-tint: #fdd696;
+  --glow-surface: #feeed3;
 
   /* Surfaces and text */
   --bg: #ffffff;
-  --bg-subtle: #f6f6f9;
+  --bg-subtle: #f8f5f2;
   --surface: #ffffff;
   --surface-raised: #ffffff;
-  --text: #16152b;
-  --text-muted: #5e5d72;
-  --border: #e4e4eb;
-  --border-strong: #cfcfd9;
-  --row-hover: #f6f6f9;
-  --row-selected: #f1f0fc;
+  --surface-warm: #f3eee8;
+  --text: #1c1917;
+  --text-muted: #4a423c;
+  --text-faint: #797c83;
+  --border: #e1dcd5;
+  --border-strong: #a8a29d;
+  --row-hover: #f8f3ef;
+  --row-selected: #feeed3;
 
   /* Decision colours: fixed semantic set, independent of the brand */
   --d-cancel-fg: #b42318;
@@ -42,9 +47,9 @@
   --d-leave-fg: #5d6679;
   --d-leave-bg: #f5f5f6;
   --d-leave-border: #dcdfe4;
-  --d-pending-fg: #5e5d72;
+  --d-pending-fg: #4a423c;
   --d-pending-bg: #ffffff;
-  --d-pending-border: #cfcfd9;
+  --d-pending-border: #a8a29d;
 
   /* Gate status (eval headline) */
   --ok-fg: #067647;
@@ -71,11 +76,12 @@
   --wa-button-text: #0270a1;
   --wa-system-bg: #ffffff;
   --wa-system-text: #54656f;
-  --wa-avatar-bg: #473bce;
+  --wa-avatar-bg: #1c1917;
   --wa-avatar-text: #ffffff;
 
   /* Type */
-  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-display: 'DM Sans', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', 'Open Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
   --font-wa: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --text-xs: 11px;
@@ -87,8 +93,8 @@
 
   /* Shape and density */
   --radius-sm: 4px;
-  --radius-md: 6px;
-  --radius-lg: 10px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
   --radius-pill: 999px;
   --row-h: 30px;
   --border-w: 1px;
@@ -97,30 +103,38 @@
   --space-3: 12px;
   --space-4: 16px;
   --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 80px;
+  --content-max: 1312px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
 
-    --brand: #5f54db;
-    --brand-hover: #6f65e3;
-    --brand-text: #a49df5;
-    --brand-tint: #221f3d;
-    --brand-tint-strong: #2d2950;
-    --on-brand: #ffffff;
-    --focus-ring: #a49df5;
+    --brand: #f8f5f2;
+    --brand-hover: #e1dcd5;
+    --brand-text: #f8f5f2;
+    --brand-tint: #26211d;
+    --brand-tint-strong: #3a2f22;
+    --on-brand: #1c1917;
+    --focus-ring: #fcb747;
+    --glow: #fcb747;
+    --glow-tint: #fdd696;
+    --glow-surface: #3a2f22;
 
-    --bg: #121118;
-    --bg-subtle: #17161e;
-    --surface: #1b1a23;
-    --surface-raised: #22212b;
-    --text: #ececf3;
-    --text-muted: #a3a2b5;
-    --border: #2e2d3a;
-    --border-strong: #43425a;
-    --row-hover: #22212b;
-    --row-selected: #221f3d;
+    --bg: #131313;
+    --bg-subtle: #171615;
+    --surface: #1c1917;
+    --surface-raised: #26211d;
+    --surface-warm: #26211d;
+    --text: #f8f5f2;
+    --text-muted: #a8a29d;
+    --text-faint: #797c83;
+    --border: #2e2925;
+    --border-strong: #4a423c;
+    --row-hover: #26211d;
+    --row-selected: #3a2f22;
 
     --d-cancel-fg: #fda29b;
     --d-cancel-bg: #3a1512;
@@ -137,9 +151,9 @@
     --d-leave-fg: #b3b8c2;
     --d-leave-bg: #24252a;
     --d-leave-border: #3d3f46;
-    --d-pending-fg: #a3a2b5;
-    --d-pending-bg: #1b1a23;
-    --d-pending-border: #43425a;
+    --d-pending-fg: #a8a29d;
+    --d-pending-bg: #1c1917;
+    --d-pending-border: #4a423c;
 
     --ok-fg: #75e0a7;
     --ok-bg: #0b2e1e;
@@ -163,7 +177,7 @@
     --wa-button-text: #53bdeb;
     --wa-system-bg: #182229;
     --wa-system-text: #8696a0;
-    --wa-avatar-bg: #5f54db;
+    --wa-avatar-bg: #1c1917;
     --wa-avatar-text: #ffffff;
   }
 }

@@ -18,7 +18,7 @@ const dark = { ...light, ...block(css.slice(darkStart)) };
 const pairs: [string, string][] = [
   ['text', 'bg'], ['text', 'surface'], ['text', 'bg-subtle'],
   ['text-muted', 'bg'], ['text-muted', 'surface'], ['text-muted', 'bg-subtle'], ['text-muted', 'row-selected'],
-  ['on-brand', 'brand'], ['on-brand', 'brand-hover'], ['brand-text', 'surface'], ['brand-text', 'brand-tint'],
+  ['on-brand', 'brand'], ['on-brand', 'brand-hover'], ['brand-text', 'surface'], ['brand-text', 'brand-tint'], ['text', 'surface-warm'], ['text-muted', 'surface-warm'], ['text', 'row-selected'], ['on-brand', 'brand'],
   ['d-cancel-fg', 'd-cancel-bg'], ['d-flag-fg', 'd-flag-bg'], ['d-ask-fg', 'd-ask-bg'],
   ['d-human-fg', 'd-human-bg'], ['d-leave-fg', 'd-leave-bg'], ['d-pending-fg', 'd-pending-bg'],
   ['ok-fg', 'ok-bg'], ['bad-fg', 'bad-bg'], ['text', 'highlight-bg'],
