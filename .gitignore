@@ -1,0 +1,24 @@
+node_modules/
+dist/
+coverage/
+*.log
+.env
+.env.*
+.DS_Store
+
+# local working notes and briefs: never committed
+brief*.md
+BRIEF*.md
+*.brief.md
+notes/
+
+# local assistant / editor tool folders and instruction files: never committed
+.cl?ude/
+CL?UDE*.md
+.cur?or/
+.cur?orrules
+AGENTS.md
+.aider*
+.github/cop?lot-instructions.md
+.continue/
+.winds?rf*
