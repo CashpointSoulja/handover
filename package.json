@@ -1,7 +1,7 @@
 {
   "name": "handover",
   "version": "0.1.0",
-  "description": "A decision layer that bounds what an LLM can cancel on a household’s behalf.",
+  "description": "A decision layer that bounds what an LLM can cancel on a household\u2019s behalf.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,6 +10,8 @@
     "test": "vitest run",
     "eval": "tsx evals/runner.ts",
     "eval:live": "tsx evals/live.ts",
+    "eval:export": "tsx evals/export.ts",
+    "eval:import": "tsx evals/import.ts",
     "scan": "node scripts/name-scan.mjs",
     "prepare": "git config core.hooksPath .githooks || true"
   },

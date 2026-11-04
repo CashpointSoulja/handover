@@ -35,7 +35,7 @@ Two guarantees sit outside the toggles: R04 (Manual mode) is locked on, and the 
 
 ## Open questions
 
-- **Recorded proposals.** None are recorded yet, so most decisions show as pending; see [test results](test-results.md). Running `npm run eval:live` with a model key fills them in.
+- **Recorded proposals.** Until proposals are recorded, most decisions show as pending; see [test results](test-results.md). They come from `npm run eval:live` with a model key, or are chat-recorded with `eval:export` and `eval:import`. Chat-recorded proposals are labelled as such and are not live API runs; scores on them are not production accuracy.
 - **Six unguarded cases.** With a proposer that always says CANCEL, the rules stop every false cancel except six: an identified Apple charge, an annual plan outside its refund window, a renewal whose policy is treated as verified, a trial 12 days out, a trial that has already converted, and a service already cancelled with a final bill. In those, only the proposal stands between the member and a false cancel. Candidate v2 rules: "already cancelled → LEAVE" and "no member signal of disuse → cap FLAG".
 - **Refund policies.** Every entry in `config/policies.yaml` is `assumed`. Nothing can be verified until each has a source URL and a date.
 - **Member-facing name.** The pane shows "Nous". The agent's member-facing name is unconfirmed.

@@ -6,17 +6,19 @@ The UK's subscription-contracts regime under the Digital Markets, Competition an
 
 ## Each part, against the role
 
-Exact JD lines could not be pulled from the build environment. Each row below maps to a theme in Nous's public listings: a household AI agent that cancels forgotten subscriptions, agentic AI systems, and a TypeScript and React stack. Add the exact JD lines here.
+Lines quoted from the Nous Product Builder posting ([Ashby](https://jobs.ashbyhq.com/nous/1f7dee70-3fc1-441a-b868-f27454ecf9d6), fetched 4 Nov 2026).
 
-| Part | Role theme | Surface it lives on | Where an engineer gets pulled in |
+| Part | JD line it answers | Surface it lives on | Where an engineer gets pulled in |
 |---|---|---|---|
-| Ruleset as config (`config/rules.yaml`) | Agentic AI systems that act safely for members | Config only: thresholds, on/off and protects lines change with no code | A new rule *type*, or a rule that reads new data |
-| Eval runner and gates | Shipping changes to an agent without regressions | CLI and CI: `npm run eval`, `--compare` | Wiring the gate into the real deploy pipeline |
-| Decision trace | Ops can see why the agent acted | Read-only internal console | Pulling live traces from production logs |
-| Recorded proposals | Cancelling forgotten subscriptions | Offline fixtures replayed in the browser; no live model call on a public surface | Running the classifier in production and storing its inputs |
-| Message templates | Members talk to Nous on WhatsApp | `config/messages.yaml`; copy changes need no code | Sending through the real WhatsApp Business API |
-| Post-cancel detection (R01) | Recovering money for members | Read-only over bank data; it alerts, never acts | Handing HUMAN decisions to the ops queue |
-| Merchant lookup and prices | Recognising what a payment is | Config: `merchants.yaml`, `prices.yaml` | Keeping them fresh from live data |
+| Detection and the 14-rule gate | "Dig into the data behind our subscription product, spot the patterns, and build the logic that decides what's worth cancelling or flagging." | Config: `rules.yaml`, `merchants.yaml`, `prices.yaml` | A new rule *type*, or a rule that reads new data |
+| Eval set, runner and gates | "build and run the evals that tell us whether she's getting better" | CLI and CI: `npm run eval`, `--compare` | Wiring the gate into the real deploy pipeline |
+| Post-cancel charges (R01) and HUMAN | "tighten the recovery flows for when things go wrong" | Read-only over bank data; it alerts, never acts | Handing HUMAN decisions to the ops queue |
+| Rules, templates and thresholds as YAML | "Ship on the safe surfaces: prompts, agent behaviour, configuration, workflows, data pipelines, internal tools. Know where the edge is, and pull in an engineer before you cross it." | Config only; every change is scored by the eval gate | Anything that executes, sends or calls a model live |
+| WhatsApp pane and chat signals | "Read the conversations, watch where the product delights people or falls over, and let that drive what you build next." | `chat.json` signals and `messages.yaml` copy | Sending through the real WhatsApp Business API |
+| Decision trace and attribution | "A feature isn't done when you've shipped it, it's done when it's working for members." | Read-only internal console | Pulling live traces from production logs |
+| Cancelling for real (v2) | "Then work out how we cancel them automatically. Real money back in people's pockets." | Not in v1: v1 decides and explains | The handoff into Nous's existing cancel flow |
+
+The posting's surface for the agent: "Find where she struggles in real conversations, improve how she handles them, build and run the evals that tell us whether she's getting better, and tighten the recovery flows for when things go wrong." Handover is one concrete slice of that: the place where the agent's judgement is bounded, measured and recovered.
 
 ## Safe surfaces
 

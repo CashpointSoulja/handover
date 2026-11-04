@@ -136,7 +136,10 @@ export function Trace({
                   </span>
                   <span className="num">{r.proposal.proposal.confidence.toFixed(2)}</span>
                 </span>
-                <span className="muted small">recorded run {rec ? rec.run_at.slice(0, 10) : ''}</span>
+                <span className="muted small">
+                  recorded run {rec ? rec.run_at.slice(0, 10) : ''}
+                  {rec?.source === 'chat-recorded' && ' · chat-recorded'}
+                </span>
               </div>
               <p className="rationale">{r.proposal.proposal.rationale}</p>
             </div>

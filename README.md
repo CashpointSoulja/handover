@@ -35,6 +35,7 @@ npm run eval
 - `npm run eval` replays recorded proposals, scores the 40 eval cases and the 10 held-out cases, and writes [docs/test-results.md](docs/test-results.md).
 - `npm run eval -- --compare evals/results/<file>.json` prints the per-case diff and fails if weighted cost went up.
 - `npm run eval:live` re-runs the classifier against a real model and records new proposals. It needs `LLM_BASE_URL`, `LLM_API_KEY` and `LLM_MODEL` locally, and never runs in CI or the browser.
+- `npm run eval:export -- --pass 1` and `npm run eval:import -- <file> --model "<label>"` record proposals without a key: run the exported prompts in a chat and import the answers. These are labelled `chat-recorded`; see [fixtures/proposals](fixtures/proposals/README.md).
 
 ## Layout
 

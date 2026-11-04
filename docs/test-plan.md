@@ -39,7 +39,10 @@ Test proposals used in unit tests are built in code and never written to `fixtur
 
 ## Proposals
 
-Each proposal comes from `npm run eval:live` against a real model, saved with the model id, run date, prompt version and a hash of the exact input. The engine uses a proposal only when its hash matches the current input. Cases whose decision needs a missing proposal are reported as pending, never guessed.
+Each proposal comes from a real model run of the same classifier prompt, saved with the model label, run date, prompt version, a hash of the exact input and its source. The engine uses a proposal only when its hash matches the current input. Cases whose decision needs a missing proposal are reported as pending, never guessed.
+
+- `live-api`: `npm run eval:live`, one request per call to a chat-completions endpoint.
+- `chat-recorded`: `npm run eval:export` writes the exact system prompt and user prompts; they are run in a chat, about 20 requests per message, and `npm run eval:import` parses the answers through the same validator. The only difference from a live run is the batching and one line asking for answers in `KEY` + JSON form. These are **chat-recorded fixtures, not live API runs**, and every score built on them is an eval score on this case set, **not production accuracy**. [test-results.md](test-results.md) states the source of the proposals behind it.
 
 ## Held-out set: 10 cases
 
